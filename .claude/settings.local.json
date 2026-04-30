@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"c:\\\\Users\\\\Ian Poon\\\\Svarog-Paper-ISSS-2025-follow-up\\\\STK simulations\\\\\" -type f -name \"*\" | head -100)"
+    ]
+  }
+}
