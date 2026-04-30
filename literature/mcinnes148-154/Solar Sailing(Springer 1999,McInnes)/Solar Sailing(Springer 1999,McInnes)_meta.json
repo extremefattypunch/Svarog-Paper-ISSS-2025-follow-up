@@ -1,0 +1,389 @@
+{
+  "table_of_contents": [
+    {
+      "title": "4.3.2.3 Elliptical orbits (0 \\le e \\le 1)",
+      "heading_level": null,
+      "page_id": 148,
+      "polygon": [
+        [
+          71.2852897473997,
+          588.75
+        ],
+        [
+          222.86032689450224,
+          588.75
+        ],
+        [
+          222.86032689450224,
+          598.5
+        ],
+        [
+          71.2852897473997,
+          598.5
+        ]
+      ]
+    },
+    {
+      "title": "4.3.2.4 Rectilinear orbits (e \\rightarrow \\infty)",
+      "heading_level": null,
+      "page_id": 151,
+      "polygon": [
+        [
+          72.78603268945022,
+          588.75
+        ],
+        [
+          224.3896484375,
+          588.75
+        ],
+        [
+          224.3896484375,
+          598.5
+        ],
+        [
+          72.78603268945022,
+          598.5
+        ]
+      ]
+    },
+    {
+      "title": "4.3.2.5 Escape orbits (e \\ge 1)",
+      "heading_level": null,
+      "page_id": 152,
+      "polygon": [
+        [
+          72.03566121842496,
+          603.0
+        ],
+        [
+          200.34918276374444,
+          603.0
+        ],
+        [
+          200.34918276374444,
+          612.0
+        ],
+        [
+          72.03566121842496,
+          612.0
+        ]
+      ]
+    },
+    {
+      "title": "4.3.3 Logarithmic spiral trajectories",
+      "heading_level": null,
+      "page_id": 153,
+      "polygon": [
+        [
+          72.4951171875,
+          516.0
+        ],
+        [
+          232.6151560178306,
+          516.0
+        ],
+        [
+          232.6151560178306,
+          525.0
+        ],
+        [
+          72.4951171875,
+          525.0
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 148,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          44
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 149,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 150,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          49
+        ],
+        [
+          "Span",
+          37
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 151,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          64
+        ],
+        [
+          "Span",
+          17
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 152,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          42
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 153,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 154,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Solar Sailing(Springer 1999,McInnes)"
+}

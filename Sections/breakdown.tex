@@ -1,0 +1,170 @@
+\FloatBarrier
+\noindent The representative gain trajectory must now be examined over longer horizons to determine what the early increase in semi-major axis actually corresponds to dynamically, and why that favourable behaviour does not persist. The central result is linear: the early increase in \(a\) is real, but it is produced mainly by apogee pumping rather than by a clean upward translation of the whole orbit; this increases eccentricity, lowers perigee, concentrates drag loss near perigee, and eventually causes the late-window orbit-averaged energy balance to turn negative.
+
+\vspace{5pt}
+\par\noindent Figure~\ref{fig:elementsvstime} makes the first part of that breakdown visible directly. For the representative \(700\,\mathrm{km}\) gain case introduced in Section~\ref{sec:existence}, the \(75\)-day histories of \(a\), apogee altitude, perigee altitude, and eccentricity show that the orbit is not lifted uniformly. Instead, apogee grows much more strongly than perigee is preserved, so the early gain develops together with a progressive departure from circularity.
+
+\begin{table*}[htbp]
+\centering
+\caption{Long-horizon summary of the representative \(700\,\mathrm{km}\) gain case over the \(75\)-day propagation. The case corresponds to altitude \(700\,\mathrm{km}\), RAAN \(285.5^\circ\), pitch \(24.8^\circ\), LTDN \(12.266\,\mathrm{hr}\), inclination \(98.2^\circ\), \(e_0=10^{-4}\), sail area \(100\,\mathrm{m^2}\), mass \(10\,\mathrm{kg}\), \(C_r=1.7\), and \(C_d=2.2\).}
+\label{tab:gaincase_longhorizon_summary}
+\begin{tabular}{llll}
+\toprule
+Quantity & Initial & Peak / Minimum & Final \\
+\midrule
+Semi-major axis, \(a\) [km] 
+& 7078.137 
+& 7098.211 (max, day 26.50) 
+& 7064.717 \\
+
+Net semi-major-axis change, \(\Delta a_{75\mathrm{d}}\) [km]
+& \multicolumn{3}{l}{\(-13.420\)} \\
+
+Apogee altitude [km]
+& 700.709
+& 864.548 (max, day 39.50)
+& 775.102 \\
+
+Perigee altitude [km]
+& 699.293
+& 546.370 (min, day 42.17)
+& 598.059 \\
+
+Eccentricity, \(e\)
+& \(1.000\times10^{-4}\)
+& \(2.176\times10^{-2}\) (max, day 40.72)
+& \(1.253\times10^{-2}\) \\
+
+Cumulative SRP work at day 75 [MJ]
+& \multicolumn{3}{l}{\(+6.054\)} \\
+
+Cumulative drag work at day 75 [MJ]
+& \multicolumn{3}{l}{\(-6.030\)} \\
+
+Cumulative total work at day 75 [MJ]
+& \multicolumn{3}{l}{\(+0.024\)} \\
+
+Work ratio at day 75, \(\left|W_{\mathrm{drag}}\right|/\left|W_{\mathrm{SRP}}\right|\)
+& \multicolumn{3}{l}{0.9961} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\vspace{1em}
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=1.05\linewidth]{Figures/fig9_rect.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \caption{Long-horizon evolution of orbital elements for the representative \(700\,\mathrm{km}\) gain case, showing non-monotonic semi-major-axis evolution, strong apogee growth, perigee erosion, and eccentricity increase over the \(75\)-day propagation.}
+    \label{fig:elementsvstime}
+\end{figure*}
+
+\vspace{5pt}
+\par\noindent % [PLACEHOLDER: Multi-panel time-history figure for the representative \(700\,\mathrm{km}\) gain case, showing \(a\), apogee altitude, perigee altitude, and eccentricity over the \(75\)-day horizon. The figure should highlight the non-monotonic \(a\) evolution, strong apogee growth, perigee erosion, and eccentricity increase.]
+
+\vspace{5pt}
+
+\par\noindent The semi-major axis begins at \(a_0 = 7{,}078.137\,\mathrm{km}\), rises early, reaches a maximum of \(7{,}098.211\,\mathrm{km}\), and then declines for the remainder of the propagation to a final value below its initial level. The behaviour is therefore explicitly non-monotonic: there is a finite interval of positive excursion, but not sustained whole-horizon orbit raising. In other words, the short-horizon gain is real, yet it does not remain self-maintaining over the full \(75\)-day window.
+
+\vspace{5pt}
+\par\noindent The apogee--perigee split shows how that breakdown develops. Apogee rises strongly and remains elevated, whereas perigee falls substantially and remains depressed. At the same time, the eccentricity grows from an initially near-circular value to an order \(10^{-2}\) state and relaxes only partially thereafter. The key point is therefore geometric rather than merely descriptive: the early increase in \(a\) is achieved primarily by stretching the orbit, not by lifting it uniformly.
+
+\vspace{5pt}
+\par\noindent The physical consequence is that drag loss becomes progressively concentrated near perigee, where the atmosphere is densest. This is the clearest breakdown pathway visible in the long-horizon outputs: the same evolution that produces the early gain also creates a lower-perigee, more eccentric orbit that is increasingly vulnerable to atmospheric loss. No stronger claim than that is needed here.
+
+\vspace{5pt}
+\par\noindent The cumulative work budget in Figure~\ref{fig:gaincase_cumulative_work_budget} must be read carefully. Over the full \(75\)-day window, cumulative SRP work remains slightly larger than cumulative drag work, so the cumulative total is still marginally positive by day \(75\). That does \emph{not} mean the regime is still strengthening at late times. It means only that an earlier accumulated surplus has not yet been fully erased. By the end of the run, that surplus is nearly exhausted, with \(|W_{\mathrm{drag}}|/|W_{\mathrm{SRP}}| \approx 0.9961\).
+
+\vspace{5pt}
+\par\noindent The more revealing diagnostic is therefore the orbit-averaged early-versus-late comparison in Figure~\ref{fig:gaincase_early_late_work_comparison}. Early in the run, the mean SRP contribution exceeds the mean drag loss, so the per-orbit balance is positive. Late in the run, the mean SRP contribution has collapsed while drag remains large, and the orbit-averaged net balance becomes negative. The breakdown is therefore already present on a local per-orbit basis even though the full-window cumulative total remains slightly positive.
+
+\vspace{5pt}
+\par\noindent The correct long-horizon interpretation is therefore a timescale split: the trajectory retains a small cumulative surplus from its earlier favourable phase, but its late-time orbit-averaged balance has already turned negative. The regime is not sustained; it is being unwound.
+
+\begin{center}
+    \includegraphics[width=0.8\linewidth]{Figures/fig10_square.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \captionof{figure}{Cumulative SRP work, cumulative drag work, and cumulative total work for the representative \(700\,\mathrm{km}\) gain case over \(75\) days. The cumulative budget remains positive throughout the analysed window, but only narrowly: by day \(75\), cumulative drag has nearly caught up to cumulative SRP.}
+    \label{fig:gaincase_cumulative_work_budget}
+\end{center}
+
+\vspace{5pt}
+\par\noindent The physical picture is therefore one of temporary outperformance, not eliminated decay. Eclipse-modulated SRP produces an early advantage, but the resulting orbital distortion lowers perigee, increases eccentricity, and makes subsequent drag losses harder to offset. The mechanism delays deterioration for a finite interval; it does not remove the long-horizon tendency toward decay.
+
+\begin{table*}[htbp]
+\centering
+\caption{Early-versus-late comparison for the representative \(700\,\mathrm{km}\) gain case. The orbit-averaged work budget uses \(20\%\) windows (first and last \(218\) of \(1090\) total orbits), whereas the SRP force-decomposition comparison uses \(10\%\) windows (first and last \(109\) orbits), matching the conventions used in the corresponding figure-generation scripts.}
+\label{tab:gaincase_earlylate_comparison}
+\begin{tabular}{llll}
+\toprule
+Metric & Early window & Late window & Late / Early \\
+\midrule
+\multicolumn{4}{l}{\textit{Orbit-averaged work budget (\(20\%\) windows; \(218\) orbits each)}} \\
+Mean SRP work [kJ/orbit]
+& \(+7.91\)
+& \(+2.71\)
+& 0.343 \\
+
+Mean drag work [kJ/orbit]
+& \(-5.01\)
+& \(-4.55\)
+& 0.908 \\
+
+Mean net work [kJ/orbit]
+& \(+2.89\)
+& \(-1.84\)
+& --- \\
+
+\addlinespace
+\multicolumn{4}{l}{\textit{SRP force decomposition (\(10\%\) windows; \(109\) orbits each)}} \\
+Orbit-mean \(\left|F_T\right|\) [N]
+& \(3.52\times10^{-4}\)
+& \(5.91\times10^{-5}\)
+& 0.207 \\
+
+Orbit-mean \(\left|F_N\right|\) [N]
+& \(5.89\times10^{-7}\)
+& \(1.50\times10^{-4}\)
+& 5.36 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+
+\vspace{5pt}
+\par\noindent The longer-term weakening is also consistent with the force-decomposition framework introduced in Chapter~\ref{sec:model}. There, using the Gauss Variational Equations, we argued that semi-major-axis growth depends primarily on maintaining a favourable in-plane force, especially a strong transverse component \(F_T\), while avoiding excessive projection into the normal direction \(F_N\), which does not contribute directly to useful in-plane energy growth. The representative gain case shows a major redistribution of the SRP force between these channels. As shown in Figure \ref{fig:gaincase_force_decomposition_drift}, the orbit-mean magnitude of the transverse component decreases from approximately \(3.529\times10^{-4}\,\mathrm{N}\) early in the mission to approximately \(7.312\times10^{-5}\,\mathrm{N}\) late in the mission, a reduction by a factor of about \(4.8\). Over the same early-to-late comparison, the orbit-mean magnitude of the normal component increases from approximately \(3.224\times10^{-5}\,\mathrm{N}\) to approximately \(1.727\times10^{-4}\,\mathrm{N}\), an increase by a factor of about \(5.4\).
+
+
+\begin{center}
+    \includegraphics[width=0.8\linewidth]{Figures/fig11_square.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \captionof{figure}{Early-versus-late orbit-averaged work budget for the representative \(700\,\mathrm{km}\) gain case. The mean SRP contribution collapses strongly between the early and late windows, while the drag penalty remains large, producing a negative late-window net balance.}
+    \label{fig:gaincase_early_late_work_comparison}
+\end{center}
+
+\par\noindent This redistribution of SRP force is not secondary bookkeeping. Because the sail orientation is fixed in inertial space while the orbit evolves, the SRP force becomes progressively less well aligned with the favourable local RT-plane direction. The transverse component weakens strongly, the normal component becomes relatively larger on an early-to-late basis, and the contribution to \(\dot{a}\) correspondingly degrades. This geometrical drift is therefore a second breakdown pathway, alongside the drag concentration caused by perigee erosion.
+
+
+\begin{center}
+    \includegraphics[width=1\linewidth]{Figures/fig12_sq.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \captionof{figure}{Orbit-mean SRP force decomposition for the representative \(700\,\mathrm{km}\) gain case. The favourable transverse component weakens strongly over time, while the normal component becomes much larger on an early-to-late basis, indicating a substantial redistribution away from the most useful in-plane forcing direction.}
+    \label{fig:gaincase_force_decomposition_drift}
+\end{center}
+
+
+
+\begin{figure*}[b]
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/precession.png}
+    \caption{Illustration of SRP projection drift for an inertially fixed, spin-stabilised sail in a precessing near-polar orbit. At \(t=0\) (left), the fixed sail normal produces a favourable transverse SRP component \(F_T\). After two months (right), orbital precession changes the Sun-relative orbital geometry, so the same inertially fixed attitude projects less favourably into the local frame, with reduced \(F_T\) and larger normal contribution \(F_N\). This geometric drift contributes to the breakdown of the transient gain regime over longer timescales.}
+    \label{fig:precession_drift}
+\end{figure*}
+\FloatBarrier
+
+
+\vspace{5pt}
+\par\noindent Taken together, the results in this section resolve the apparent tension between early gain and later decay. The mechanism established in Section~\ref{sec:existence} is real, but it is front-loaded and self-limiting. Early positive \(\Delta a\) is achieved mainly through apogee pumping rather than clean whole-orbit lifting; that evolution increases eccentricity and lowers perigee, which concentrates drag loss, while the fixed inertial sail orientation also causes the SRP force to drift away from the most favourable transverse direction. The late-time orbit-averaged balance therefore turns negative even though a small cumulative surplus from the earlier phase remains by day \(75\). The regime does not fail abruptly; it progressively exhausts the margin that created it.
+
+\FloatBarrier

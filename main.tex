@@ -1,0 +1,242 @@
+%% 
+%% Copyright 2019-2024 Elsevier Ltd
+%% 
+%% Version 2.4
+%% 
+%% This file is part of the 'CAS Bundle'.
+%% --------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'CAS Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for cas-dc documentclass for 
+%% double column output.
+
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+\documentclass[a4paper,fleqn]{cas-dc}
+
+%\usepackage[authoryear,longnamesfirst]{natbib}
+%\usepackage[authoryear]{natbib}
+\usepackage[authoryear]{natbib}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{caption}
+
+%%%Author definitions
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+\tsc{EP}
+\tsc{PMS}
+\tsc{BEC}
+\tsc{DE}
+%%%
+
+\begin{document}
+\pagestyle{plain}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+\shorttitle{Eclipse-Modulated Transient Energy Pumping in Near-Polar LEO for Spin-Stabilized Solar Sails}
+
+\shortauthors{M. Acevski et~al.}
+
+\title [mode = title]{Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilized Solar Sails}                     
+\tnotemark[1]
+
+\tnotetext[1]{This document is the results of the Orbital Mechanics Research Team within Project Svarog at Imperial College London}
+
+
+\author[1]{Matthew Acevski\corref{cor1}}
+\author[2]{Shiki Vaahan}
+\author[2]{Piotr Fil}
+\author[3]{Herbie Christophers}
+\author[2]{Debdut Sengupta}
+\author[2]{Fatima Sajid}
+\author[1]{Madhav Rajeswar}
+\author[4]{Ian Poon}
+\author[1]{Rajveer Daga}
+\author[5]{Neil Pakrasi}
+\author[6]{Defne Ertugrul}
+
+\cortext[cor1]{Corresponding author: \href{mailto:matthew.acevski19@imperial.ac.uk}{matthew.acevski19@imperial.ac.uk}}
+
+\affiliation[1]{organization={Department of Physics, Imperial College London},
+                city={London},
+                country={UK}}
+
+\affiliation[2]{organization={Department of Aeronautics, Imperial College London},
+                city={London},
+                country={UK}}
+
+\affiliation[3]{organization={Department of Mechanical Engineering, Imperial College London},
+                city={London},
+                country={UK}}
+
+\affiliation[4]{organization={Department of Bioengineering, Imperial College London},
+                city={London},
+                country={UK}}
+
+\affiliation[5]{organization={Department of Electrical Engineering, Imperial College London},
+                city={London},
+                country={UK}}
+
+\affiliation[6]{organization={Department of Chemical Engineering, Imperial College London},
+                city={London},
+                country={UK}}
+
+\cortext[cor1]{Corresponding author}
+\fntext[fn1]{This is the first author footnote, but is common to third author as well.}
+
+
+\begin{abstract}
+This paper investigates whether a passively oriented, spin-stabilised solar sail in near-polar low Earth orbit can exhibit a bounded interval of net orbital-energy gain through eclipse-modulated solar-radiation-pressure (SRP) forcing. Using a reduced analytical model and three-dimensional numerical propagations, we show that such a regime does exist, but only within a narrow region of LTDN--pitch space. At \(700\,\mathrm{km}\), only \(89\) of \(900\) sampled cases (\(\sim 10\%\)) exhibit positive semi-major-axis excursion within the \(14\)-day analysis window, with the strongest case reaching \(\Delta a \approx +20.07\,\mathrm{km}\) at LTDN \(12.266\,\mathrm{h}\) and pitch \(24.8^\circ\). Eclipse is shown to be causally decisive: for the representative gain case, the eclipse-on trajectory reaches \(\Delta a \approx +10.31\,\mathrm{km}\) by day \(14\), whereas the eclipse-off counterpart falls to \(\Delta a \approx -47.75\,\mathrm{km}\). Orbit-resolved SRP work diagnostics show that gain occurs only when eclipse suppresses predominantly negative-work portions of the SRP cycle. Longer-horizon propagation shows that this effect is transient and self-limiting rather than sustained. The representative gain case reaches a peak semi-major axis of \(7098.211\,\mathrm{km}\) at day \(26.50\), but declines to \(7064.717\,\mathrm{km}\) by day \(75\), below its initial value of \(7078.137\,\mathrm{km}\). The early increase in semi-major axis is driven mainly by apogee growth rather than uniform orbit raising, together with perigee erosion and eccentricity growth, which increase drag exposure and weaken the favourable SRP projection. The paper therefore establishes a narrower result: eclipse timing can enable a real but bounded transient energy-pumping regime in near-polar LEO, but the same coupled dynamics that permit the early gain also drive its later breakdown.
+\end{abstract}
+
+\begin{graphicalabstract}
+\includegraphics{figs/cas-grabs.pdf}
+\end{graphicalabstract}
+
+\begin{highlights}
+\item Eclipse-modulated SRP can produce bounded transient semi-major-axis gain in near-polar LEO for passive solar sails.
+\item Gain exists only in a narrow LTDN--pitch region; eclipse causally enables it by suppressing negative-work orbital arcs.
+\item The effect is self-limiting: apogee pumping, eccentricity growth, and perigee erosion drive eventual breakdown.
+\end{highlights}
+
+
+\begin{keywords}
+Solar sail \sep Low Earth orbit \sep Solar radiation pressure \sep Eclipse \sep Orbital mechanics \sep Sun-synchronous orbit
+\end{keywords}
+
+
+
+\maketitle
+
+\section{Introduction}
+\input{Sections/introduction}
+
+\begin{figure*}[t]
+    \centering
+ 
+    \includegraphics[width=1\linewidth]{Figures/earth.png}
+    \vspace{-1.5em}
+    \caption{Conceptual schematic of the eclipse-modulated SRP work asymmetry in the reduced mechanism picture. For an inertially fixed sail, solar radiation pressure contributes positive work over part of the illuminated orbit and negative work over another part. If eclipse removes a larger fraction of the unfavourable arc than of the favourable arc, the one-orbit SRP work integral becomes positive. The figure is intended to illustrate the phase-selective gating mechanism, not to represent the full propagated 3D geometry directly.}
+    \label{fig:placeholder}
+\end{figure*}
+
+\vspace{-1em}
+\section{Scope and Problem Definition}
+\vspace{-0.5em}
+\input{Sections/scope}
+
+
+
+\section{Physical Mechanism of Eclipse-Modulated \newline Energy Pumping}
+\label{sec:physics}
+\input{Sections/physicalmech}
+
+\section{Dynamical model and assumptions}
+\label{sec:model}
+\input{Sections/dynmodel}
+
+\section{Parameter Space and Metrics}
+\label{sec:paramspace}
+\input{Sections/paramspace}
+
+\section{Existence and Mechanism of the Transient Gain Regime}
+\label{sec:existence}
+\input{Sections/transient}
+
+\section{Coupled Orbital Evolution and Breakdown of the Gain Regime}
+\label{sec:breakdown}
+\input{Sections/breakdown}
+
+\section{Robustness and sensitivity of the gain-anchor case}
+\label{sec:sensitivity}
+\input{Sections/sensitivity}
+
+
+\section{Conclusions}
+\label{sec:conclusion}
+\input{Sections/conclusion}
+
+\section*{Declaration of competing interest}
+\par\noindent The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+\section*{Acknowledgements}
+\noindent The authors thank Dr.\ Aaron Knoll and Professor Matthew Santer for their guidance and support. We also gratefully acknowledge the REXUS/BEXUS programme and its partner organisations for supporting the wider Project Svarog team, including early prototyping activities that informed the broader development context of this work. The authors further thank Esmée Menting and Dr.\ Dorota Budzyn for their support of the project, and acknowledge the contributions of Gil Barbosa Ribeiro, Ivan Revenga Riesco, Golf Rojnuckarin, and Beatriz Soriano Tortosa to the team’s wider design effort. We also thank Imperial College London for providing funding and facilities that supported the project.
+
+\vspace{5pt}
+\par\noindent \textit{The REXUS/BEXUS programme is realised under a bilateral Agency Agreement between the German Aerospace Center (DLR) and the Swedish National Space Agency (SNSA). The Swedish share of the payload has been made available to students from other European countries through a collaboration with the European Space Agency (ESA). EuroLaunch, a cooperation between the Swedish Space Corporation (SSC) and the Mobile Rocket Base (MORABA) of DLR, is responsible for campaign management and launch operations. Experts from DLR, SSC, ZARM, and ESA provide technical support to the student teams throughout the project. REXUS and BEXUS are launched from SSC Esrange Space Center in northern Sweden.}
+
+%% Loading bibliography style file
+%\bibliographystyle{model1-num-names}
+\bibliographystyle{cas-model2-names}
+
+% Loading bibliography database
+\bibliography{cas-refs,D}
+
+%% =====================================================================
+%% Vitae
+%% Each \bio[...]{...}...\endbio block is a template per co-author.
+%% To complete: (1) replace Figures/photo_placeholder.png with your own
+%% passport-style photograph (recommended ~300x400 px, neutral background),
+%% and (2) replace the bracketed placeholder text below with a biography
+%% of at most 100 words covering your role, background, research
+%% interests, and contributions to this work.
+%% =====================================================================
+\section*{Vitae}
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Matthew Acevski} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Physics, Imperial College London, research interests, and your contribution to this work as corresponding author and lead investigator. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Shiki Vaahan} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Aeronautics, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Piotr Fil} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Aeronautics, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Herbie Christophers} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Mechanical Engineering, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Debdut Sengupta} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Aeronautics, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Fatima Sajid} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Aeronautics, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Madhav Rajeswar} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Physics, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Ian Poon} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Bioengineering, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Rajveer Daga} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Physics, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Neil Pakrasi} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Electrical Engineering, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\bio[width=25mm,pos=l]{Figures/photo_placeholder.png}
+\textbf{Defne Ertugrul} [\textit{Placeholder biography --- replace with up to 100 words describing your academic background, current role at the Department of Chemical Engineering, Imperial College London, research interests, and your contribution to this work. Replace the photograph filename above with your own passport-style image.}]
+\endbio
+
+\end{document}
+

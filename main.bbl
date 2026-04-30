@@ -1,0 +1,235 @@
+\begin{thebibliography}{23}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{Battin(1999)}]{battin1999}
+\bibinfo{author}{Battin, R.H.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{An Introduction to the Mathematics and Methods of
+  Astrodynamics}.
+\newblock \bibinfo{edition}{Revised} ed., \bibinfo{publisher}{{AIAA} Education
+  Series}, \bibinfo{address}{Reston, VA}.
+\newblock \DOIprefix\doi{10.2514/4.861543}.
+%Type = Article
+\bibitem[{Berthet and Suzuki(2023)}]{berthetSunflowerMissionConcept2023}
+\bibinfo{author}{Berthet, M.}, \bibinfo{author}{Suzuki, K.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Sunflower mission concept for high-altitude earth
+  observation in {{LEO}} via nanosatellite with pyramidal solar sail}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{213},
+  \bibinfo{pages}{516--536}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2023.09.017}.
+%Type = Misc
+\bibitem[{Braeunig(2013)}]{braeunig_atmos}
+\bibinfo{author}{Braeunig, R.A.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Atmosphere properties}.
+\newblock
+  \bibinfo{howpublished}{\url{http://www.braeunig.us/space/atmmodel.htm}}.
+\newblock \bibinfo{note}{Accessed: 2025}.
+%Type = Misc
+\bibitem[{Cannella et~al.(2021)Cannella, Enger, Puls, Rodriguez, Johnson,
+  Dervan and Turse}]{cannellaDesignOverviewSolar2021}
+\bibinfo{author}{Cannella, M.}, \bibinfo{author}{Enger, S.},
+  \bibinfo{author}{Puls, A.}, \bibinfo{author}{Rodriguez, J.},
+  \bibinfo{author}{Johnson, L.}, \bibinfo{author}{Dervan, J.},
+  \bibinfo{author}{Turse, D.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Design and {{Overview}} of the {{Solar Cruiser
+  Mission}}}.
+\newblock \DOIprefix\doi{10.26077/SQF4-F884}.
+%Type = Article
+\bibitem[{Colombo and McInnes(2011)}]{colombomcinnes}
+\bibinfo{author}{Colombo, C.}, \bibinfo{author}{McInnes, C.R.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Orbital dynamics of high area-to-mass ratio
+  spacecraft with {$J_2$} and solar radiation pressure for novel {Earth}
+  observation and communication services}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{68},
+  \bibinfo{pages}{891--906}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2010.08.015}.
+%Type = Article
+\bibitem[{Dachwald(2005)}]{dachwaldOptimalSolarSail2005}
+\bibinfo{author}{Dachwald, B.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Optimal {{Solar Sail Trajectories}} for {{Missions}}
+  to the {{Outer Solar System}}}.
+\newblock \bibinfo{journal}{Journal of Guidance, Control, and Dynamics}
+  \bibinfo{volume}{28}, \bibinfo{pages}{1187--1193}.
+\newblock \DOIprefix\doi{10.2514/1.13301}.
+%Type = Article
+\bibitem[{Hubaux and Lemaitre(2013)}]{hubaux2013shadow}
+\bibinfo{author}{Hubaux, C.}, \bibinfo{author}{Lemaitre, A.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The impact of {Earth's} shadow on the long-term
+  evolution of space debris}.
+\newblock \bibinfo{journal}{Celestial Mechanics and Dynamical Astronomy}
+  \bibinfo{volume}{116}, \bibinfo{pages}{79--95}.
+\newblock \DOIprefix\doi{10.1007/s10569-013-9480-0}.
+%Type = Article
+\bibitem[{Johnson et~al.(2012)Johnson, Young, Barnes, Friedman, Lappas and
+  McInnes}]{johnsonSolarSailsTechnology2012}
+\bibinfo{author}{Johnson, L.}, \bibinfo{author}{Young, R.},
+  \bibinfo{author}{Barnes, N.}, \bibinfo{author}{Friedman, L.},
+  \bibinfo{author}{Lappas, V.}, \bibinfo{author}{McInnes, C.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Solar {{Sails}}: {{Technology And Demonstration
+  Status}}}.
+\newblock \bibinfo{journal}{International Journal of Aeronautical and Space
+  Sciences} \bibinfo{volume}{13}, \bibinfo{pages}{421--427}.
+\newblock \DOIprefix\doi{10.5139/IJASS.2012.13.4.421}.
+%Type = Article
+\bibitem[{Kopp and Lean(2011)}]{kopp2011solar}
+\bibinfo{author}{Kopp, G.}, \bibinfo{author}{Lean, J.L.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{A new, lower value of total solar irradiance:
+  Evidence and climate significance}.
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{38},
+  \bibinfo{pages}{L01706}.
+\newblock \DOIprefix\doi{10.1029/2010GL045777}.
+%Type = Article
+\bibitem[{L{\"u}cking et~al.(2012)L{\"u}cking, Colombo and
+  McInnes}]{lucking2012solar}
+\bibinfo{author}{L{\"u}cking, C.}, \bibinfo{author}{Colombo, C.},
+  \bibinfo{author}{McInnes, C.R.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{A passive satellite deorbiting strategy for medium
+  {Earth} orbit using solar radiation pressure and the {$J_2$} effect}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{77},
+  \bibinfo{pages}{197--206}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2012.03.026}.
+%Type = Book
+\bibitem[{McInnes(1999)}]{mcinnes1999}
+\bibinfo{author}{McInnes, C.R.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Solar Sailing: Technology, Dynamics and Mission
+  Applications}.
+\newblock Springer-Praxis Books in Astronautical Engineering,
+  \bibinfo{publisher}{Springer-Praxis}, \bibinfo{address}{Berlin}.
+\newblock \DOIprefix\doi{10.1007/978-1-4471-3992-8}.
+%Type = Techreport
+\bibitem[{{NOAA} et~al.(1976){NOAA}, {NASA} and {USAF}}]{USSA1976}
+\bibinfo{author}{{NOAA}}, \bibinfo{author}{{NASA}}, \bibinfo{author}{{USAF}},
+  \bibinfo{year}{1976}.
+\newblock \bibinfo{title}{U.S. Standard Atmosphere, 1976}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{NOAA-S/T 76-1562}.
+  National Oceanic and Atmospheric Administration.
+  \bibinfo{address}{Washington, D.C.}
+%Type = Article
+\bibitem[{Prieto et~al.(2014)Prieto, Graziano and Roberts}]{prieto2014drag}
+\bibinfo{author}{Prieto, D.M.}, \bibinfo{author}{Graziano, B.P.},
+  \bibinfo{author}{Roberts, P.C.E.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Spacecraft drag modelling}.
+\newblock \bibinfo{journal}{Progress in Aerospace Sciences}
+  \bibinfo{volume}{64}, \bibinfo{pages}{56--65}.
+\newblock \DOIprefix\doi{10.1016/j.paerosci.2013.09.001}.
+%Type = Article
+\bibitem[{Quarta et~al.(2023)Quarta, Mengali, Bassetto and
+  Niccolai}]{quartaOptimalInterplanetaryTrajectories2023}
+\bibinfo{author}{Quarta, A.A.}, \bibinfo{author}{Mengali, G.},
+  \bibinfo{author}{Bassetto, M.}, \bibinfo{author}{Niccolai, L.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Optimal interplanetary trajectories for
+  {{Sun-facing}} ideal diffractive sails}.
+\newblock \bibinfo{journal}{Astrodyn} \bibinfo{volume}{7},
+  \bibinfo{pages}{285--299}.
+\newblock \DOIprefix\doi{10.1007/s42064-023-0158-4}.
+%Type = Inproceedings
+\bibitem[{Sawada et~al.(2011)Sawada, Mori, Okuizumi, Shirasawa, Miyazaki,
+  Natori, Matunaga, Furuya and Sakamoto}]{sawadaMissionReportSolar2011}
+\bibinfo{author}{Sawada, H.}, \bibinfo{author}{Mori, O.},
+  \bibinfo{author}{Okuizumi, N.}, \bibinfo{author}{Shirasawa, Y.},
+  \bibinfo{author}{Miyazaki, Y.}, \bibinfo{author}{Natori, M.},
+  \bibinfo{author}{Matunaga, S.}, \bibinfo{author}{Furuya, H.},
+  \bibinfo{author}{Sakamoto, H.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Mission {{Report}} on {{The Solar Power Sail
+  Deployment Demonstration}} of {{IKAROS}}}, in: \bibinfo{booktitle}{52nd
+  {{AIAA}}/{{ASME}}/{{ASCE}}/{{AHS}}/{{ASC Structures}}, {{Structural
+  Dynamics}} and {{Materials Conference}}}, \bibinfo{publisher}{{American
+  Institute of Aeronautics and Astronautics}}, \bibinfo{address}{Denver,
+  Colorado}.
+\newblock \DOIprefix\doi{10.2514/6.2011-1887}.
+%Type = Article
+\bibitem[{Shen and Caverly(2026)}]{shenSolarSailMomentum2026}
+\bibinfo{author}{Shen, P.Y.}, \bibinfo{author}{Caverly, R.J.},
+  \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{Solar sail momentum management with mass translation
+  and reflectivity devices using predictive control}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{241},
+  \bibinfo{pages}{134--152}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2025.12.042}.
+%Type = Article
+\bibitem[{Spencer et~al.(2021)Spencer, Betts, Bellardo, Diaz, Plante and
+  Mansell}]{spencerLightSail2Solar2021}
+\bibinfo{author}{Spencer, D.A.}, \bibinfo{author}{Betts, B.},
+  \bibinfo{author}{Bellardo, J.M.}, \bibinfo{author}{Diaz, A.},
+  \bibinfo{author}{Plante, B.}, \bibinfo{author}{Mansell, J.R.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{The {{LightSail}} 2 solar sailing technology
+  demonstration}.
+\newblock \bibinfo{journal}{Advances in Space Research} \bibinfo{volume}{67},
+  \bibinfo{pages}{2878--2889}.
+\newblock \DOIprefix\doi{10.1016/j.asr.2020.06.029}.
+%Type = Inproceedings
+\bibitem[{Stohlman and Lappas(2014)}]{stohlmanDevelopmentDeorbitsailFlight2014}
+\bibinfo{author}{Stohlman, O.R.}, \bibinfo{author}{Lappas, V.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Development of the {{Deorbitsail}} flight model}, in:
+  \bibinfo{booktitle}{Spacecraft {{Structures Conference}}},
+  \bibinfo{publisher}{{American Institute of Aeronautics and Astronautics}},
+  \bibinfo{address}{National Harbor, Maryland}.
+\newblock \DOIprefix\doi{10.2514/6.2014-1509}.
+%Type = Article
+\bibitem[{Tsuda et~al.(2013)Tsuda, Mori, Funase, Sawada, Yamamoto, Saiki, Endo,
+  Yonekura, Hoshino and Kawaguchi}]{tsuda2011ikaros}
+\bibinfo{author}{Tsuda, Y.}, \bibinfo{author}{Mori, O.},
+  \bibinfo{author}{Funase, R.}, \bibinfo{author}{Sawada, H.},
+  \bibinfo{author}{Yamamoto, T.}, \bibinfo{author}{Saiki, T.},
+  \bibinfo{author}{Endo, T.}, \bibinfo{author}{Yonekura, K.},
+  \bibinfo{author}{Hoshino, H.}, \bibinfo{author}{Kawaguchi, J.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Achievement of {IKAROS} --- {J}apanese deep space
+  solar sail demonstration mission}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{82},
+  \bibinfo{pages}{183--188}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2012.03.032}.
+%Type = Article
+\bibitem[{Valk et~al.(2008)Valk, Lemaitre and Anselmo}]{valk2008semi}
+\bibinfo{author}{Valk, S.}, \bibinfo{author}{Lemaitre, A.},
+  \bibinfo{author}{Anselmo, L.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Analytical and semi-analytical investigations of
+  geosynchronous space debris with high area-to-mass ratios}.
+\newblock \bibinfo{journal}{Advances in Space Research} \bibinfo{volume}{41},
+  \bibinfo{pages}{1077--1090}.
+\newblock \DOIprefix\doi{10.1016/j.asr.2007.10.025}.
+%Type = Book
+\bibitem[{Vallado(2013)}]{vallado2007}
+\bibinfo{author}{Vallado, D.A.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Fundamentals of Astrodynamics and Applications}.
+\newblock \bibinfo{edition}{4th} ed., \bibinfo{publisher}{Microcosm Press},
+  \bibinfo{address}{Hawthorne, CA}.
+%Type = Inproceedings
+\bibitem[{Wilkie(2021)}]{wilkieOverviewNASAAdvanced2021}
+\bibinfo{author}{Wilkie, W.K.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Overview of the {{NASA Advanced Composite Solar Sail
+  System}} ({{ACS3}}) {{Technology Demonstration Project}}}, in:
+  \bibinfo{booktitle}{{{AIAA Scitech}} 2021 {{Forum}}},
+  \bibinfo{publisher}{{American Institute of Aeronautics and Astronautics}},
+  \bibinfo{address}{VIRTUAL EVENT}.
+\newblock \DOIprefix\doi{10.2514/6.2021-1260}.
+%Type = Article
+\bibitem[{Ya~Kezerashvili and
+  Ancona(2025)}]{yakezerashviliRecentAdvancesSpace2025}
+\bibinfo{author}{Ya~Kezerashvili, R.}, \bibinfo{author}{Ancona, E.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Recent advances in space sailing missions and
+  technology: Review of the 6th {{International Symposium}} on {{Space
+  Sailing}} ({{ISSS}} 2023)}.
+\newblock \bibinfo{journal}{AAOAJ} \bibinfo{volume}{9},
+  \bibinfo{pages}{62--73}.
+\newblock \DOIprefix\doi{10.15406/aaoaj.2025.09.00221}.
+
+\end{thebibliography}

@@ -1,0 +1,69 @@
+
+\noindent This section addresses four questions in sequence: whether a bounded transient-gain region exists at \(700\,\mathrm{km}\), whether eclipse is causally responsible for it, how that causality appears in the orbit-resolved SRP work budget, and why the representative gain case should still be interpreted as transient rather than sustained. Because the paper is concerned with \emph{transient} gain, the map-based metric used here is the maximum semi-major-axis increase attained within the first \(14\) days, not the final \(\Delta a\) at the end of the run.
+
+\vspace{5pt}
+\par\noindent Figure \ref{fig:heatmap_700km} presents the fixed-window map of maximum semi-major-axis increase at \(700\,\mathrm{km}\) as a function of LTDN and initial pitch angle. A single dominant positive lobe appears over approximately LTDN \(9.0\) to \(14.75\,\mathrm{h}\) and pitch \(0^\circ\) to \(43.4^\circ\), with its strongest cell at LTDN \(12.266\,\mathrm{h}\) and pitch \(24.8^\circ\), where the trajectory reaches a maximum \(\Delta a\) of approximately \(+20.07\,\mathrm{km}\). Two much smaller retrograde-pitch clusters also appear, but their gains remain below \(0.14\,\mathrm{km}\) and are negligible relative to the main lobe. Overall, only \(89\) of \(900\) sampled cells (\(\sim 10\%\)) exhibit positive transient SMA increase, so non-gain behaviour dominates most of the map.
+\vspace{1em}
+
+\begin{center}
+    \includegraphics[width=\linewidth]{Figures/ltdn.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \captionof{figure}{Maximum semi-major axis change ($\Delta a$) at 700 km as a function of LTDN and sail pitch angle, showing a localized region of net orbital energy gain with dominant decay outcome in the surrounding space.}
+    \label{fig:heatmap_700km}
+\end{center}
+
+\par\noindent The restricted extent of the positive region indicates that the effect is geometry-selective rather than a generic passive orbit-raising tendency.
+
+\vspace{5pt}
+\vspace{5pt}
+\par\noindent Three representative \(700\,\mathrm{km}\) cases are used throughout the remainder of the section: a gain case at RAAN \(285.5^\circ\), LTDN \(12.27\,\mathrm{h}\), and pitch \(24.8^\circ\); a neutral case at RAAN \(111.7^\circ\), LTDN \(0.68\,\mathrm{h}\), and pitch \(142.8^\circ\); and a decay case at RAAN \(99.3^\circ\), LTDN \(23.85\,\mathrm{h}\), and pitch \(155.2^\circ\). The gain case reaches a maximum \(\Delta a \approx +20.07\,\mathrm{km}\) at approximately day \(26.5\), but later declines to \(\Delta a \approx -13.42\,\mathrm{km}\) by day \(75\); the decay case loses SMA monotonically and re-enters by day \(42.8\). These cases are used to separate bounded existence from mechanism.
+
+\vspace{5pt}
+
+\par\noindent % [PLACEHOLDER: Table listing the representative \(700\,\mathrm{km}\) gain, neutral, and decay cases used throughout this section. Include RAAN, LTAN, pitch, fixed-horizon \(\Delta a\), and any case IDs or run labels needed for reproducibility. Current representatives: gain = (RAAN \(285.5^\circ\), LTDN \(12.27\,\mathrm{h}\), pitch \(24.8^\circ\)); neutral = (RAAN \(111.7^\circ\), LTDN \(0.68\,\mathrm{h}\), pitch \(142.8^\circ\)); decay = (RAAN \(99.3^\circ\), LTDN \(23.85\,\mathrm{h}\), pitch \(155.2^\circ\)).]
+The most direct causal test is to compare the representative gain case with and without eclipse while holding all other initial conditions and model assumptions fixed. Figure~\ref{SMA_eclipse} shows that the short-horizon outcome reverses under that single change. By day \(14\), the eclipse-on case reaches \(\Delta a \approx +10.31\,\mathrm{km}\), whereas the eclipse-off counterpart has fallen to \(\Delta a \approx -47.75\,\mathrm{km}\), a separation of approximately \(58.06\,\mathrm{km}\). Over the full \(75\)-day propagation, the eclipse-on case survives to the end of the run with final \(\Delta a \approx -13.42\,\mathrm{km}\), whereas the eclipse-off case re-enters. The gain case is therefore not simply SRP-favourable in a generic sense; its transient improvement depends on eclipse.
+
+\begin{center}
+  \includegraphics[width=1.05\linewidth]{Figures/fig3oldno.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \captionof{figure}{Comparison of semi-major-axis evolution with eclipse on and off for the representative \(700\,\mathrm{km}\) gain case, showing that the favourable transient behaviour depends directly on eclipse: with eclipse on, the case reaches \(\Delta a \approx +10.31\,\mathrm{km}\) by day 14, whereas the eclipse-off counterpart has already fallen to \(\Delta a \approx -47.75\,\mathrm{km}\).}
+    \label{SMA_eclipse}  
+\end{center}
+
+
+\vspace{5pt}
+\par\noindent % [PLACEHOLDER: Figure showing eclipse-on versus eclipse-off for the representative \(700\,\mathrm{km}\) gain case. Preferred presentation: cumulative \(\Delta a\) or \(a-a_0\) versus time on the same axes, with the end-of-horizon separation annotated. 
+The eclipse-on/off comparison establishes causality, but not the orbit-scale mechanism. Figure~\ref{srp_vs_anomaly} addresses that mechanism by plotting the instantaneous SRP specific power, \( \mathbf{a}_{\mathrm{SRP}} \!\cdot\! \mathbf{v} \), over one periapsis-to-periapsis orbit for the representative gain, neutral, and decay cases, together with the eclipse interval and a dashed no-eclipse reference. In the gain case, eclipse falls predominantly on a would-be negative-power arc: \(85.7\%\) of eclipsed samples correspond to negative no-eclipse SRP power, and by integrated magnitude eclipse suppresses roughly \(-860\,\mathrm{J\,kg^{-1}}\) of harmful SRP work while removing only about \(+15\,\mathrm{J\,kg^{-1}}\) of beneficial work. In the neutral and decay cases, the sign structure reverses: \(95.2\%\) and \(85.7\%\) of eclipsed samples respectively correspond to would-be \emph{positive} SRP power, so eclipse suppresses the recovery arc instead. The mechanism is therefore sign-selective: the outcome depends on which branch of the SRP-power cycle is removed by shadow.
+
+\vspace{5pt}
+\par\noindent Figure~\ref{srp_vs_anomaly} therefore identifies the mechanism at the instantaneous level: eclipse changes the sign of the orbit-integrated SRP contribution by removing different branches of the SRP-power cycle in different geometries.
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/Fig4_Fullrect.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \caption{Instantaneous SRP specific power, \( \mathbf{a}_{\mathrm{SRP}} \!\cdot\! \mathbf{v} \), over one periapsis-to-periapsis orbit for the representative gain, neutral, and decay cases. The shaded interval marks eclipse, and the dashed curve shows the no-eclipse reference. In the gain case, eclipse suppresses a predominantly negative-power arc; in the neutral and decay cases, it instead suppresses a predominantly positive-power arc.}
+    \label{srp_vs_anomaly}
+\end{figure*}
+
+\vspace{5pt}
+\par\noindent Figure~\ref{cum_SRP} shows the same effect in cumulative form. In the gain case, the eclipse-on orbit closes with cumulative SRP specific work of \(+799.29\,\mathrm{J\,kg^{-1}}\), compared with \(-9.69\,\mathrm{J\,kg^{-1}}\) for the no-eclipse reference. In the neutral and decay cases, the eclipse-on end values are instead \(-665.25\,\mathrm{J\,kg^{-1}}\) and \(-857.93\,\mathrm{J\,kg^{-1}}\), while the corresponding no-eclipse references end near zero at \(-4.81\,\mathrm{J\,kg^{-1}}\) and \(-53.90\,\mathrm{J\,kg^{-1}}\). The cumulative view therefore confirms the sign-selective interpretation inferred from Figure~\ref{srp_vs_anomaly}: eclipse enhances the one-orbit SRP balance only in the gain geometry and degrades it in the neutral and decay geometries.
+
+\FloatBarrier
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{Figures/Fig5_fullrect.png}
+    \setlength{\abovecaptionskip}{0pt}
+    \caption{Cumulative SRP specific work over one periapsis-to-periapsis orbit for the representative gain, neutral, and decay cases, with dashed no-eclipse references for comparison. The eclipse-on end values are \(+799.29\,\mathrm{J\,kg^{-1}}\), \(-665.25\,\mathrm{J\,kg^{-1}}\), and \(-857.93\,\mathrm{J\,kg^{-1}}\) respectively, showing that eclipse enhances the SRP budget only in the gain geometry and worsens it in the neutral and decay geometries.}
+    \label{cum_SRP}
+\end{figure*}
+\FloatBarrier
+
+\vspace{5pt}
+\vspace{5pt}
+\par\noindent The representative gain case also confirms an important limitation of the mechanism. Although the trajectory attains a substantial positive semi-major-axis excursion within the analysed window, that behaviour is not equivalent to clean or sustained whole-orbit raising over longer horizons. The detailed longer-horizon evolution of the gain case is examined in Section~\ref{sec:breakdown}.
+
+
+\vspace{5pt}
+\vspace{5pt}
+\par\noindent Taken together, the results in this section establish three points. First, a bounded transient-gain region exists at \(700\,\mathrm{km}\) in LTDN--pitch space. Second, eclipse is causally decisive: removing it reverses the short-horizon outcome of the representative gain case. Third, the orbit-resolved SRP budget identifies the mechanism: eclipse helps only when it removes a negative-power branch and harms when it removes a positive-recovery branch. The representative gain case is therefore physically real, but not a claim of sustained orbit raising.

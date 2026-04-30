@@ -1,0 +1,62 @@
+\FloatBarrier
+\noindent Having defined the governing assumptions and force models, we now specify the parameter space and, critically, the fixed-window metric used to identify the transient gain regime. Because the central question of this paper is whether eclipse-modulated SRP can produce a \emph{temporary} semi-major-axis increase over a bounded horizon, the primary map-based quantity is not the final change in \(a\) at the end of the run, and not the long-horizon change over \(75\) days, but the largest positive excursion above the initial semi-major axis attained at any time within a prescribed analysis window. The aim is therefore to determine whether such transient gain occupies a coherent region of design space, and how narrow or robust that region is.
+
+\vspace{5pt}
+\par\noindent The primary parameters varied in this study are the local time of the descending node (LTDN), the initial sail orientation, and the initial orbital altitude. LTDN determines the Sun-relative geometry of the orbit and hence the phasing between illuminated arcs, eclipsed arcs, and the SRP work pattern; the initial sail orientation controls the decomposition of SRP into radial, transverse, and normal components; and altitude alters both the drag environment and the baseline Sun-synchronous inclination required through \ref{eq:RAANrate}. Together, these parameters define the geometry within which the transient gain regime may or may not appear.
+
+\vspace{5pt}
+\par\noindent In the baseline sweeps, the initial orbit is taken to be near-circular and Sun-synchronous, with inclination selected consistently with the chosen altitude using Table~\ref{tab:sso_inclinations}. For each case, the sail orientation is prescribed as inertially fixed from the initial epoch onward. Additional sensitivity studies may then be introduced around representative gain and non-gain cases by perturbing the nominal sail orientation, varying atmospheric density through a scalar multiplier, or applying small static orientation offsets to test the fragility of the identified regime.
+
+\vspace{5pt}
+\par\noindent The parameter-space exploration is intentionally staged. The first sweep is performed over LTDN and initial sail angle at fixed altitude and fixed sail loading, in order to determine whether a connected region of \emph{transient} gain exists at all under the fixed-window metric defined below. Only after this primary map is established are additional altitude cases and uncertainty sweeps introduced.
+
+\vspace{5pt}
+\par\noindent % [PLACEHOLDER: Table listing the parameter ranges used in the main sweeps. This should include LTAN range and step size, sail-angle range and step size, altitude values, fixed area-to-mass ratio, fixed horizon length, and any density-scaling values used in follow-on sensitivity studies.]
+A fixed analysis horizon is used for consistent comparison between cases. The primary map-based metric is
+\begin{equation}
+\Delta a_{\max}(T) = \max_{t \in [0,T]} \left(a(t)-a_0\right),
+\end{equation}
+with \(T=14\,\mathrm{d}\) in the principal parameter-space sweep. Thus, \(\Delta a_{\max,14\mathrm{d}}\) measures the largest positive semi-major-axis excursion above the initial orbit attained \emph{anywhere} within the first \(14\) days. It is \emph{not} the final value of \(a(14\,\mathrm{d})-a_0\), and it is \emph{not} the net change after the longer \(75\)-day propagation used later to study breakdown. This choice is deliberate: for a transient-gain problem, the physically relevant first question is whether a trajectory ever enters a favourable interval of positive semi-major-axis excursion within a common bounded window, not whether that excursion survives indefinitely.
+
+
+\vspace{5pt}
+\par\noindent To support physical interpretation, the fixed-window excursion metric is supplemented by orbit-resolved work diagnostics. In particular, we track the cumulative contribution of SRP and drag to the along-track work budget, since the mechanism proposed in Section~\ref{sec:physics} is not merely that SRP is present, but that eclipse can selectively retain or suppress SRP work over specific orbital arcs and thereby produce, or fail to produce, a temporary positive excursion in \(a\). For a given perturbing acceleration \(\mathbf{a}_{p}\), the instantaneous specific power is
+\begin{equation}
+P_{p}(t) = \mathbf{a}_{p}(t)\cdot\mathbf{v}(t),
+\end{equation}
+and the associated cumulative specific work over a time interval \([t_1,t_2]\) is
+\begin{equation}
+W_{p}(t_1,t_2) = \int_{t_1}^{t_2} \mathbf{a}_{p}(t)\cdot\mathbf{v}(t)\,dt.
+\end{equation}
+In practice, these quantities are evaluated separately for SRP and drag and then accumulated over individual orbits and over the full analysis horizon.
+
+\vspace{5pt}
+\par\noindent Because the hypothesised mechanism is most naturally interpreted in the orbital frame, we also track the transverse components of the perturbing accelerations. From Eq.~\eqref{eq:da}, the transverse contribution is especially important in near-circular orbits, where it acts most directly on orbital energy and semi-major axis. For this reason, we record both the instantaneous transverse accelerations \(F_{T,\mathrm{SRP}}\) and \(F_{T,\mathrm{drag}}\), and their orbit-integrated contributions, alongside the full energy-based work budget. These diagnostics are used to distinguish between three physically different situations: cases in which eclipse removes predominantly unfavourable SRP arcs, cases in which eclipse produces little net bias, and cases in which the remaining illuminated arcs are themselves energetically unfavourable.
+
+\vspace{5pt}
+\par\noindent In addition to semi-major axis, we record the evolution of apogee radius \(r_a\), perigee radius \(r_p\), eccentricity \(e\), inclination \(i\), and right ascension of the ascending node \(\Omega\). These quantities are necessary because positive \(\Delta a\) alone does not imply clean whole-orbit raising. In particular, a gain in \(a\) may be accompanied by growth in eccentricity, with apogee increasing more strongly than perigee. Since drag remains concentrated near perigee, this distinction is central to understanding why the transient gain regime can disappear even after an initially favourable interval. The coupled evolution of \(r_a\), \(r_p\), and \(e\) therefore forms a second layer of interpretation beyond the headline \(\Delta a\) result.
+
+\vspace{5pt}
+\par\noindent To capture the role of eclipse geometry explicitly, we also record the eclipse state as a binary quantity throughout propagation, together with the eclipse fraction of each orbit. This allows the work budget to be partitioned orbit-by-orbit into illuminated and shadowed segments. In representative cases, these diagnostics are later plotted against true anomaly so that the reader can see directly which orbital arcs contribute positive SRP work, which contribute negative SRP work, and which are removed by eclipse. This is an important distinction: the paper does not argue merely that eclipse reduces SRP, but that eclipse can alter the sign balance of orbit-averaged SRP work.
+
+\vspace{5pt}
+\par\noindent On the basis of the fixed-horizon metric \(\Delta a_{\max}(T)\), each simulation is assigned to one of three qualitative classes:
+\begin{itemize}
+    \item \textbf{Gain case:} \(\Delta a_{\max}(T) > 0\), indicating that the trajectory attains a positive semi-major-axis excursion at some point within the window;
+    \item \textbf{Neutral case:} \(\Delta a_{\max}(T) \approx 0\), indicating that no meaningful positive excursion is attained within the window;
+    \item \textbf{Decay case:} cases for which \(a(t)-a_0\) remains non-positive throughout the window, so that \(\Delta a_{\max}(T)\) is zero or numerically negligible and the trajectory is effectively monotone non-gaining over that interval.
+\end{itemize}
+These labels are descriptive rather than ontological. In particular, ``gain'' here means \emph{transient gain within the prescribed window}, not sustained long-horizon orbit raising; likewise, the strongest gain cell in the map is the case with the largest \(\Delta a_{\max,14\mathrm{d}}\), not necessarily the most favourable long-horizon trajectory once eccentricity growth and drag accumulation are taken into account.
+
+
+\vspace{5pt}
+\par\noindent % [PLACEHOLDER: Regime-classification figure or schematic. This could be a small conceptual diagram showing gain, neutral, and decay regions in metric space, or it can be omitted if the later LTDN--angle heatmap makes the classification sufficiently clear.]
+For representative cases drawn from each class, we additionally identify a transient gain window from the cumulative SRP and drag work curves. This secondary diagnostic is used later to distinguish early favourable behaviour from the subsequent drag-dominated breakdown phase. It is therefore interpretive rather than classificatory: the parameter-space map itself is defined only by \(\Delta a_{\max,14\mathrm{d}}\).
+
+\vspace{5pt}
+\par\noindent The minimum set of diagnostics recorded for each run is therefore as follows: instantaneous SRP and drag accelerations, their transverse components, eclipse state, classical orbital elements, cumulative SRP and drag work, orbit-by-orbit eclipse fraction, and the evolution of \(a\), \(r_a\), and \(r_p\). This choice is deliberate. The present paper is a mechanism and regime-mapping study, so the recorded metrics must do more than rank cases numerically: they must also explain why a given case gains, remains neutral, or decays.
+
+\vspace{5pt}
+\par\noindent % [PLACEHOLDER: Summary table of logged diagnostics. This should list continuous outputs (e.g. SRP acceleration, drag acceleration, eclipse flag, orbital elements, Sun-relative angles) and orbit-aggregated outputs (e.g. per-orbit \(\Delta a\), cumulative SRP work, cumulative drag work, eclipse fraction, apogee, perigee).]
+\par\noindent The results that follow therefore proceed in three steps. First, the fixed-window metric \(\Delta a_{\max,14\mathrm{d}}\) is used to identify where transient gain does and does not occur in parameter space. Second, orbit-resolved work budgets are used to test whether eclipse causally biases the SRP work balance in those cases. Third, apogee, perigee, eccentricity, and cumulative drag/SRP comparisons are used to explain why a case that exhibits transient gain over \(14\) days need not remain favourable over longer horizons.
+\FloatBarrier

@@ -1,0 +1,182 @@
+\FloatBarrier
+\noindent This section introduces a reduced analytical picture to isolate the core geometric mechanism by which eclipse timing can bias solar-radiation-pressure (SRP) work over an orbit. Its purpose is not to derive a design-optimal sail orientation for the full propagated problem, nor to replace the later 3D simulations, but to establish the sign logic of phase-selective forcing in the simplest setting where it can be seen clearly. The full numerical problem considered later includes three-dimensional orbital geometry, \(J_2\)-driven nodal precession, drag, eclipse-modulated illumination, and coupled evolution of the orbital elements; the reduced model is therefore used here only as a mechanistic scaffold for interpreting those results.
+
+\vspace{-0.5em}
+\par\noindent The reduced argument developed below is used to identify the sign structure of the SRP work integral under eclipse-modulated illumination, and thereby to motivate the later propagated results.
+
+\vspace{0.5em}
+\subsection{\textbf{Orbital energy change and transverse work}}
+
+\noindent The central quantity of interest is the sign of the orbit-averaged transverse SRP work, because the Gauss variational equation for semi-major axis \citep{vallado2007,battin1999} directly links \(da/dt\) to the radial and transverse components of the perturbing acceleration. Writing the perturbing acceleration in the local orbital frame as radial (\(F_R\)), transverse (\(F_T\)), and normal (\(F_N\)) components, the semi-major-axis equation is
+\begin{equation}
+\frac{da}{dt} = \frac{2a^2}{h}\left[e\sin\theta\,F_R + (1+e\cos\theta)\,F_T\right],
+\label{eq:da_gve}
+\end{equation}
+where $F_R$ and $F_T$ are the radial and transverse components of the perturbing acceleration, $\theta$ is the true anomaly, $a$ is the semi-major axis, and $h$ is the specific angular momentum.
+
+\vspace{0.5em}
+\par\noindent For near-circular low Earth orbits ($e\approx 0$), this reduces to
+\begin{equation}
+\frac{da}{dt} \approx \frac{2a^2}{h}F_T = \frac{2}{n}F_T,
+\label{eq:da_circular}
+\end{equation}
+where $n=\sqrt{\mu/a^3}$ is the mean motion. The semi-major axis evolution is therefore governed primarily by the transverse component of the perturbing force. Equivalently, since the specific orbital energy is
+\begin{equation}
+\varepsilon = -\frac{\mu}{2a},
+\end{equation}
+its rate of change is
+\begin{equation}
+\dot{\varepsilon} = \mathbf{a}_{p}\cdot\mathbf{v} = F_T v,
+\label{eq:energy_rate}
+\end{equation}
+for a circular orbit, where $\mathbf{a}_{p}$ is the perturbing acceleration and $v=\sqrt{\mu/a}$ is the orbital speed. Hence, in the near-circular setting used here, positive transverse work corresponds to increasing orbital energy and increasing semi-major axis, while negative transverse work has the opposite effect.
+
+\vspace{0.5em}
+\par\noindent This makes the sign of the orbit-averaged transverse work the central quantity of interest in the reduced mechanism. In particular, if the SRP contribution satisfies
+\begin{equation}
+\int_0^T F_T\,dt > 0,
+\end{equation}
+over one orbital period \(T\), then the orbit-integrated SRP work is positive and the corresponding one-orbit change in orbital energy, and hence in semi-major axis, is favourable.
+
+\vspace{0.5em}
+\subsection{\textbf{Passive symmetry and cancellation in the fully illuminated case}}
+
+\noindent Consider first an idealised 2D planar circular orbit with the Sun fixed in inertial space. Let the Sun direction define the $+x$ axis, and parameterise the spacecraft position and velocity by
+\begin{equation}
+\mathbf{r}=r(\cos\theta,\sin\theta), \qquad
+\mathbf{v}=v(-\sin\theta,\cos\theta),
+\end{equation}
+where $\theta$ is the orbital phase measured from the sunward direction. For a passively oriented, spin-stabilised sail with fixed inertial attitude, let the sail normal be
+\begin{equation}
+\mathbf{n}=(\cos\beta,\sin\beta),
+\end{equation}
+where $\beta$ is the constant pitch angle measured from the Sun line.
+
+\vspace{0.5em}
+\par\noindent For an ideal reflecting sail under constant illumination, the SRP acceleration has fixed inertial direction and may be written in the form \citep{mcinnes1999}
+\begin{equation}
+\mathbf{a}_{\text{SRP}} = a_0 \cos^2\beta \,\mathbf{n},
+\label{eq:srp_vector}
+\end{equation}
+where $a_0$ is the characteristic SRP acceleration scale. The instantaneous specific power is then
+\begin{equation}
+\dot{\varepsilon} = \mathbf{a}_{\text{SRP}}\cdot\mathbf{v}
+= a_0\cos^2\beta\,\mathbf{n}\cdot\mathbf{v}.
+\end{equation}
+Substituting for $\mathbf{n}$ and $\mathbf{v}$ gives
+\begin{equation}
+\mathbf{n}\cdot\mathbf{v}
+= v(-\sin\theta\cos\beta + \cos\theta\sin\beta)
+= v\sin(\beta-\theta),
+\end{equation}
+so that
+\begin{equation}
+\dot{\varepsilon} = a_0 v \cos^2\beta \,\sin(\beta-\theta).
+\label{eq:power_phase}
+\end{equation}
+
+\vspace{0.5em}
+\par\noindent Over a fully illuminated circular orbit, using $dt=(r/v)\,d\theta$, the net specific energy change is
+\begin{equation}
+\Delta\varepsilon_{\text{full}}
+= \int_0^{2\pi}\dot{\varepsilon}\,dt
+= a_0 r \cos^2\beta \int_0^{2\pi}\sin(\beta-\theta)\,d\theta.
+\end{equation}
+Since
+\begin{equation}
+\int_0^{2\pi}\sin(\beta-\theta)\,d\theta = 0,
+\end{equation}
+it follows that
+\begin{equation}
+\Delta\varepsilon_{\text{full}} = 0.
+\label{eq:full_cancellation}
+\end{equation}
+
+\vspace{0.5em}
+\par\noindent Equation~\eqref{eq:full_cancellation} formalises the passive symmetry argument: under continuous illumination, a fixed-attitude sail experiences alternating orbital phases of positive and negative transverse work that cancel exactly over one revolution. In this idealised baseline case, the one-orbit net change in orbital energy vanishes despite non-zero instantaneous SRP forcing.
+
+\vspace{0.5em}
+\subsection{\textbf{Eclipse as a selective gating mechanism}}
+
+\noindent The previous cancellation result changes fundamentally once eclipse is introduced. In a midnight orbit under a cylindrical shadow model, the eclipse is centred on the anti-solar direction $\theta=\pi$ and spans the interval
+\begin{equation}
+\theta \in [\pi-\delta,\pi+\delta],
+\qquad
+\delta = \arcsin\left(\frac{R_E}{r}\right),
+\label{eq:eclipse_bounds}
+\end{equation}
+where $R_E$ is the Earth radius and $r$ is the orbital radius. The illuminated arcs are therefore
+\begin{equation}
+[0,\pi-\delta]\cup[\pi+\delta,2\pi].
+\end{equation}
+
+\vspace{0.5em}
+\par\noindent The net specific energy change over the illuminated portion of the orbit becomes
+\begin{equation}
+\Delta\varepsilon_{\text{lit}}
+= a_0 r \cos^2\beta
+\left[
+\int_0^{\pi-\delta}\sin(\beta-\theta)\,d\theta
++
+\int_{\pi+\delta}^{2\pi}\sin(\beta-\theta)\,d\theta
+\right].
+\label{eq:lit_integral}
+\end{equation}
+Using the full-orbit cancellation result, this may be written more compactly as minus the contribution from the shadowed arc,
+\begin{equation}
+\Delta\varepsilon_{\text{lit}}
+=
+- a_0 r \cos^2\beta
+\int_{\pi-\delta}^{\pi+\delta}\sin(\beta-\theta)\,d\theta.
+\end{equation}
+Evaluating the integral gives
+\begin{equation}
+\int_{\pi-\delta}^{\pi+\delta}\sin(\beta-\theta)\,d\theta
+= 2\sin\beta\,\sin\delta,
+\end{equation}
+and hence
+\begin{equation}
+\Delta\varepsilon_{\text{lit}}
+=
+-2a_0 r \cos^2\beta\,\sin\beta\,\sin\delta.
+\label{eq:delta_e_final}
+\end{equation}
+
+\vspace{0.5em}
+\par\noindent Equation~\eqref{eq:delta_e_final} shows explicitly that eclipse does not merely reduce the SRP magnitude; it breaks the passive cancellation by removing a finite interval of orbital phase from the work integral. The sign of the net energy change is therefore controlled by the sign of \(-\sin\beta\). In this 2D midnight-orbit idealisation,
+\begin{equation}
+\Delta\varepsilon_{\text{lit}} > 0
+\qquad\Longleftrightarrow\qquad
+\sin\beta < 0.
+\end{equation}
+A finite branch of pitch angles therefore exists for which eclipse suppresses unfavourable work more strongly than favourable work, leaving a positive residual contribution to the one-orbit SRP work balance and hence a positive one-orbit energy change.
+
+\vspace{0.5em}
+\par\noindent Within this reduced 2D midnight-orbit model, the magnitude of the one-orbit energy gain is maximised by maximising \(-\sin\beta\cos^2\beta\), which gives
+\begin{equation}
+\sin^2\beta = \frac{1}{3},
+\end{equation}
+with the positive-gain branch
+\begin{equation}
+\beta^\star = -\arcsin\left(\frac{1}{\sqrt{3}}\right)\approx -35.3^\circ.
+\end{equation}
+This result is used here only to show that the eclipse-modulated work imbalance is not marginal or accidental in the reduced geometry. It is not claimed to be a design optimum for the full propagated 3D system, whose geometry, illumination history, drag losses, and coupled element evolution are substantially richer.
+
+
+
+\vspace{0.5em}
+\subsection{\textbf{Dependence on orbital geometry}}
+
+\noindent The reduced mechanism is intrinsically phase-selective and therefore strongly dependent on orbital geometry. In the full problem, the local time of descending node (LTDN), the Sun-relative orientation of the orbital plane, and the fixed sail attitude together determine which parts of the orbit are illuminated, which are shadowed, and how the SRP work distribution is sampled. The sign and magnitude of the orbit-integrated SRP contribution therefore depend on whether eclipse preferentially removes unfavourable or favourable work phases.
+
+\vspace{0.5em}
+\par\noindent The midnight case is analytically useful because the eclipse is centred on the anti-solar point and the resulting shadow interval is symmetric in orbital phase, allowing the effect of selective gating to be shown in closed form. Away from this limiting geometry, the illuminated and shadowed arcs shift relative to the SRP work distribution, and the balance between positive and negative transverse work changes accordingly. Net semi-major-axis growth is therefore expected only over restricted regions of the full parameter space.
+
+\vspace{0.5em}
+\par\noindent Crucially, the same phase-dependent forcing that produces a favourable one-orbit SRP work imbalance need not produce shape-preserving orbit raising. Gauss' variational equations imply that the detailed phasing of \(F_R\) and \(F_T\) can simultaneously drive changes in eccentricity and related orbital geometry, while out-of-plane forcing in the full 3D problem affects inclination and node. A positive orbit-averaged SRP work contribution is therefore not equivalent to uniform upward translation of the orbit. In the propagated cases examined later, the same eclipse-biased phasing that produces transient semi-major-axis gain can coexist with eccentricity growth, altered perigee and apogee behaviour, and ultimately degradation of the gain regime.
+\vspace{0.5em}
+
+
+\subsection{Transient nature of the mechanism}
+\noindent The reduced analysis establishes only that eclipse can bias the one-orbit SRP work balance in favour of net energy gain for restricted geometries. It does not establish persistence, monotonic orbit raising, or long-horizon robustness once the full coupled dynamics are restored. The propagated 3D results therefore test whether this favourable work asymmetry survives in realistic near-polar LEO motion, and how it breaks down through coupled changes in eccentricity, drag exposure, and Sun-relative geometry; these longer-horizon effects are examined in Section~\ref{sec:breakdown}.
+\FloatBarrier

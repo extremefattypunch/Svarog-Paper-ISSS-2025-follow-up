@@ -1,0 +1,91 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Highlights",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          49.47265625,
+          54.66503906249999
+        ],
+        [
+          110.20814514160156,
+          54.66503906249999
+        ],
+        [
+          110.20814514160156,
+          68.93389892578125
+        ],
+        [
+          49.47265625,
+          68.93389892578125
+        ]
+      ]
+    },
+    {
+      "title": "Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilized\nSolar Sails",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          50.0546875,
+          80.20745849609375
+        ],
+        [
+          543.9688110351562,
+          80.20745849609375
+        ],
+        [
+          543.9688110351562,
+          104.11767578125
+        ],
+        [
+          50.0546875,
+          104.11767578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Highlights"
+}
