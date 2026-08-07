@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{48}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,6 +11,23 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Anselmo and Pardini(2010)}]{anselmoHAMR2010}
+\bibinfo{author}{Anselmo, L.}, \bibinfo{author}{Pardini, C.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Long-term dynamical evolution of high area-to-mass
+  ratio debris released into high {{Earth}} orbits}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{67},
+  \bibinfo{pages}{204--216}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2009.10.017}.
+%Type = Misc
+\bibitem[{{Ansys, Inc.}(2024)}]{ansysSTK2024}
+\bibinfo{author}{{Ansys, Inc.}}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Systems {{Tool Kit}} ({{STK}}) 13}.
+\newblock \bibinfo{howpublished}{Software (formerly Analytical Graphics,
+  Inc.)}.
+\newblock
+  \bibinfo{note}{\url{https://www.ansys.com/products/missions/ansys-stk}}.
 %Type = Book
 \bibitem[{Battin(1999)}]{battin1999}
 \bibinfo{author}{Battin, R.H.}, \bibinfo{year}{1999}.
@@ -28,6 +45,17 @@
 \newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{213},
   \bibinfo{pages}{516--536}.
 \newblock \DOIprefix\doi{10.1016/j.actaastro.2023.09.017}.
+%Type = Inproceedings
+\bibitem[{Bonin et~al.(2013)Bonin, Hiemstra, Sears and Zee}]{boninCanX72013}
+\bibinfo{author}{Bonin, G.}, \bibinfo{author}{Hiemstra, J.},
+  \bibinfo{author}{Sears, T.}, \bibinfo{author}{Zee, R.E.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The {{CanX-7}} drag sail demonstration mission:
+  {{Enabling}} environmental stewardship for nano- and microsatellites}, in:
+  \bibinfo{booktitle}{Proceedings of the 27th {{Annual AIAA}}/{{USU
+  Conference}} on {{Small Satellites}}}.
+\newblock \bibinfo{note}{Paper SSC13-XI-9;
+  \url{https://digitalcommons.usu.edu/smallsat/2013/all2013/128/}}.
 %Type = Misc
 \bibitem[{Braeunig(2013)}]{braeunig_atmos}
 \bibinfo{author}{Braeunig, R.A.}, \bibinfo{year}{2013}.
@@ -45,6 +73,15 @@
 \newblock \bibinfo{title}{Design and {{Overview}} of the {{Solar Cruiser
   Mission}}}.
 \newblock \DOIprefix\doi{10.26077/SQF4-F884}.
+%Type = Inproceedings
+\bibitem[{Cano~Rodr{\'i}guez and
+  Mart{\'i}nez~Garrido(2022)}]{canoPoliastro2022}
+\bibinfo{author}{Cano~Rodr{\'i}guez, J.L.},
+  \bibinfo{author}{Mart{\'i}nez~Garrido, J.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Poliastro: A {{Python}} library for interactive
+  astrodynamics}, in: \bibinfo{booktitle}{Proceedings of the 21st {{Python}} in
+  {{Science Conference}} ({{SciPy}} 2022)}, pp. \bibinfo{pages}{136--146}.
+\newblock \DOIprefix\doi{10.25080/majora-212e5952-015}.
 %Type = Article
 \bibitem[{Colombo and McInnes(2011)}]{colombomcinnes}
 \bibinfo{author}{Colombo, C.}, \bibinfo{author}{McInnes, C.R.},
@@ -64,6 +101,39 @@
   \bibinfo{volume}{28}, \bibinfo{pages}{1187--1193}.
 \newblock \DOIprefix\doi{10.2514/1.13301}.
 %Type = Article
+\bibitem[{{De Iuliis} et~al.(2021){De Iuliis}, Ciampa, Felicetti and
+  Ceriotti}]{deiuliisRadiationPressure2021}
+\bibinfo{author}{{De Iuliis}, A.}, \bibinfo{author}{Ciampa, F.},
+  \bibinfo{author}{Felicetti, L.}, \bibinfo{author}{Ceriotti, M.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Sailing with solar and planetary radiation pressure}.
+\newblock \bibinfo{journal}{Advances in Space Research} \bibinfo{volume}{67},
+  \bibinfo{pages}{2795--2811}.
+\newblock \DOIprefix\doi{10.1016/j.asr.2019.11.036}.
+%Type = Inproceedings
+\bibitem[{Dirkx et~al.(2022)Dirkx, Fayolle, Garrett, Avillez, Cowan, Cowan,
+  Encarna{\c c}{\~a}o, {Fortuny Lombra{\~n}a}, Gaffarel, Hener, Hu, {van
+  Nistelrooij} and Oggionni}]{dirkxTudatpy2022}
+\bibinfo{author}{Dirkx, D.}, \bibinfo{author}{Fayolle, M.},
+  \bibinfo{author}{Garrett, G.}, \bibinfo{author}{Avillez, M.},
+  \bibinfo{author}{Cowan, K.}, \bibinfo{author}{Cowan, S.},
+  \bibinfo{author}{Encarna{\c c}{\~a}o, J.}, \bibinfo{author}{{Fortuny
+  Lombra{\~n}a}, C.}, \bibinfo{author}{Gaffarel, J.}, \bibinfo{author}{Hener,
+  J.}, \bibinfo{author}{Hu, X.}, \bibinfo{author}{{van Nistelrooij}, M.},
+  \bibinfo{author}{Oggionni, F.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{The open-source astrodynamics {{Tudatpy}} software:
+  Overview for planetary mission design and science analysis}, in:
+  \bibinfo{booktitle}{Europlanet {{Science Congress}} 2022}.
+\newblock \DOIprefix\doi{10.5194/epsc2022-253}.
+%Type = Article
+\bibitem[{Firuzi and Gong(2018)}]{firuziSolarSailLEO2018}
+\bibinfo{author}{Firuzi, S.}, \bibinfo{author}{Gong, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Attitude control of a flexible solar sail in low
+  {{Earth}} orbit}.
+\newblock \bibinfo{journal}{Journal of Guidance, Control, and Dynamics}
+  \bibinfo{volume}{41}, \bibinfo{pages}{1715--1730}.
+\newblock \DOIprefix\doi{10.2514/1.G003178}.
+%Type = Article
 \bibitem[{Hubaux and Lemaitre(2013)}]{hubaux2013shadow}
 \bibinfo{author}{Hubaux, C.}, \bibinfo{author}{Lemaitre, A.},
   \bibinfo{year}{2013}.
@@ -72,6 +142,29 @@
 \newblock \bibinfo{journal}{Celestial Mechanics and Dynamical Astronomy}
   \bibinfo{volume}{116}, \bibinfo{pages}{79--95}.
 \newblock \DOIprefix\doi{10.1007/s10569-013-9480-0}.
+%Type = Inproceedings
+\bibitem[{Hughes et~al.(2014)Hughes, Qureshi, Cooley, Parker and
+  Grubb}]{hughesGMATVV2014}
+\bibinfo{author}{Hughes, S.P.}, \bibinfo{author}{Qureshi, R.H.},
+  \bibinfo{author}{Cooley, D.S.}, \bibinfo{author}{Parker, J.J.K.},
+  \bibinfo{author}{Grubb, T.G.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Verification and {{Validation}} of the {{General
+  Mission Analysis Tool}} ({{GMAT}})}, in: \bibinfo{booktitle}{{{AIAA}}/{{AAS
+  Astrodynamics Specialist Conference}}}, \bibinfo{address}{San Diego, CA}.
+\newblock \bibinfo{note}{NASA GSFC-E-DAA-TN15870;
+  \url{https://ntrs.nasa.gov/citations/20140017798}}.
+%Type = Article
+\bibitem[{Johnson et~al.(2011)Johnson, Whorton, Heaton, Pinson, Laue and
+  Adams}]{johnsonNanoSailD2011}
+\bibinfo{author}{Johnson, L.}, \bibinfo{author}{Whorton, M.},
+  \bibinfo{author}{Heaton, A.}, \bibinfo{author}{Pinson, R.},
+  \bibinfo{author}{Laue, G.}, \bibinfo{author}{Adams, C.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{{NanoSail-D}}: {{A}} solar sail demonstration
+  mission}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{68},
+  \bibinfo{pages}{571--575}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2010.02.008}.
 %Type = Article
 \bibitem[{Johnson et~al.(2012)Johnson, Young, Barnes, Friedman, Lappas and
   McInnes}]{johnsonSolarSailsTechnology2012}
@@ -85,6 +178,16 @@
   Sciences} \bibinfo{volume}{13}, \bibinfo{pages}{421--427}.
 \newblock \DOIprefix\doi{10.5139/IJASS.2012.13.4.421}.
 %Type = Article
+\bibitem[{Kenneally et~al.(2020)Kenneally, Piggott and
+  Schaub}]{kenneallyBasilisk2020}
+\bibinfo{author}{Kenneally, P.W.}, \bibinfo{author}{Piggott, S.},
+  \bibinfo{author}{Schaub, H.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Basilisk: {{A Flexible}}, {{Scalable}} and {{Modular
+  Astrodynamics Simulation Framework}}}.
+\newblock \bibinfo{journal}{Journal of Aerospace Information Systems}
+  \bibinfo{volume}{17}, \bibinfo{pages}{496--507}.
+\newblock \DOIprefix\doi{10.2514/1.I010762}.
+%Type = Article
 \bibitem[{Kopp and Lean(2011)}]{kopp2011solar}
 \bibinfo{author}{Kopp, G.}, \bibinfo{author}{Lean, J.L.}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{A new, lower value of total solar irradiance:
@@ -92,6 +195,18 @@
 \newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{38},
   \bibinfo{pages}{L01706}.
 \newblock \DOIprefix\doi{10.1029/2010GL045777}.
+%Type = Article
+\bibitem[{Lappas et~al.(2011)Lappas, Adeli, Visagie, Fernandez, Theodorou,
+  Steyn and Perren}]{lappasCubeSail2011}
+\bibinfo{author}{Lappas, V.}, \bibinfo{author}{Adeli, N.},
+  \bibinfo{author}{Visagie, L.}, \bibinfo{author}{Fernandez, J.},
+  \bibinfo{author}{Theodorou, T.}, \bibinfo{author}{Steyn, W.},
+  \bibinfo{author}{Perren, M.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{{CubeSail}}: {{A}} low cost {{CubeSat}} based solar
+  sail demonstration mission}.
+\newblock \bibinfo{journal}{Advances in Space Research} \bibinfo{volume}{48},
+  \bibinfo{pages}{1890--1901}.
+\newblock \DOIprefix\doi{10.1016/j.asr.2011.05.033}.
 %Type = Article
 \bibitem[{L{\"u}cking et~al.(2012)L{\"u}cking, Colombo and
   McInnes}]{lucking2012solar}
@@ -110,14 +225,41 @@
 \newblock Springer-Praxis Books in Astronautical Engineering,
   \bibinfo{publisher}{Springer-Praxis}, \bibinfo{address}{Berlin}.
 \newblock \DOIprefix\doi{10.1007/978-1-4471-3992-8}.
+%Type = Article
+\bibitem[{McMahon and Scheeres(2010)}]{mcmahonSchereesSRP2010}
+\bibinfo{author}{McMahon, J.W.}, \bibinfo{author}{Scheeres, D.J.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{New solar radiation pressure force model for
+  navigation}.
+\newblock \bibinfo{journal}{Journal of Guidance, Control, and Dynamics}
+  \bibinfo{volume}{33}, \bibinfo{pages}{1418--1428}.
+\newblock \DOIprefix\doi{10.2514/1.48434}.
+%Type = Book
+\bibitem[{Montenbruck and Gill(2000)}]{montenbruckGill2000}
+\bibinfo{author}{Montenbruck, O.}, \bibinfo{author}{Gill, E.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Satellite {{Orbits}}: {{Models}}, {{Methods}} and
+  {{Applications}}}.
+\newblock \bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{Berlin,
+  Heidelberg}.
+\newblock \DOIprefix\doi{10.1007/978-3-642-58351-3}.
 %Type = Techreport
-\bibitem[{{NOAA} et~al.(1976){NOAA}, {NASA} and {USAF}}]{USSA1976}
+\bibitem[{{NOAA} et~al.(1976a){NOAA}, {NASA} and {USAF}}]{USSA1976}
 \bibinfo{author}{{NOAA}}, \bibinfo{author}{{NASA}}, \bibinfo{author}{{USAF}},
-  \bibinfo{year}{1976}.
+  \bibinfo{year}{1976}a.
 \newblock \bibinfo{title}{U.S. Standard Atmosphere, 1976}.
 \newblock \bibinfo{type}{Technical Report} \bibinfo{number}{NOAA-S/T 76-1562}.
   National Oceanic and Atmospheric Administration.
   \bibinfo{address}{Washington, D.C.}
+%Type = Techreport
+\bibitem[{{NOAA} et~al.(1976b){NOAA}, {NASA} and
+  {USAF}}]{usStandardAtmosphere1976}
+\bibinfo{author}{{NOAA}}, \bibinfo{author}{{NASA}}, \bibinfo{author}{{USAF}},
+  \bibinfo{year}{1976}b.
+\newblock \bibinfo{title}{U.{{S}}. {{Standard Atmosphere}}, 1976}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{NOAA-S/T 76-1562}.
+  U.S. Government Printing Office. \bibinfo{address}{Washington, D.C.}
+\newblock \bibinfo{note}{Also NASA-TM-X-74335; NTRS 19770009539}.
 %Type = Article
 \bibitem[{Prieto et~al.(2014)Prieto, Graziano and Roberts}]{prieto2014drag}
 \bibinfo{author}{Prieto, D.M.}, \bibinfo{author}{Graziano, B.P.},
@@ -126,6 +268,17 @@
 \newblock \bibinfo{journal}{Progress in Aerospace Sciences}
   \bibinfo{volume}{64}, \bibinfo{pages}{56--65}.
 \newblock \DOIprefix\doi{10.1016/j.paerosci.2013.09.001}.
+%Type = Misc
+\bibitem[{{Project Svarog Orbital Mechanics
+  Team}(2026)}]{svarogPropagatorCode2026}
+\bibinfo{author}{{Project Svarog Orbital Mechanics Team}},
+  \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{Open-source solar-sail {{LEO}} propagator and {{STK
+  Astrogator}} validation suite}.
+\newblock \bibinfo{howpublished}{Software and data repository}.
+\newblock
+  \bibinfo{note}{\url{https://github.com/extremefattypunch/Svarog-Paper-ISSS-2025-follow-up}
+  (directory \texttt{STK simulations/})}.
 %Type = Article
 \bibitem[{Quarta et~al.(2023)Quarta, Mengali, Bassetto and
   Niccolai}]{quartaOptimalInterplanetaryTrajectories2023}
@@ -137,6 +290,27 @@
 \newblock \bibinfo{journal}{Astrodyn} \bibinfo{volume}{7},
   \bibinfo{pages}{285--299}.
 \newblock \DOIprefix\doi{10.1007/s42064-023-0158-4}.
+%Type = Inproceedings
+\bibitem[{Refaat et~al.(2018)Refaat, Badawy, Ashry and
+  Omar}]{refaatPropagatorValidation2018}
+\bibinfo{author}{Refaat, A.}, \bibinfo{author}{Badawy, A.},
+  \bibinfo{author}{Ashry, M.}, \bibinfo{author}{Omar, A.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{High accuracy spacecraft orbit propagator
+  validation}, in: \bibinfo{booktitle}{Proceedings of the 18th {{International
+  Conference}} on {{Applied Mechanics}} and {{Mechanical Engineering}}
+  ({{AMME-18}})}, \bibinfo{address}{Cairo, Egypt}. pp. \bibinfo{pages}{1--9}.
+\newblock \DOIprefix\doi{10.21608/amme.2018.34732}.
+%Type = Article
+\bibitem[{{Rodr{\'i}guez-Solano} et~al.(2012){Rodr{\'i}guez-Solano},
+  Hugentobler and Steigenberger}]{rodriguezsolanoBoxWing2012}
+\bibinfo{author}{{Rodr{\'i}guez-Solano}, C.J.}, \bibinfo{author}{Hugentobler,
+  U.}, \bibinfo{author}{Steigenberger, P.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Adjustable box-wing model for solar radiation
+  pressure impacting {{GPS}} satellites}.
+\newblock \bibinfo{journal}{Advances in Space Research} \bibinfo{volume}{49},
+  \bibinfo{pages}{1113--1128}.
+\newblock \DOIprefix\doi{10.1016/j.asr.2012.01.016}.
 %Type = Inproceedings
 \bibitem[{Sawada et~al.(2011)Sawada, Mori, Okuizumi, Shirasawa, Miyazaki,
   Natori, Matunaga, Furuya and Sakamoto}]{sawadaMissionReportSolar2011}
@@ -153,6 +327,15 @@
   Colorado}.
 \newblock \DOIprefix\doi{10.2514/6.2011-1887}.
 %Type = Article
+\bibitem[{Selva and Krejci(2012)}]{selvaCubeSatSurvey2012}
+\bibinfo{author}{Selva, D.}, \bibinfo{author}{Krejci, D.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{A survey and assessment of the capabilities of
+  {{Cubesats}} for {{Earth}} observation}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{74},
+  \bibinfo{pages}{50--68}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2011.12.014}.
+%Type = Article
 \bibitem[{Shen and Caverly(2026)}]{shenSolarSailMomentum2026}
 \bibinfo{author}{Shen, P.Y.}, \bibinfo{author}{Caverly, R.J.},
   \bibinfo{year}{2026}.
@@ -161,6 +344,14 @@
 \newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{241},
   \bibinfo{pages}{134--152}.
 \newblock \DOIprefix\doi{10.1016/j.actaastro.2025.12.042}.
+%Type = Inproceedings
+\bibitem[{Short et~al.(2019)Short, Ghosh and
+  Claybrook}]{shortRevisitingTrajectory2019}
+\bibinfo{author}{Short, C.}, \bibinfo{author}{Ghosh, P.},
+  \bibinfo{author}{Claybrook, A.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Revisiting trajectory design with {{STK Astrogator}},
+  {{Part}} 1}, in: \bibinfo{booktitle}{{{AAS}}/{{AIAA Astrodynamics Specialist
+  Conference}}}, \bibinfo{address}{Portland, Maine}.
 %Type = Article
 \bibitem[{Spencer et~al.(2021)Spencer, Betts, Bellardo, Diaz, Plante and
   Mansell}]{spencerLightSail2Solar2021}
@@ -182,6 +373,14 @@
   \bibinfo{publisher}{{American Institute of Aeronautics and Astronautics}},
   \bibinfo{address}{National Harbor, Maryland}.
 \newblock \DOIprefix\doi{10.2514/6.2014-1509}.
+%Type = Misc
+\bibitem[{{The Orekit Development Team}()}]{orekit}
+\bibinfo{author}{{The Orekit Development Team}}, .
+\newblock \bibinfo{title}{Orekit: {{An}} accurate and efficient core layer for
+  space flight dynamics applications}.
+\newblock \bibinfo{howpublished}{Software, Zenodo}.
+\newblock \DOIprefix\doi{10.5281/zenodo.7249096}.
+  \bibinfo{note}{\url{https://www.orekit.org/}}.
 %Type = Article
 \bibitem[{Tsuda et~al.(2013)Tsuda, Mori, Funase, Sawada, Yamamoto, Saiki, Endo,
   Yonekura, Hoshino and Kawaguchi}]{tsuda2011ikaros}
@@ -197,6 +396,22 @@
   \bibinfo{pages}{183--188}.
 \newblock \DOIprefix\doi{10.1016/j.actaastro.2012.03.032}.
 %Type = Article
+\bibitem[{Underwood et~al.(2019)Underwood, Viquerat, Schenk, Taylor,
+  Massimiani, Duke, Stewart, Fellowes, Bridges, Aglietti, Sanders, Masutti and
+  Denis}]{underwoodInflateSail2019}
+\bibinfo{author}{Underwood, C.}, \bibinfo{author}{Viquerat, A.},
+  \bibinfo{author}{Schenk, M.}, \bibinfo{author}{Taylor, B.},
+  \bibinfo{author}{Massimiani, C.}, \bibinfo{author}{Duke, R.},
+  \bibinfo{author}{Stewart, B.}, \bibinfo{author}{Fellowes, S.},
+  \bibinfo{author}{Bridges, C.}, \bibinfo{author}{Aglietti, G.},
+  \bibinfo{author}{Sanders, B.}, \bibinfo{author}{Masutti, D.},
+  \bibinfo{author}{Denis, A.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{{{InflateSail}} de-orbit flight demonstration results
+  and follow-on drag-sail applications}.
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{162},
+  \bibinfo{pages}{344--358}.
+\newblock \DOIprefix\doi{10.1016/j.actaastro.2019.05.054}.
+%Type = Article
 \bibitem[{Valk et~al.(2008)Valk, Lemaitre and Anselmo}]{valk2008semi}
 \bibinfo{author}{Valk, S.}, \bibinfo{author}{Lemaitre, A.},
   \bibinfo{author}{Anselmo, L.}, \bibinfo{year}{2008}.
@@ -211,6 +426,15 @@
 \newblock \bibinfo{title}{Fundamentals of Astrodynamics and Applications}.
 \newblock \bibinfo{edition}{4th} ed., \bibinfo{publisher}{Microcosm Press},
   \bibinfo{address}{Hawthorne, CA}.
+%Type = Article
+\bibitem[{Vielberg and Kusche(2020)}]{vielbergRadiationPressure2020}
+\bibinfo{author}{Vielberg, K.}, \bibinfo{author}{Kusche, J.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Extended forward and inverse modeling of radiation
+  pressure accelerations for {{LEO}} satellites}.
+\newblock \bibinfo{journal}{Journal of Geodesy} \bibinfo{volume}{94},
+  \bibinfo{pages}{43}.
+\newblock \DOIprefix\doi{10.1007/s00190-020-01368-6}.
 %Type = Inproceedings
 \bibitem[{Wilkie(2021)}]{wilkieOverviewNASAAdvanced2021}
 \bibinfo{author}{Wilkie, W.K.}, \bibinfo{year}{2021}.
@@ -220,6 +444,17 @@
   \bibinfo{publisher}{{American Institute of Aeronautics and Astronautics}},
   \bibinfo{address}{VIRTUAL EVENT}.
 \newblock \DOIprefix\doi{10.2514/6.2021-1260}.
+%Type = Article
+\bibitem[{Woellert et~al.(2011)Woellert, Ehrenfreund, Ricco and
+  Hertzfeld}]{woellertCubeSatCost2011}
+\bibinfo{author}{Woellert, K.}, \bibinfo{author}{Ehrenfreund, P.},
+  \bibinfo{author}{Ricco, A.J.}, \bibinfo{author}{Hertzfeld, H.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Cubesats: {{Cost-effective}} science and technology
+  platforms for emerging and developing nations}.
+\newblock \bibinfo{journal}{Advances in Space Research} \bibinfo{volume}{47},
+  \bibinfo{pages}{663--684}.
+\newblock \DOIprefix\doi{10.1016/j.asr.2010.10.009}.
 %Type = Article
 \bibitem[{Ya~Kezerashvili and
   Ancona(2025)}]{yakezerashviliRecentAdvancesSpace2025}
@@ -231,5 +466,22 @@
 \newblock \bibinfo{journal}{AAOAJ} \bibinfo{volume}{9},
   \bibinfo{pages}{62--73}.
 \newblock \DOIprefix\doi{10.15406/aaoaj.2025.09.00221}.
+%Type = Article
+\bibitem[{Ziebart(2004)}]{ziebartGeneralizedSRP2004}
+\bibinfo{author}{Ziebart, M.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Generalized analytical solar radiation pressure
+  modeling algorithm for spacecraft of complex shape}.
+\newblock \bibinfo{journal}{Journal of Spacecraft and Rockets}
+  \bibinfo{volume}{41}, \bibinfo{pages}{840--848}.
+\newblock \DOIprefix\doi{10.2514/1.13097}.
+%Type = Article
+\bibitem[{Ziebart and Dare(2001)}]{ziebartDarePixelArray2001}
+\bibinfo{author}{Ziebart, M.}, \bibinfo{author}{Dare, P.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Analytical solar radiation pressure modelling for
+  {{GLONASS}} using a pixel array}.
+\newblock \bibinfo{journal}{Journal of Geodesy} \bibinfo{volume}{75},
+  \bibinfo{pages}{587--599}.
+\newblock \DOIprefix\doi{10.1007/s001900000136}.
 
 \end{thebibliography}
