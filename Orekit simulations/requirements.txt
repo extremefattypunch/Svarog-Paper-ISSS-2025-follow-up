@@ -1,0 +1,5 @@
+# Orekit 13.1 via the JPype bridge (stock Orekit jars, no JCC build needed).
+orekit_jpype>=13.1,<14
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8

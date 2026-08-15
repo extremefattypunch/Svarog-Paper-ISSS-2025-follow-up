@@ -4,7 +4,7 @@
 
 \documentclass[11pt,a4paper]{article}
 
-\usepackage[a4paper,top=0.9in,bottom=0.9in,left=1in,right=1in]{geometry}
+\usepackage[a4paper,top=0.7in,bottom=0.7in,left=0.95in,right=0.95in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{microtype}
@@ -19,10 +19,11 @@
 }
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.55em}
+\setlength{\parskip}{0.42em}
 
 \begin{document}
 
+\pagestyle{empty}
 \thispagestyle{empty}
 
 \begin{flushright}\today\end{flushright}
@@ -35,13 +36,15 @@ International Academy of Astronautics
 \vspace{0.6em}
 
 \noindent\textbf{Subject:} Submission of original research article ---
-\textit{``Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilized Solar Sails''}
+\textit{``Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilised Solar Sails''}
 
 Dear Editor,
 
-We are pleased to submit our manuscript, \textit{``Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilized Solar Sails''}, for consideration as an original research article in \textit{Acta Astronautica}. The work falls within the journal's scope of astrodynamics and space-borne system design, and addresses a question of direct relevance to passively oriented small solar-sail spacecraft in low Earth orbit (LEO).
+We are pleased to submit our manuscript, \textit{``Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilised Solar Sails''}, for consideration as an original research article in \textit{Acta Astronautica}. The work falls within the journal's scope of astrodynamics and space-borne system design, and addresses a question of direct relevance to passively oriented small solar-sail spacecraft in low Earth orbit (LEO).
 
 \textbf{Aim and main findings.} The paper investigates whether a passively oriented, spin-stabilised solar sail in near-polar LEO can exhibit a bounded interval of net orbital-energy gain through eclipse-modulated solar-radiation-pressure (SRP) forcing. Combining a reduced analytical model with three-dimensional numerical propagations, we show that the regime exists, but only within a narrow LTDN--pitch envelope: at \(700\,\mathrm{km}\), only \(89\) of \(900\) sampled cases (\(\sim 10\%\)) show positive semi-major-axis excursion within a 14-day window, with peak gain \(\Delta a \approx +20.07\,\mathrm{km}\). Eclipse is causally decisive --- the eclipse-on case rises by \(+10.31\,\mathrm{km}\) over 14 days while the eclipse-off counterpart falls by \(-47.75\,\mathrm{km}\) --- and the effect is transient and self-limiting through coupled apogee growth, eccentricity build-up, and perigee erosion.
+
+\textbf{Independent validation and open toolchain.} The paper also pursues a methodological goal. We re-implement the model in an independent open-source propagator, which reproduces the gain lobe, the eclipse-driven sign reversal, and the transient--breakdown signature, confirming that the mechanism is not an artefact of a single implementation. Cross-validating that propagator component by component against Ansys STK with the Astrogator module, two-body and \(J_2\) dynamics agree to better than \(0.05\,\mathrm{km}\) over 14 days, whereas the drag-induced decay differs by close to an order of magnitude despite matching instantaneous force --- identifying atmospheric-drag modelling, rather than the SRP mechanism, as the dominant uncertainty governing where the regime is realisable. The full toolchain and data are released openly.
 
 \textbf{Fit, novelty, and implications.} \textit{Acta Astronautica} publishes work in astrodynamics, space transportation, and spacecraft system design --- the natural home for this contribution. To our knowledge, the eclipse-modulated transient energy-pumping regime has not previously been isolated and characterised in this form for spin-stabilised sails in LEO. Prior literature emphasises long-term or equilibrium-like SRP--drag balance; we instead show that eclipse timing alone, without active control, can flip the sign of the orbit-averaged SRP work integral over a bounded horizon, while also exposing the coupled mechanisms that close the regime. The result clarifies a real but narrow opportunity for passive orbit shaping and provides a cautionary example of how the same dynamics that enable early gain drive its eventual breakdown.
 
@@ -49,16 +52,16 @@ We are pleased to submit our manuscript, \textit{``Eclipse-Modulated Transient E
 
 We thank you for considering our manuscript and look forward to the review process.
 
-\vspace{0.4em}
+\vspace{0.25em}
 
 \noindent Yours sincerely,
 
-\vspace{1.6em}
+\vspace{1.1em}
 
 \noindent
-Matthew Acevski\\
+Ian Poon\\
 \textit{Corresponding author, on behalf of all co-authors}\\
-Department of Physics, Imperial College London\\
-\href{mailto:matthew.acevski19@imperial.ac.uk}{matthew.acevski19@imperial.ac.uk}
+Department of Bioengineering, Imperial College London\\
+\href{mailto:ip323@ic.ac.uk}{ip323@ic.ac.uk}
 
 \end{document}

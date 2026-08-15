@@ -1,20 +1,19 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.13)  13 JUL 2026 03:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.30)  14 AUG 2026 04:44
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
-(cas-dc.cls
+L3 programming layer <2026-01-19>
+(./cas-dc.cls
 Document Class: cas-dc 2024/05/04, 2.4: Formatting class for CAS double column 
 articles
 \c@blind=\count275
 \@bls=\dimen148
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo
+(/usr/share/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
 \mathindent=\skip49
 Applying: [2015/01/01] Make \[ robust on input line 50.
@@ -24,7 +23,7 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count276
@@ -39,50 +38,48 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip51
 \bibindent=\dimen149
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
-y
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
-y
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
-s.cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
-def
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen152
-)) (C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
-y
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen153
-) (C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count284
@@ -133,8 +130,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
-y
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -142,28 +138,28 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-12-24 L3 programming layer (loader) 
+)
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
-pdftex.def
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
 ))
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
-arse.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
-y
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count297
-) (C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\balance.sty
+)
+(/usr/share/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen161
-) (C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\booktabs.sty
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen162
 \lightrulewidth=\dimen163
@@ -183,10 +179,10 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count301
 \@thisrulewidth=\dimen174
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\makecell.sty
+(/usr/share/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen175
 \ar@mcellbox=\box55
@@ -200,51 +196,49 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \c@nlinenum=\count302
 \TeXr@lab=\toks24
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\multirow.sty
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip57
 \multirow@cntb=\count303
 \multirow@dima=\skip58
 \bigstrutjot=\dimen178
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\colortbl.sty
-Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
-fg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
-tx))
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 \everycr=\toks25
 \minrowclearance=\skip59
 \rownum=\count304
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+(/usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2025/10/21 v1.06 decimal alignment package (DPC)
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\stfloats.sty
+(/usr/share/texmf-dist/tex/latex/sttools/stfloats.sty
 Package: stfloats 2025/06/18 v3.4 Improve float mechanism and baselineskip sett
 ings
 \@dblbotnum=\count305
 \c@dblbotnumber=\count306
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\xstring.sty
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\xstring.tex
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
 \xs_counta=\count307
 \xs_countb=\count308
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\footmisc.sty
+(/usr/share/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
 \FN@temptoken=\toks26
 \footnotemargin=\dimen179
@@ -257,18 +251,16 @@ Package footmisc Info: Declaring symbol style lamport* on input line 597.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 618
 .
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
-fg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
-tx)
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -279,59 +271,59 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
+(/usr/share/texmf-dist/tex/latex/xcolor/svgnam.def
 File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.de
-f
+(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
-y
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\kvsetkeys.sty
+)
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\kvdefinekeys.st
-y
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\pdfescape.sty
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\ltxcmds.sty
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
-mds.sty
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\infwarerr.sty
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\hycolor.sty
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\refcount.sty
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\gettitlestring.
-sty
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\kvoptions.sty
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count309
-) (C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\stringenc.sty
+)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
@@ -339,78 +331,78 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Hy@linkcounter=\count310
 \Hy@pagecounter=\count311
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\intcalc.sty
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count312
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count313
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen181
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\bitset.sty
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\bigintcalc.sty
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count314
 \Field@Width=\dimen182
 \Fld@charsize=\dimen183
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring ON on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring ON on input line 6102.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count315
 \c@Item=\count316
 \c@Hfootnote=\count317
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count318
 \c@bookmark@seq@number=\count319
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\rerunfilecheck.
-sty
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\uniquecounter.s
-ty
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
 \Hy@SectionHShift=\skip60
-) (cas-common.sty
+)
+(./cas-common.sty
 \l_stm_title_before_dim=\dimen184
 \l_stm_title_after_dim=\dimen185
 \g_ead_int=\count320
@@ -437,11 +429,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \l_stm_aff_rskip_dim=\dimen193
 \g_stm_augr_int=\count333
 \g_stm_aaugr_int=\count334
-
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\moreverb.sty
+ (/usr/share/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks28
 \verbatim@line=\toks29
@@ -478,7 +469,8 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \l_fig_belowcap_skip=\skip66
 \l_fig_abovefig_skip=\skip67
 \l_fig_belowfig_skip=\skip68
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\wrapfig.sty
+
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen199
 \WF@size=\dimen256
 \c@WF@wrappedlines=\count345
@@ -502,22 +494,147 @@ Package: wrapfig 2003/01/31  v 3.6
 \@sep=\skip69
 \@@sep=\skip70
 )
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-***********************************************************
- Stix and Charis fonts are not available 
- in TeX system. Hence CMR fonts are used.
-***********************************************************
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\geometry.sty
-Package: geometry 2026/03/07 v6.0 Page Geometry
+(/usr/share/texmf-dist/tex/latex/stix/stix.sty
+Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+)
+LaTeX Encoding Info:    Text command \textpertenthousand (encoding T1) is not d
+eclared on input line 51.
+LaTeX Encoding Info:    Redeclaring text command \textpertenthousand (encoding 
+?) on input line 52.
+Now handling font encoding LS1 ...
+... no UTF-8 mapping file for font encoding LS1
+Now handling font encoding LS2 ...
+... no UTF-8 mapping file for font encoding LS2
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
+\symbold-operators=\mathgroup6
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
+\symsymbols2=\mathgroup7
+\symsymbols3=\mathgroup8
+\symsymbols4=\mathgroup9
+\symintegrals=\mathgroup10
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 84.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+\symarrows1=\mathgroup11
+\symarrows2=\mathgroup12
+\symarrows3=\mathgroup13
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
+LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
+(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+
+LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
+(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
+LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
+(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
+LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
+(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
+LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
+(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
+LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
+(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
+LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
+(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
+LaTeX Info: Redefining \yen on input line 456.
+LaTeX Info: Redefining \circledR on input line 458.
+LaTeX Info: Redefining \checkmark on input line 460.
+LaTeX Info: Redefining \maltese on input line 461.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 698.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 699.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 700.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 701.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 702.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 703.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 704.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 705.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 707.
+LaTeX Font Info:    Redeclaring math accent \check on input line 708.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 716.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 728.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 729.
+LaTeX Info: Redefining \vdots on input line 1518.
+LaTeX Info: Redefining \cdots on input line 1522.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1978.
+LaTeX Info: Redefining \not on input line 2144.
+)
+(/usr/share/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
+\XKV@tempb@toks=\toks34
+)
+\XKV@depth=\count350
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count351
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count350
-\Gm@cntv=\count351
-\c@Gm@tempcnt=\count352
+\Gm@cnth=\count352
+\Gm@cntv=\count353
+\c@Gm@tempcnt=\count354
 \Gm@bindingoffset=\dimen264
 \Gm@wd@mp=\dimen265
 \Gm@odd@mp=\dimen266
@@ -526,29 +643,30 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen269
 \Gm@layouthoffset=\dimen270
 \Gm@layoutvoffset=\dimen271
-\Gm@dimlist=\toks32
-)) (C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\natbib.sty
+\Gm@dimlist=\toks35
+))
+(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip71
 \bibsep=\skip72
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count353
+\c@NAT@ctr=\count355
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\float.sty
+(/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count354
-\float@exts=\toks33
+\c@float@type=\count356
+\float@exts=\toks36
 \float@box=\box66
-\@float@everytoks=\toks34
+\@float@everytoks=\toks37
 \@floatcapt=\box67
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\placeins.sty
+(/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\caption.sty
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\Ian Poon\Svarog-Paper-ISSS-2025-follow-up\.texmf-deps\caption3.sty
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen272
 \captionmargin=\dimen273
@@ -560,65 +678,89 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen279
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count355
-\c@continuedfloat=\count356
+\c@caption@flags=\count357
+\c@continuedfloat=\count358
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-(main.aux)
+LaTeX Font Info:    Trying to load font information for T1+stix on input line 6
+4.
+
+(/usr/share/texmf-dist/tex/latex/stix/t1stix.fd
+File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
+64.
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
-.mkii
+(/usr/share/texmf-dist/tex/latex/stix/ls1stix.fd
+File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+)
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
+64.
+
+(/usr/share/texmf-dist/tex/latex/stix/ls2stix.fd
+File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 64.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
+\scratchcounter=\count359
 \scratchdimen=\dimen280
 \scratchbox=\box68
-\nofMPsegments=\count358
-\nofMParguments=\count359
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count360
+\nofMPsegments=\count360
+\nofMParguments=\count361
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count362
 \MPscratchDim=\dimen281
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
-\everyMPtoPDFconversion=\toks36
-)
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f-base.sty
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
+\everyMPtoPDFconversion=\toks39
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
-s.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-Package hyperref Info: Link coloring ON on input line 42.
- (main.out) (main.out)
+LaTeX Info: Command `\dddot' is already robust on input line 64.
+LaTeX Info: Command `\ddddot' is already robust on input line 64.
+Package hyperref Info: Link coloring ON on input line 64.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
+ (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -655,101 +797,158 @@ Package hyperref Info: Link coloring ON on input line 42.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\corref' on input line 58.
-
 \verbatim@out=\write4
 \openout4 = `main.abs'.
 
-<figs/cas-grabs.pdf, id=3, 803.0pt x 401.5pt>
-File: figs/cas-grabs.pdf Graphic file (type pdf)
-<use figs/cas-grabs.pdf>
-Package pdftex.def Info: figs/cas-grabs.pdf  used on input line 104.
-(pdftex.def)             Requested size: 802.99805pt x 401.49901pt.
+LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
+132.
+(/usr/share/texmf-dist/tex/latex/stix/ts1stix.fd
+File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+ne 136.
 
-Overfull \hbox (308.48917pt too wide) in paragraph at lines 104--105
-[] 
- []
+(/usr/share/texmf-dist/tex/latex/stix/ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
+e 136.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 112
+(/usr/share/texmf-dist/tex/latex/stix/ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 136
 .
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 112
+LaTeX Font Info:    Trying to load font information for U+msb on input line 136
 .
 
-(C:\Users\Ian Poon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[0
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
+ine 136.
 
-{C:/Users/Ian Poon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figs/ca
-s-grabs.pdf>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.0}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.122 \maketitle
-                 [0]
-Overfull \hbox (123.62721pt too wide) detected at line 122
+(/usr/share/texmf-dist/tex/latex/stix/ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
+e 136.
+
+(/usr/share/texmf-dist/tex/latex/stix/ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
+ne 136.
+
+(/usr/share/texmf-dist/tex/latex/stix/ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
+ons
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
+e 136.
+
+(/usr/share/texmf-dist/tex/latex/stix/ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
+e 136.
+
+(/usr/share/texmf-dist/tex/latex/stix/ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+
+) [0
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
+/enc/dvips/stix/stix-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/stix/stix-ts
+1.enc}]
+Overfull \hbox (123.62721pt too wide) detected at line 147
 []
  []
 
-(main.abs)
+(./main.abs)
 
-Package hyperref Warning: Ignoring empty anchor on input line 122.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 122.
+Package hyperref Warning: Ignoring empty anchor on input line 147.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 122.
+Package hyperref Warning: Ignoring empty anchor on input line 147.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 122.
+Package hyperref Warning: Ignoring empty anchor on input line 147.
 
-
-Package hyperref Warning: Ignoring empty anchor on input line 122.
-
-(Sections/introduction.tex [1
-
-]
-Underfull \hbox (badness 1205) in paragraph at lines 8--9
-\T1/cmr/m/n/10 In near-polar LEO, the in-ter-ac-tion be-tween SRP,
+(./Sections/introduction.tex
+Overfull \hbox (16.62555pt too wide) in paragraph at lines 2--3
+\T1/stix/m/n/10 Solar ra-di-a-tion pres-sure (SRP) pro-vides a con-tin-u-ous, p
+ropellant-
  []
 
-)
-<Figures/earth.png, id=117, 556.32843pt x 285.31593pt>
+
+Underfull \hbox (badness 1122) in paragraph at lines 5--6
+\T1/stix/m/n/10 di-a-tion pres-sure and at-mo-spheric drag on high area-to-
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 5--6
+\T1/stix/m/n/10 man-i-folds or ``bal-ance'' con-di-tions, rather than iso-lat-i
+ng
+ []
+
+[1
+
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
+<Figures/earth.png, id=68, 556.32843pt x 285.31593pt>
 File: Figures/earth.png Graphic file (type png)
 <use Figures/earth.png>
-Package pdftex.def Info: Figures/earth.png  used on input line 130.
+Package pdftex.def Info: Figures/earth.png  used on input line 155.
 (pdftex.def)             Requested size: 494.50888pt x 253.61691pt.
- (Sections/scope.tex [2]) (Sections/physicalmech.tex [3 <./Figures/earth.png>] 
+
+(./Sections/scope.tex [2]
+Underfull \hbox (badness 1281) in paragraph at lines 9--10
+\T1/stix/m/n/10 ob-served en-ergy gain emerges and sub-se-quently breaks
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 9--10
+\T1/stix/m/n/10 that the gain re-gion is re-pro-ducible across in-de-pen-dent
+ []
+
+) (./Sections/physicalmech.tex [3 <./Figures/earth.png>]
+Underfull \hbox (badness 1642) in paragraph at lines 101--102
+\T1/stix/m/n/10 The pre-vi-ous can-cel-la-tion re-sult changes fun-da-men-tally
+
+ []
+
 [4]
-Overfull \hbox (28.64505pt too wide) detected at line 124
- $\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 "[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 a[
-]r [][] ^^L [] :$  
+Overfull \hbox (18.51172pt too wide) detected at line 124
+ $\LS1/stix/m/n/10 ^^A\LS1/stix/m/it/10 "[] \LS1/stix/m/n/10 = \LS1/stix/m/it/1
+0 a[]r [][] ^^L [] :$  
  []
 
-[5]) (Sections/dynmodel.tex
-Underfull \hbox (badness 1184) in paragraph at lines 9--11
-\T1/cmr/m/n/10 which is pri-mar-ily sup-plied by Earth's oblate-ness
+) (./Sections/dynmodel.tex
+Underfull \hbox (badness 1325) in paragraph at lines 2--3
+\T1/stix/m/n/10 This study con-sid-ers a bounded orbital-dynamics prob-
  []
 
-[6]
-Overfull \hbox (0.27065pt too wide) in paragraph at lines 130--131
-\T1/cmr/m/n/10 The aero-dy-namic model used here is a sim-ple projected-
+
+Underfull \hbox (badness 2020) in paragraph at lines 2--3
+\T1/stix/m/n/10 semi-major-axis growth while re-main-ing close to Sun-
  []
 
-[7]) (Sections/paramspace.tex [8]
-Overfull \hbox (2.49232pt too wide) in paragraph at lines 11--12
-\T1/cmr/m/n/10 The parameter-space ex-plo-ration is in-ten-tion-ally staged.
+[5] [6{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[7]) (./Sections/paramspace.tex
+Underfull \hbox (badness 1325) in paragraph at lines 2--3
+\T1/stix/m/n/10 eclipse-modulated SRP can pro-duce a \T1/stix/m/it/10 tem-po-ra
+ry \T1/stix/m/n/10 semi-
  []
 
-[9]) (Sections/transient.tex
-<Figures/ltdn.png, id=301, 621.522pt x 441.8106pt>
+[8]) (./Sections/transient.tex [9]
+<Figures/ltdn.png, id=221, 621.522pt x 441.8106pt>
 File: Figures/ltdn.png Graphic file (type png)
 <use Figures/ltdn.png>
 Package pdftex.def Info: Figures/ltdn.png  used on input line 9.
@@ -760,7 +959,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 11.
 See the caption package documentation for explanation.
 
-<Figures/fig3oldno.png, id=303, 381.5856pt x 291.0072pt>
+<Figures/fig3oldno.png, id=223, 381.5856pt x 291.0072pt>
 File: Figures/fig3oldno.png Graphic file (type png)
 <use Figures/fig3oldno.png>
 Package pdftex.def Info: Figures/fig3oldno.png  used on input line 27.
@@ -775,21 +974,36 @@ Overfull \hbox (11.91344pt too wide) in paragraph at lines 27--29
  [] 
  []
 
-[10 <./Figures/ltdn.png (PNG copy)>]
-<Figures/Fig4_Fullrect.png, id=313, 947.2188pt x 358.941pt>
+<Figures/Fig4_Fullrect.png, id=226, 947.2188pt x 358.941pt>
 File: Figures/Fig4_Fullrect.png Graphic file (type png)
 <use Figures/Fig4_Fullrect.png>
 Package pdftex.def Info: Figures/Fig4_Fullrect.png  used on input line 43.
 (pdftex.def)             Requested size: 494.50888pt x 187.39525pt.
- [11 <./Figures/fig3oldno.png (PNG copy)>]
-<Figures/Fig5_fullrect.png, id=323, 959.7456pt x 334.851pt>
+
+Underfull \hbox (badness 1028) in paragraph at lines 50--51
+\T1/stix/m/n/10 the gain case, the eclipse-on or-bit closes with cu-mu-la-
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 50--51
+\T1/stix/m/n/10 and de-cay cases, the eclipse-on end val-ues are in-stead
+ []
+
+[10 <./Figures/ltdn.png (PNG copy)> <./Figures/fig3oldno.png (PNG copy)>]
+<Figures/Fig5_fullrect.png, id=236, 959.7456pt x 334.851pt>
 File: Figures/Fig5_fullrect.png Graphic file (type png)
 <use Figures/Fig5_fullrect.png>
 Package pdftex.def Info: Figures/Fig5_fullrect.png  used on input line 55.
 (pdftex.def)             Requested size: 494.50888pt x 172.53448pt.
-) (Sections/breakdown.tex [12 <./Figures/Fig4_Fullrect.png (PNG copy)> <./Figur
+)
+Overfull \hbox (1.69792pt too wide) in paragraph at lines 69--183
+\T1/stix/m/n/10 points. First, a bounded transient-gain re-gion ex-ists at $\LS
+1/stix/m/n/10 700 []$
+ []
+
+(./Sections/breakdown.tex [11 <./Figures/Fig4_Fullrect.png (PNG copy)> <./Figur
 es/Fig5_fullrect.png (PNG copy)>]
-<Figures/fig9_rect.png, id=332, 949.6278pt x 283.2984pt>
+<Figures/fig9_rect.png, id=244, 949.6278pt x 283.2984pt>
 File: Figures/fig9_rect.png Graphic file (type png)
 <use Figures/fig9_rect.png>
 Package pdftex.def Info: Figures/fig9_rect.png  used on input line 57.
@@ -799,12 +1013,13 @@ Overfull \hbox (24.72694pt too wide) in paragraph at lines 57--59
  [][] 
  []
 
-[13 <./Figures/fig9_rect.png (PNG copy)>]
-Underfull \hbox (badness 1127) in paragraph at lines 80--81
-\T1/cmr/m/n/10 averaged early-versus-late com-par-i-son in Fig-ure [][]8[][].
+[12 <./Figures/fig9_rect.png (PNG copy)>]
+Overfull \hbox (7.64551pt too wide) in paragraph at lines 83--84
+\T1/stix/m/n/10 The cor-rect long-horizon in-ter-pre-ta-tion is there-fore a ti
+mescale
  []
 
-<Figures/fig10_square.png, id=342, 346.896pt x 316.0608pt>
+<Figures/fig10_square.png, id=255, 346.896pt x 316.0608pt>
 File: Figures/fig10_square.png Graphic file (type png)
 <use Figures/fig10_square.png>
 Package pdftex.def Info: Figures/fig10_square.png  used on input line 86.
@@ -814,7 +1029,12 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 88.
 See the caption package documentation for explanation.
 
-<Figures/fig11_square.png, id=345, 367.1316pt x 316.0608pt>
+
+Underfull \hbox (badness 1584) in paragraph at lines 136--137
+\T1/stix/m/n/10 us-ing the Gauss Vari-a-tional Equa-tions, we ar-gued that
+ []
+
+<Figures/fig11_square.png, id=258, 367.1316pt x 316.0608pt>
 File: Figures/fig11_square.png Graphic file (type png)
 <use Figures/fig11_square.png>
 Package pdftex.def Info: Figures/fig11_square.png  used on input line 140.
@@ -824,25 +1044,36 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 142.
 See the caption package documentation for explanation.
 
-<Figures/fig12_sq.png, id=346, 379.6584pt x 326.1786pt>
+[13 <./Figures/fig10_square.png (PNG copy)> <./Figures/fig11_square.png (PNG co
+py)>]
+<Figures/fig12_sq.png, id=267, 379.6584pt x 326.1786pt>
 File: Figures/fig12_sq.png Graphic file (type png)
 <use Figures/fig12_sq.png>
 Package pdftex.def Info: Figures/fig12_sq.png  used on input line 150.
 (pdftex.def)             Requested size: 238.25444pt x 204.69229pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 152.
 See the caption package documentation for explanation.
 
-[14 <./Figures/fig10_square.png (PNG copy)> <./Figures/fig11_square.png (PNG co
-py)>]
-<Figures/precession.png, id=353, 669.2503pt x 277.035pt>
+
+Underfull \hbox (badness 1253) in paragraph at lines 152--152
+[]\T1/stix/m/n/10 Figure 9: |[]Orbit-mean SRP force de-com-po-si-tion for the
+ []
+
+<Figures/precession.png, id=268, 669.2503pt x 277.035pt>
 File: Figures/precession.png Graphic file (type png)
 <use Figures/precession.png>
 Package pdftex.def Info: Figures/precession.png  used on input line 160.
 (pdftex.def)             Requested size: 494.50888pt x 204.70677pt.
- [15 <./Figures/fig12_sq.png (PNG copy)>]) (Sections/sensitivity.tex
-<Figures/fig6_w78.png, id=361, 396.5214pt x 322.806pt>
+) (./Sections/sensitivity.tex
+Underfull \hbox (badness 1028) in paragraph at lines 2--3
+\T1/stix/m/n/10 To as-sess whether the iden-ti-fied short-horizon gain be-
+ []
+
+[14 <./Figures/precession.png> <./Figures/fig12_sq.png (PNG copy)>]
+<Figures/fig6_w78.png, id=277, 396.5214pt x 322.806pt>
 File: Figures/fig6_w78.png Graphic file (type png)
 <use Figures/fig6_w78.png>
 Package pdftex.def Info: Figures/fig6_w78.png  used on input line 17.
@@ -853,12 +1084,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 18.
 See the caption package documentation for explanation.
 
-[16 <./Figures/precession.png>]
-Underfull \hbox (badness 1242) in paragraph at lines 25--27
-\T1/cmr/m/n/10 den-sity model by a con-stant mul-ti-plica-tive fac-tor
- []
-
-<Figures/fig7_w78.png, id=371, 399.894pt x 322.806pt>
+<Figures/fig7_w78.png, id=279, 399.894pt x 322.806pt>
 File: Figures/fig7_w78.png Graphic file (type png)
 <use Figures/fig7_w78.png>
 Package pdftex.def Info: Figures/fig7_w78.png  used on input line 30.
@@ -868,33 +1094,64 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 31.
 See the caption package documentation for explanation.
 
-[17 <./Figures/fig6_w78.png (PNG copy)> <./Figures/fig7_w78.png (PNG copy)>]
-<Figures/fig8_w78.png, id=383, 407.6028pt x 324.2514pt>
+[15 <./Figures/fig6_w78.png (PNG copy)> <./Figures/fig7_w78.png (PNG copy)>]
+Overfull \hbox (2.57709pt too wide) in paragraph at lines 41--42
+\T1/stix/m/n/10 The al-ti-tude split again changes the in-ter-pre-ta-tion. At $
+\LS1/stix/m/n/10 700 []$\T1/stix/m/n/10 ,
+ []
+
+<Figures/fig8_w78.png, id=291, 407.6028pt x 324.2514pt>
 File: Figures/fig8_w78.png Graphic file (type png)
 <use Figures/fig8_w78.png>
 Package pdftex.def Info: Figures/fig8_w78.png  used on input line 44.
 (pdftex.def)             Requested size: 238.25444pt x 189.5354pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 45.
 See the caption package documentation for explanation.
 
-) (Sections/validation.tex [18 <./Figures/fig8_w78.png (PNG copy)>] [19]
-Underfull \hbox (badness 1558) in paragraph at lines 33--34
-\T1/cmr/m/n/10 The open-source prop-a-ga-tor, the STK As-troga-tor
+
+Underfull \hbox (badness 1062) in paragraph at lines 45--45
+\T1/stix/m/n/10 shown for the same ref-er-ence ge-om-e-try at $\LS1/stix/m/n/10
+ 700 []$ \T1/stix/m/n/10 and
  []
 
-<Figures/stk_validation.png, id=465, 794.97pt x 310.761pt>
+) (./Sections/validation.tex [16 <./Figures/fig8_w78.png (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 14
+.
+
+(/usr/share/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 14.
+
+Underfull \hbox (badness 1226) in paragraph at lines 20--21
+\T1/stix/m/n/10 STK's re-ported den-sity, drag area, drag co-ef-fi-cient and
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 20--21
+\T1/stix/m/n/10 day mean semi-major-axis de-cay dif-fers by close to an
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 20--21
+\T1/stix/m/n/10 the atmosphere-relative ve-loc-ity (co-rotation) treat-ment,
+ []
+
+[17{/usr/share/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
+<Figures/stk_validation.png, id=345, 794.97pt x 310.761pt>
 File: Figures/stk_validation.png Graphic file (type png)
 <use Figures/stk_validation.png>
 Package pdftex.def Info: Figures/stk_validation.png  used on input line 37.
 (pdftex.def)             Requested size: 454.94725pt x 177.84688pt.
 
+
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `') on input line 42.
 
-<Figures/repro_gain_lobe.png, id=466, 505.89pt x 361.35pt>
+<Figures/repro_gain_lobe.png, id=346, 505.89pt x 361.35pt>
 File: Figures/repro_gain_lobe.png Graphic file (type png)
 <use Figures/repro_gain_lobe.png>
 Package pdftex.def Info: Figures/repro_gain_lobe.png  used on input line 44.
@@ -903,323 +1160,90 @@ Package pdftex.def Info: Figures/repro_gain_lobe.png  used on input line 44.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `') on input line 49.
 
-<Figures/repro_srp_power.png, id=469, 578.16pt x 310.761pt>
+<Figures/repro_srp_power.png, id=349, 578.16pt x 310.761pt>
 File: Figures/repro_srp_power.png Graphic file (type png)
 <use Figures/repro_srp_power.png>
 Package pdftex.def Info: Figures/repro_srp_power.png  used on input line 51.
 (pdftex.def)             Requested size: 238.25444pt x 128.05772pt.
-<Figures/repro_transient.png, id=470, 794.97pt x 505.89pt>
+<Figures/repro_transient.png, id=350, 794.97pt x 505.89pt>
 File: Figures/repro_transient.png Graphic file (type png)
 <use Figures/repro_transient.png>
 Package pdftex.def Info: Figures/repro_transient.png  used on input line 58.
 (pdftex.def)             Requested size: 469.78192pt x 298.95882pt.
-[20] [21 <./Figures/stk_validation.png> <./Figures/repro_gain_lobe.png> <./Figu
-res/repro_srp_power.png>] [22 <./Figures/repro_transient.png>])
-(Sections/conclusion.tex
-Underfull \hbox (badness 1436) in paragraph at lines 10--11
-\T1/cmr/m/n/10 The sec-ond ob-jec-tive of this pa-per was method-
+[18] [19 <./Figures/stk_validation.png> <./Figures/repro_gain_lobe.png> <./Figu
+res/repro_srp_power.png>] [20 <./Figures/repro_transient.png>])
+(./Sections/conclusion.tex) [21
+
+] (./main.bbl
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 6.80005pt on input line 26.
+
+Underfull \hbox (badness 4713) in paragraph at lines 65--75
+[]\T1/stix/m/n/8 L. John-son, R. Young, N. Barnes, L. Fried-man, V. Lap-pas,
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 10--11
-\T1/cmr/m/n/10 olog-i-cal, and its out-come re-in-forces the first. An
+Underfull \hbox (badness 2221) in paragraph at lines 162--174
+[]\T1/stix/m/n/8 V. Lap-pas, N. Adeli, L. Vis-agie, J. Fer-nan-dez, T. Theodoro
+u,
+ []
+
+[22]
+Underfull \hbox (badness 1460) in paragraph at lines 375--380
+[]\T1/stix/m/n/8 R. A. Brae-u-nig, At-mo-sphere prop-er-ties, [][]$\T1/zi4/m/n/
+8 http : / / www . braeunig . us /
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 10--11
-\T1/cmr/m/n/10 in-de-pen-dent, open-source re-implementation of the
- []
-
-[23
-
-])
-Underfull \hbox (badness 1270) in paragraph at lines 183--184
-\T1/cmr/m/it/10 The REXUS/BEXUS pro-gramme is re-alised un-der
+Underfull \hbox (badness 1796) in paragraph at lines 446--452
+[]\T1/stix/m/n/8 Project Svarog Or-bital Me-chan-ics Team, Open-source solar-sa
+il
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 183--184
-\T1/cmr/m/it/10 Space Agency (SNSA). The Swedish share of the
+Underfull \hbox (badness 1609) in paragraph at lines 446--452
+\T1/stix/m/n/8 LEO prop-a-ga-tor and STK As-troga-tor val-i-da-tion suite, Soft
+-ware
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 183--184
-\T1/cmr/m/it/10 pay-load has been made avail-able to stu-dents from
+Underfull \hbox (badness 1142) in paragraph at lines 446--452
+\T1/stix/m/n/8 and data repos-i-tory, 2026. [][]$\T1/zi4/m/n/8 https : / / gith
+ub . com / extremefattypunch /
  []
 
-
-Underfull \hbox (badness 1117) in paragraph at lines 183--184
-\T1/cmr/m/it/10 and ESA pro-vide tech-ni-cal sup-port to the stu-dent
- []
-
-(main.bbl [24]
-Underfull \hbox (badness 10000) in paragraph at lines 274--284
-\T1/cmtt/m/n/8 extremefattypunch / Svarog-[]Paper-[]ISSS-[]2025-[]follow-[]up$[
-][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--330
-[]\T1/cmr/m/n/8 Sawada, H., Mori, O., Okuizumi, N., Shi-ra-sawa, Y.,
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 317--330
-\T1/cmr/m/n/8 Miyazaki, Y., Na-tori, M., Matu-naga, S., Fu-ruya, H.,
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 317--330
-\T1/cmr/m/n/8 Sail De-ploy-ment Demon-stra-tion of IKAROS, in: 52nd
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--330
-\T1/cmr/m/n/8 AIAA/ASME/ASCE/AHS/ASC Struc-tures, Struc-tural
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 317--330
-\T1/cmr/m/n/8 Dy-nam-ics and Ma-te-ri-als Con-fer-ence, Amer-i-can In-sti-tute
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--330
-\T1/cmr/m/n/8 of Aero-nau-tics and As-tro-nau-tics, Den-ver, Col-orado.
- []
-
-)
-<Figures/photo_placeholder.png, id=573, 301.125pt x 401.5pt>
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 203.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 203.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 207.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 207.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-
-Underfull \hbox (badness 2020) in paragraph at lines 207--209
-\T1/cmr/m/it/8 your aca-demic back-ground, cur-rent role
- []
-
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 211.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 211.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-[25 <./Figures/photo_placeholder.png>]
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 215.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 215.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 219.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 219.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 223.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 223.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-
-Underfull \hbox (badness 2020) in paragraph at lines 223--225
-\T1/cmr/m/it/8 your aca-demic back-ground, cur-rent role
- []
-
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 227.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 227.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 231.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 231.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-
-Underfull \hbox (badness 2073) in paragraph at lines 231--233
-\T1/cmr/m/it/8 place with up to 100 words de-scrib-ing
- []
-
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 235.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 235.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 239.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 239.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 243.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-... wr-fig: [BL: 10.0pt] ...
-... wr-fig: [LINE-FP: 9.984262084960938] ...
-... wr-fig: [LINE-INT: 10] ...
-File: Figures/photo_placeholder.png Graphic file (type png)
-<use Figures/photo_placeholder.png>
-Package pdftex.def Info: Figures/photo_placeholder.png  used on input line 243.
-
-(pdftex.def)             Requested size: 71.13188pt x 94.84262pt.
-[26] (main.aux)
+) [23] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15718 strings out of 467871
- 253945 string characters out of 5416888
- 707752 words of memory out of 5000000
- 44166 multiletter control sequences out of 15000+600000
- 656859 words of font info for 110 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 90i,13n,98p,2851b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cbx0800.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ectt0800.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ectt1000.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecsi0900.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ian Poon\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcsx0900.pk> <C:\Users\Ian Poon\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Ian
- Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\
-Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900
-.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecti1000.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecti0900.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Ian Poon\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\eccc0800.pk> <C:\Users\Ian Poon\AppData\Lo
-cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0600.pk> <C:\Users\Ian Poon\A
-ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\I
-an Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0800.pk> <C
-:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm12
-00.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecrm1728.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\tcrm1000.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ian Poon\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Ian Poon\AppData\Local\MiK
-TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Users/Ian Poon/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Ian Po
-on/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/U
-sers/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex
-10.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Ian Poon/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Ian Poon/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ian P
-oon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
-Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i9.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr5.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ian Poon/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ian Poon/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ian Poon/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/I
-an Poon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Ian Poon/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (28 pages, 1821069 bytes).
+ 18704 strings out of 469515
+ 287915 string characters out of 5470807
+ 710265 words of memory out of 5000000
+ 46869 multiletter control sequences out of 15000+600000
+ 731841 words of font info for 177 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 90i,13n,117p,2849b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></
+usr/share/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/share/t
+exmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/share/texmf-dist
+/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfsi0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx0900.
+pfb></usr/share/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb></usr/share
+/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texmf-dist/font
+s/type1/public/stix/stix-mathit.pfb></usr/share/texmf-dist/fonts/type1/public/s
+tix/stix-mathrm-bold.pfb></usr/share/texmf-dist/fonts/type1/public/stix/stix-ma
+thrm.pfb></usr/share/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/
+share/texmf-dist/fonts/type1/public/stix/stix-mathtt.pfb>
+Output written on main.pdf (24 pages, 1509136 bytes).
 PDF statistics:
- 1531 PDF objects out of 1728 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 161 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

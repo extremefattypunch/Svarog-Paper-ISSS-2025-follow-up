@@ -1,0 +1,62 @@
+{
+  "days": 14.0,
+  "dt_s": 30.0,
+  "ltdn_h": 14.0,
+  "pitch_deg": 34.0,
+  "raan_deg": 312.0454129403432,
+  "stk_j2_agreement_km": 0.05,
+  "rows": [
+    {
+      "config": "J2-only",
+      "altitude_km": 700.0,
+      "orekit_da14_node_km": -0.011983449744548125,
+      "paper_da14_node_km": -0.011983449961007864,
+      "orekit_da14_orbitavg_km": -0.06332545791156008,
+      "max_abs_diff_km": 2.5647750589996576e-10,
+      "rms_diff_km": 1.5726048274436876e-10,
+      "orekit_a0_km": 7078.129666732747,
+      "paper_a0_km": 7078.129666732736,
+      "n_orbits": 204,
+      "stk_da14_km": 0.0
+    },
+    {
+      "config": "J2-only",
+      "altitude_km": 800.0,
+      "orekit_da14_node_km": -0.011283000364528561,
+      "paper_da14_node_km": -0.011283000099865603,
+      "orekit_da14_orbitavg_km": -0.007314669616789615,
+      "max_abs_diff_km": 2.773958840407431e-10,
+      "rms_diff_km": 1.4710631152407025e-10,
+      "orekit_a0_km": 7178.133532085205,
+      "paper_a0_km": 7178.133532085203,
+      "n_orbits": 199,
+      "stk_da14_km": 0.0
+    },
+    {
+      "config": "J2+drag",
+      "altitude_km": 700.0,
+      "orekit_da14_node_km": -84.04030981217056,
+      "paper_da14_node_km": -84.04030981253618,
+      "orekit_da14_orbitavg_km": -84.66937249743842,
+      "max_abs_diff_km": 3.6561687011271715e-10,
+      "rms_diff_km": 1.71043377204562e-10,
+      "orekit_a0_km": 7077.860929869922,
+      "paper_a0_km": 7077.860929869917,
+      "n_orbits": 205,
+      "stk_da14_km": -7.0
+    },
+    {
+      "config": "J2+drag",
+      "altitude_km": 800.0,
+      "orekit_da14_node_km": -21.89797622012884,
+      "paper_da14_node_km": -21.897976220064265,
+      "orekit_da14_orbitavg_km": -21.946969013245507,
+      "max_abs_diff_km": 2.0554580260068178e-10,
+      "rms_diff_km": 1.2725402405800642e-10,
+      "orekit_a0_km": 7178.032474780309,
+      "paper_a0_km": 7178.032474780299,
+      "n_orbits": 200,
+      "stk_da14_km": null
+    }
+  ]
+}

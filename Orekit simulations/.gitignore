@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Orekit data archive (21 MB, fetched by scripts/fetch_data.sh)
+data/orekit-data.zip
+data/orekit-data-main/
+
+# NOTE: results/ and reproduced_figures/ ARE tracked. They are small, they are
+# the numbers quoted in the manuscript, and they let a reader check the claims
+# without a JVM.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+*.out
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

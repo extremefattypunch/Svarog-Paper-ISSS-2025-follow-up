@@ -1,0 +1,32 @@
+{
+  "days": 75.0,
+  "hp_min_km": 120.0,
+  "rows": [
+    {
+      "label": "gain case (800 km, LTDN 14 h, pitch 34 deg)",
+      "altitude_km": 800.0,
+      "pitch_deg": 34.0,
+      "da_peak_km": 8.476097226158345,
+      "t_peak_days": 35.17916666666667,
+      "da_final_km": -7.107818607185436,
+      "e_final": 0.01238157237967509,
+      "apogee_final_km": 881.7009761107629,
+      "perigee_final_km": 704.1232659840565,
+      "reentry_day": null,
+      "span_days": 74.96770833333333
+    },
+    {
+      "label": "paper anchor (700 km, LTDN 12.27 h, pitch 24.8 deg)",
+      "altitude_km": 700.0,
+      "pitch_deg": 24.8,
+      "da_peak_km": 0.0,
+      "t_peak_days": 0.06875,
+      "da_final_km": -422.31381705056356,
+      "e_final": 0.002062374763409168,
+      "apogee_final_km": 291.3111402365332,
+      "perigee_final_km": 263.85795881182236,
+      "reentry_day": null,
+      "span_days": 36.18819444444444
+    }
+  ]
+}

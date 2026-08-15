@@ -1,0 +1,41 @@
+{
+  "days": 30.0,
+  "rows": [
+    {
+      "altitude_km": 800.0,
+      "pitch_deg": 34.0,
+      "eclipse_off": false,
+      "da_max_km": 8.213155939391072,
+      "da_final_km": 8.213155939391072,
+      "t_at_max_d": 29.990277777777777,
+      "days": 30.0
+    },
+    {
+      "altitude_km": 800.0,
+      "pitch_deg": 34.0,
+      "eclipse_off": true,
+      "da_max_km": 0.0,
+      "da_final_km": -31.948145707636286,
+      "t_at_max_d": 0.07013888888888889,
+      "days": 30.0
+    },
+    {
+      "altitude_km": 700.0,
+      "pitch_deg": 24.8,
+      "eclipse_off": false,
+      "da_max_km": 0.0,
+      "da_final_km": -114.81170928843403,
+      "t_at_max_d": 0.06875,
+      "days": 30.0
+    },
+    {
+      "altitude_km": 700.0,
+      "pitch_deg": 24.8,
+      "eclipse_off": true,
+      "da_max_km": 0.0,
+      "da_final_km": -416.2600750720412,
+      "t_at_max_d": 0.06875,
+      "days": 30.0
+    }
+  ]
+}
