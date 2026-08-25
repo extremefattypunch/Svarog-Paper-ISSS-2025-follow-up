@@ -3,10 +3,6 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \csgdef{mark@title}{1}
-\csgdef{mark@fnau1}{1}
-\csgdef{mark@corau2}{1}
-\csgdef{mark@fnau2}{1}
-\csgdef{mark@fnau3}{1}
 \NewLabel{cor1}{1}
 \NewLabel{fn1}{1}
 \citation{tsuda2011ikaros,sawadaMissionReportSolar2011}
@@ -17,9 +13,9 @@
 \citation{berthetSunflowerMissionConcept2023}
 \citation{colombomcinnes}
 \citation{valk2008semi}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \citation{prieto2014drag}
 \citation{mcinnes1999}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \citation{hubaux2013shadow}
 \citation{johnsonNanoSailD2011}
 \citation{lappasCubeSail2011}
@@ -29,8 +25,8 @@
 \citation{firuziSolarSailLEO2018,deiuliisRadiationPressure2021}
 \citation{ansysSTK2024,shortRevisitingTrajectory2019}
 \citation{refaatPropagatorValidation2018,hughesGMATVV2014}
-\citation{hughesGMATVV2014}
 \citation{orekit}
+\citation{hughesGMATVV2014}
 \citation{canoPoliastro2022}
 \citation{kenneallyBasilisk2020}
 \citation{dirkxTudatpy2022}
@@ -121,6 +117,7 @@
 \newlabel{fig:density_sensitivity_gain_anchor}{{12}{15}{Sensitivity of the \(14\)-day maximum semi-major-axis increase, \(\Delta a_{\max ,14\mathrm {d}}\), to a multiplicative density scaling applied about the same gain-anchor geometry at \(700\,\mathrm {km}\) and \(800\,\mathrm {km}\). Reduced density strengthens the short-horizon gain at both altitudes. Increased density suppresses the \(700\,\mathrm {km}\) response completely by \(2\times \) nominal density, whereas the \(800\,\mathrm {km}\) case remains positive throughout the tested range, showing that the drag-limited boundary shifts substantially with altitude}{figure.12}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.3}\textbf  {Sensitivity to area-to-mass ratio}}{15}{subsection.8.3}\protected@file@percent }
 \citation{ansysSTK2024,shortRevisitingTrajectory2019}
+\citation{orekit}
 \citation{johnsonNanoSailD2011}
 \citation{lappasCubeSail2011}
 \citation{underwoodInflateSail2019}
@@ -132,35 +129,47 @@
 \citation{kenneallyBasilisk2020}
 \citation{dirkxTudatpy2022}
 \citation{refaatPropagatorValidation2018,hughesGMATVV2014}
-\citation{usStandardAtmosphere1976}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Sensitivity of the \(14\)-day maximum semi-major-axis increase, \(\Delta a_{\max ,14\mathrm  {d}}\), to sail area-to-mass ratio for the gain-anchor case, with spacecraft mass held fixed at \(10\,\mathrm  {kg}\), shown for the same reference geometry at \(700\,\mathrm  {km}\) and \(800\,\mathrm  {km}\). The \(700\,\mathrm  {km}\) response is non-monotonic, with a broad optimum near \(A/m = 14.4\,\mathrm  {m^2\,kg^{-1}}\), whereas the \(800\,\mathrm  {km}\) response continues to increase across the full sampled range.}}{16}{figure.13}\protected@file@percent }
 \newlabel{fig:amr_sensitivity_gain_anchor}{{13}{16}{Sensitivity of the \(14\)-day maximum semi-major-axis increase, \(\Delta a_{\max ,14\mathrm {d}}\), to sail area-to-mass ratio for the gain-anchor case, with spacecraft mass held fixed at \(10\,\mathrm {kg}\), shown for the same reference geometry at \(700\,\mathrm {km}\) and \(800\,\mathrm {km}\). The \(700\,\mathrm {km}\) response is non-monotonic, with a broad optimum near \(A/m = 14.4\,\mathrm {m^2\,kg^{-1}}\), whereas the \(800\,\mathrm {km}\) response continues to increase across the full sampled range}{figure.13}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.4}\textbf  {Interpretation of the sensitivity envelope}}{16}{subsection.8.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {9}Independent numerical validation: an open-source propagator cross-checked against STK Astrogator}{16}{section.9}\protected@file@percent }
-\newlabel{sec:validation}{{9}{16}{Independent numerical validation: an open-source propagator cross-checked against STK Astrogator}{section.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Independent numerical validation: an open-source propagator cross-checked against STK Astrogator and Orekit}{16}{section.9}\protected@file@percent }
+\newlabel{sec:validation}{{9}{16}{Independent numerical validation: an open-source propagator cross-checked against STK Astrogator and Orekit}{section.9}{}}
+\citation{usStandardAtmosphere1976}
 \citation{mcmahonSchereesSRP2010,montenbruckGill2000}
-\citation{anselmoHAMR2010}
-\citation{ziebartGeneralizedSRP2004,ziebartDarePixelArray2001,rodriguezsolanoBoxWing2012,vielbergRadiationPressure2020}
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Open-source propagator}{17}{subsection.9.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.2}STK Astrogator configuration}{17}{subsection.9.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Cross-validation results}{17}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Orekit configuration}{17}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Component-level agreement}{18}{subsection.9.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Propagated cross-validation}{18}{subsection.9.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Solar radiation pressure under a passively fixed attitude}{18}{subsection.9.6}\protected@file@percent }
+\citation{ziebartGeneralizedSRP2004,ziebartDarePixelArray2001,rodriguezsolanoBoxWing2012,vielbergRadiationPressure2020}
+\citation{anselmoHAMR2010}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.7}Locating the inter-tool drag difference}{19}{subsection.9.7}\protected@file@percent }
+\newlabel{sec:dragdiag}{{9.7}{19}{Locating the inter-tool drag difference}{subsection.9.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.8}Numerical sensitivity of an eclipse-gated force}{19}{subsection.9.8}\protected@file@percent }
 \citation{svarogPropagatorCode2026}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Independent confirmation of the gain regime}{18}{subsection.9.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Data and software availability}{18}{subsection.9.5}\protected@file@percent }
-\newlabel{sec:data}{{9.5}{18}{Data and software availability}{subsection.9.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Cross-validation of the open-source propagator against STK Astrogator for $J_2$ + spherical U.S.\ Standard Atmosphere 1976 drag (no SRP), a configuration whose result is attitude-independent. Left: mean semi-major-axis history at 700 and 800~km. Right: the residual (open-source $-$ STK). Two-body plus $J_2$ dynamics agree to $<0.05$~km over 14 days; the drag-induced decay differs by close to an order of magnitude despite matching instantaneous force, identifying drag-force application as the dominant inter-tool difference.}}{19}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:stk_validation}{{14}{19}{Cross-validation of the open-source propagator against STK Astrogator for $J_2$ + spherical U.S.\ Standard Atmosphere 1976 drag (no SRP), a configuration whose result is attitude-independent. Left: mean semi-major-axis history at 700 and 800~km. Right: the residual (open-source $-$ STK). Two-body plus $J_2$ dynamics agree to $<0.05$~km over 14 days; the drag-induced decay differs by close to an order of magnitude despite matching instantaneous force, identifying drag-force application as the dominant inter-tool difference}{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Independent reproduction of the passive-gain lobe with the open-source propagator: 14-day $\Delta a_{\max }$ over LTDN and sail pitch at 800~km. A single connected positive lobe appears at positive pitch over a bounded LTDN band, in agreement with the location of the reduced-model lobe (Fig.~\ref {fig:heatmap_700km}); the star marks the reduced-model gain anchor.}}{19}{figure.caption.12}\protected@file@percent }
-\newlabel{fig:repro_lobe}{{15}{19}{Independent reproduction of the passive-gain lobe with the open-source propagator: 14-day $\Delta a_{\max }$ over LTDN and sail pitch at 800~km. A single connected positive lobe appears at positive pitch over a bounded LTDN band, in agreement with the location of the reduced-model lobe (Fig.~\ref {fig:heatmap_700km}); the star marks the reduced-model gain anchor}{figure.caption.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces One-orbit SRP specific power for a reproduced gain case. The dashed curve is the no-eclipse reference; the shaded interval is the umbra. Eclipse removes the negative-work arc, flipping the orbit-averaged SRP work positive --- the eclipse-gating mechanism, reproduced independently.}}{19}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:repro_power}{{16}{19}{One-orbit SRP specific power for a reproduced gain case. The dashed curve is the no-eclipse reference; the shaded interval is the umbra. Eclipse removes the negative-work arc, flipping the orbit-averaged SRP work positive --- the eclipse-gating mechanism, reproduced independently}{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Reproduced 75-day element evolution. The gain case (800~km, blue) shows the transient, self-limiting signature: mean semi-major axis rises to a peak then declines below its initial value, with apogee pumping, eccentricity growth and perigee erosion. The 700~km reduced-model anchor (red) is drag-dominated and decays to reentry, illustrating the drag sensitivity of the regime.}}{20}{figure.caption.14}\protected@file@percent }
-\newlabel{fig:repro_transient}{{17}{20}{Reproduced 75-day element evolution. The gain case (800~km, blue) shows the transient, self-limiting signature: mean semi-major axis rises to a peak then declines below its initial value, with apogee pumping, eccentricity growth and perigee erosion. The 700~km reduced-model anchor (red) is drag-dominated and decays to reentry, illustrating the drag sensitivity of the regime}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.9}Independent confirmation of the gain regime}{20}{subsection.9.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.10}Data and software availability}{20}{subsection.9.10}\protected@file@percent }
+\newlabel{sec:data}{{9.10}{20}{Data and software availability}{subsection.9.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Cross-validation of the open-source propagator against STK Astrogator for $J_2$ + spherical U.S.\ Standard Atmosphere 1976 drag (no SRP), a configuration whose result is attitude-independent. Left: mean semi-major-axis history at 700 and 800~km. Right: the residual (open-source $-$ STK). Two-body plus $J_2$ dynamics agree to $<0.05$~km over 14 days; the drag-induced decay differs by close to an order of magnitude despite matching instantaneous force.}}{21}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:stk_validation}{{14}{21}{Cross-validation of the open-source propagator against STK Astrogator for $J_2$ + spherical U.S.\ Standard Atmosphere 1976 drag (no SRP), a configuration whose result is attitude-independent. Left: mean semi-major-axis history at 700 and 800~km. Right: the residual (open-source $-$ STK). Two-body plus $J_2$ dynamics agree to $<0.05$~km over 14 days; the drag-induced decay differs by close to an order of magnitude despite matching instantaneous force}{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Cross-validation against Orekit~13.1. (a) Mean semi-major-axis history for $J_2$ + spherical U.S.\ Standard Atmosphere 1976 drag; the open-source and Orekit curves are indistinguishable at this scale, and STK's reported 14-day endpoint at 700~km is marked. (b) Absolute residual between the open-source propagator and Orekit for all four configurations, against STK's quoted $0.05$~km agreement bar and the $77$~km STK--open-source drag gap. (c) The test STK could not pass: effective Sun-facing area of the N-plate SRP model as the sail pitch is swept, for a normal frozen in inertial space. Orekit follows $A\cos \alpha $; STK reported zero for every pitch.}}{22}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:orekit_crossval}{{15}{22}{Cross-validation against Orekit~13.1. (a) Mean semi-major-axis history for $J_2$ + spherical U.S.\ Standard Atmosphere 1976 drag; the open-source and Orekit curves are indistinguishable at this scale, and STK's reported 14-day endpoint at 700~km is marked. (b) Absolute residual between the open-source propagator and Orekit for all four configurations, against STK's quoted $0.05$~km agreement bar and the $77$~km STK--open-source drag gap. (c) The test STK could not pass: effective Sun-facing area of the N-plate SRP model as the sail pitch is swept, for a normal frozen in inertial space. Orekit follows $A\cos \alpha $; STK reported zero for every pitch}{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Locating the inter-tool differences. (a) Drag modelling choices isolated one at a time in Orekit, all other elements held fixed: atmosphere co-rotation and the geodetic-versus-geocentric altitude convention move the 14-day decay by tens of per cent, whereas substituting a different atmosphere model moves it by factors of several. STK's reported 700~km endpoint is marked. (b) Step-size sensitivity of the eclipse-gated force at the reproduced 800~km gain geometry: the two continuous-forcing configurations are step-independent, while the full model converges towards the event-detected adaptive reference only as the fixed step is reduced.}}{23}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:orekit_diag}{{16}{23}{Locating the inter-tool differences. (a) Drag modelling choices isolated one at a time in Orekit, all other elements held fixed: atmosphere co-rotation and the geodetic-versus-geocentric altitude convention move the 14-day decay by tens of per cent, whereas substituting a different atmosphere model moves it by factors of several. STK's reported 700~km endpoint is marked. (b) Step-size sensitivity of the eclipse-gated force at the reproduced 800~km gain geometry: the two continuous-forcing configurations are step-independent, while the full model converges towards the event-detected adaptive reference only as the fixed step is reduced}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Independent reproduction of the gain regime with Orekit. (a) 14-day $\Delta a_{\max }$ over LTDN and sail pitch at 800~km, showing a single connected positive lobe at positive pitch over a bounded LTDN band; the star marks the reduced-model anchor and the circle the Orekit peak. (b) One-orbit SRP specific power at the reproduced gain geometry, with the umbra shaded and the no-eclipse reference dashed: eclipse removes the negative-work arc. (c) 75-day mean semi-major-axis evolution for the reproduced 800~km gain case and the 700~km reduced-model anchor, showing the transient, self-limiting signature.}}{24}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:orekit_repro}{{17}{24}{Independent reproduction of the gain regime with Orekit. (a) 14-day $\Delta a_{\max }$ over LTDN and sail pitch at 800~km, showing a single connected positive lobe at positive pitch over a bounded LTDN band; the star marks the reduced-model anchor and the circle the Orekit peak. (b) One-orbit SRP specific power at the reproduced gain geometry, with the umbra shaded and the no-eclipse reference dashed: eclipse removes the negative-work arc. (c) 75-day mean semi-major-axis evolution for the reproduced 800~km gain case and the 700~km reduced-model anchor, showing the transient, self-limiting signature}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Independent reproduction of the passive-gain lobe with the open-source propagator: 14-day $\Delta a_{\max }$ over LTDN and sail pitch at 800~km. A single connected positive lobe appears at positive pitch over a bounded LTDN band, in agreement with the location of the reduced-model lobe (Fig.~\ref {fig:heatmap_700km}); the star marks the reduced-model gain anchor.}}{25}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:repro_lobe}{{18}{25}{Independent reproduction of the passive-gain lobe with the open-source propagator: 14-day $\Delta a_{\max }$ over LTDN and sail pitch at 800~km. A single connected positive lobe appears at positive pitch over a bounded LTDN band, in agreement with the location of the reduced-model lobe (Fig.~\ref {fig:heatmap_700km}); the star marks the reduced-model gain anchor}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces One-orbit SRP specific power for a reproduced gain case. The dashed curve is the no-eclipse reference; the shaded interval is the umbra. Eclipse removes the negative-work arc, flipping the orbit-averaged SRP work positive --- the eclipse-gating mechanism, reproduced independently.}}{25}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:repro_power}{{19}{25}{One-orbit SRP specific power for a reproduced gain case. The dashed curve is the no-eclipse reference; the shaded interval is the umbra. Eclipse removes the negative-work arc, flipping the orbit-averaged SRP work positive --- the eclipse-gating mechanism, reproduced independently}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Reproduced 75-day element evolution. The gain case (800~km, blue) shows the transient, self-limiting signature: mean semi-major axis rises to a peak then declines below its initial value, with apogee pumping, eccentricity growth and perigee erosion. The 700~km reduced-model anchor (red) is drag-dominated and decays to reentry, illustrating the drag sensitivity of the regime.}}{26}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:repro_transient}{{20}{26}{Reproduced 75-day element evolution. The gain case (800~km, blue) shows the transient, self-limiting signature: mean semi-major axis rises to a peak then declines below its initial value, with apogee pumping, eccentricity growth and perigee erosion. The 700~km reduced-model anchor (red) is drag-dominated and decays to reentry, illustrating the drag sensitivity of the regime}{figure.caption.17}{}}
 \citation{svarogPropagatorCode2026}
 \citation{dachwaldOptimalSolarSail2005}
 \citation{mcinnes1999}
-\@writefile{toc}{\contentsline {section}{\numberline {10}Conclusions}{21}{section.10}\protected@file@percent }
-\newlabel{sec:conclusion}{{10}{21}{Conclusions}{section.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Conclusions}{27}{section.10}\protected@file@percent }
+\newlabel{sec:conclusion}{{10}{27}{Conclusions}{section.10}{}}
 \citation{svarogPropagatorCode2026}
 \bibstyle{elsarticle-num-names}
 \bibdata{cas-refs,D}
@@ -206,11 +215,11 @@
 \bibcite{usStandardAtmosphere1976}{{40}{1976}{{{NOAA} et~al.}}{{{NOAA}, {NASA}, and {USAF}}}}
 \bibcite{mcmahonSchereesSRP2010}{{41}{2010}{{McMahon and Scheeres}}{{}}}
 \bibcite{montenbruckGill2000}{{42}{2000}{{Montenbruck and Gill}}{{}}}
-\bibcite{anselmoHAMR2010}{{43}{2010}{{Anselmo and Pardini}}{{}}}
-\bibcite{ziebartGeneralizedSRP2004}{{44}{2004}{{Ziebart}}{{}}}
-\bibcite{ziebartDarePixelArray2001}{{45}{2001}{{Ziebart and Dare}}{{}}}
-\bibcite{rodriguezsolanoBoxWing2012}{{46}{2012}{{{Rodr{\'i}guez-Solano} et~al.}}{{{Rodr{\'i}guez-Solano}, Hugentobler, and Steigenberger}}}
-\bibcite{vielbergRadiationPressure2020}{{47}{2020}{{Vielberg and Kusche}}{{}}}
+\bibcite{ziebartGeneralizedSRP2004}{{43}{2004}{{Ziebart}}{{}}}
+\bibcite{ziebartDarePixelArray2001}{{44}{2001}{{Ziebart and Dare}}{{}}}
+\bibcite{rodriguezsolanoBoxWing2012}{{45}{2012}{{{Rodr{\'i}guez-Solano} et~al.}}{{{Rodr{\'i}guez-Solano}, Hugentobler, and Steigenberger}}}
+\bibcite{vielbergRadiationPressure2020}{{46}{2020}{{Vielberg and Kusche}}{{}}}
+\bibcite{anselmoHAMR2010}{{47}{2010}{{Anselmo and Pardini}}{{}}}
 \bibcite{svarogPropagatorCode2026}{{48}{2026}{{Project Svarog Orbital Mechanics Team}}{{}}}
-\csxdef{lastpage}{23}
-\gdef \@abspage@last{24}
+\csxdef{lastpage}{29}
+\gdef \@abspage@last{30}

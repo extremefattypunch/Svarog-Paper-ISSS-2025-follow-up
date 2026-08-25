@@ -399,14 +399,6 @@
   \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{year}{2000}.
   \DOIprefix\doi{10.1007/978-3-642-58351-3}.
 %Type = Article
-\bibitem[{Anselmo and Pardini(2010)}]{anselmoHAMR2010}
-\bibinfo{author}{L.~Anselmo}, \bibinfo{author}{C.~Pardini},
-\newblock \bibinfo{title}{Long-term dynamical evolution of high area-to-mass
-  ratio debris released into high {{Earth}} orbits},
-\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{67}
-  (\bibinfo{year}{2010}) \bibinfo{pages}{204--216}.
-  \DOIprefix\doi{10.1016/j.actaastro.2009.10.017}.
-%Type = Article
 \bibitem[{Ziebart(2004)}]{ziebartGeneralizedSRP2004}
 \bibinfo{author}{M.~Ziebart},
 \newblock \bibinfo{title}{Generalized analytical solar radiation pressure
@@ -440,6 +432,14 @@
 \newblock \bibinfo{journal}{Journal of Geodesy} \bibinfo{volume}{94}
   (\bibinfo{year}{2020}) \bibinfo{pages}{43}.
   \DOIprefix\doi{10.1007/s00190-020-01368-6}.
+%Type = Article
+\bibitem[{Anselmo and Pardini(2010)}]{anselmoHAMR2010}
+\bibinfo{author}{L.~Anselmo}, \bibinfo{author}{C.~Pardini},
+\newblock \bibinfo{title}{Long-term dynamical evolution of high area-to-mass
+  ratio debris released into high {{Earth}} orbits},
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{67}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{204--216}.
+  \DOIprefix\doi{10.1016/j.actaastro.2009.10.017}.
 %Type = Misc
 \bibitem[{{Project Svarog Orbital Mechanics
   Team}(2026)}]{svarogPropagatorCode2026}
