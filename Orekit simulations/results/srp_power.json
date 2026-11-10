@@ -1,0 +1,11 @@
+{
+  "period_s": 6052.412664160155,
+  "dt_s": 5.0,
+  "umbra_fraction": 0.32039636663914123,
+  "eclipse_sign_selectivity_pct": 76.80412371134021,
+  "work_eclipse_on_J_per_kg": 309.3120618421672,
+  "work_eclipse_off_J_per_kg": 0.7814481212307882,
+  "manuscript_fig5_on": 799.0,
+  "manuscript_fig5_off": -9.7,
+  "manuscript_fig4_selectivity_pct": 85.7
+}

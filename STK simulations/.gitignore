@@ -1,6 +1,7 @@
-# Simulation outputs
+# Simulation outputs (bulky, regenerable CSV/parquet/.nplate)
 results/
-reproduced_figures/
+# NOTE: reproduced_figures/ IS tracked — these are the key result figures
+# referenced from the manuscript so researchers can inspect them directly.
 
 # STK scenario binaries / artefacts
 *.sc

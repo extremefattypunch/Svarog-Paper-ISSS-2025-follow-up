@@ -1,0 +1,20 @@
+{
+  "alpha_sweep_worst_rel_dev": 0.015451558919534536,
+  "alpha_sweep_gate": 0.05,
+  "manuscript_reported_dev": 0.016,
+  "alpha_sweep_pass": true,
+  "one_orbit": {
+    "peak_ratio": 1.0049413423412872,
+    "correlation": 0.9699278760771698,
+    "work_orekit_nplate_eclipse_on_J_per_kg": 292.7599734660532,
+    "work_orekit_nplate_eclipse_off_J_per_kg": 2.7297804010972015,
+    "work_reduced_sunline_J_per_kg": 0.9512976777313753,
+    "manuscript_fig5_work_J_per_kg": 799.0,
+    "eclipse_fraction": 0.35581787521079256,
+    "eclipse_sign_selectivity_pct": 65.63981042654028,
+    "manuscript_fig4_selectivity_pct": 85.7,
+    "period_s": 5926.378191990977
+  },
+  "one_orbit_pass": true,
+  "pass": true
+}

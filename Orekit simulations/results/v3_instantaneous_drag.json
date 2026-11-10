@@ -1,0 +1,43 @@
+{
+  "ltdn_h": 14.0,
+  "raan_deg": 312.0454129403432,
+  "pitch_deg": 34.0,
+  "rows": [
+    {
+      "altitude_km": 700.0,
+      "geocentric_altitude_km": 699.2921863700002,
+      "speed_m_s": 7505.037327700614,
+      "density_orekit": 3.707282036293308e-14,
+      "density_paper": 3.707282036293308e-14,
+      "density_at_reference_altitude": 3.07e-14,
+      "density_layer_discontinuity_ratio": 1.197988453245539,
+      "cos_theta": 0.7848062876334886,
+      "accel_orekit_spherical": 2.296963135829883e-05,
+      "accel_paper_spherical": 2.2969631358298832e-05,
+      "rel_diff_spherical": 1.4750483959304307e-16,
+      "accel_orekit_nplate": 1.8026711114616268e-05,
+      "accel_paper_nplate": 1.802671111461627e-05,
+      "rel_diff_nplate": 1.8795063433784456e-16,
+      "density_stk_reported": 3.2e-14,
+      "accel_stk_reported": 1.9e-05,
+      "density_rel_diff_vs_stk": 0.15852563634165875,
+      "density_ref_rel_diff_vs_stk": 0.04062500000000014
+    },
+    {
+      "altitude_km": 800.0,
+      "geocentric_altitude_km": 799.2821863700002,
+      "speed_m_s": 7452.576917263968,
+      "density_orekit": 1.378525939217924e-14,
+      "density_paper": 1.378525939217924e-14,
+      "density_at_reference_altitude": 1.136e-14,
+      "density_layer_discontinuity_ratio": 1.2064964852656348,
+      "cos_theta": 0.7840514234795293,
+      "accel_orekit_spherical": 8.4221032577212e-06,
+      "accel_paper_spherical": 8.422103257721199e-06,
+      "rel_diff_spherical": 2.0114522972103415e-16,
+      "accel_orekit_nplate": 6.603362047907887e-06,
+      "accel_paper_nplate": 6.603362047907886e-06,
+      "rel_diff_nplate": 1.282729829303638e-16
+    }
+  ]
+}

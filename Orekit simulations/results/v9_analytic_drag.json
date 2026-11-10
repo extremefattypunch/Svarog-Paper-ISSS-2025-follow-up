@@ -1,0 +1,26 @@
+{
+  "days": 14.0,
+  "area_over_mass": 10.0,
+  "cd": 2.2,
+  "rows": [
+    {
+      "altitude_km": 700.0,
+      "analytic_da14_km": -77.99454355433397,
+      "propagated_da14_km": -84.04031,
+      "rel_diff": 0.07193888796538271
+    },
+    {
+      "altitude_km": 800.0,
+      "analytic_da14_km": -21.20955119729042,
+      "propagated_da14_km": -21.897976,
+      "rel_diff": 0.031437827985087756
+    }
+  ],
+  "stk_da14_km": -7.0,
+  "stk_reported_density": 3.2e-14,
+  "density_scale_to_match_stk": 0.12950629318475018,
+  "density_implied_by_stk_decay": 3.97584320077183e-15,
+  "tabulated_density_700km": 3.07e-14,
+  "ratio_tabulated_to_implied": 7.721632481391674,
+  "ratio_stk_reported_to_implied": 8.048607146727479
+}

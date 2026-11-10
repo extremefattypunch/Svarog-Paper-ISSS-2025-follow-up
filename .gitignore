@@ -1,0 +1,21 @@
+# Locally-fetched LaTeX packages (build-time only; not part of the manuscript)
+.texmf-deps/
+
+# LaTeX build artefacts (main.pdf IS committed as the submission deliverable)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.spl
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+Sections/*.aux
+
+# Python
+__pycache__/
+*.pyc

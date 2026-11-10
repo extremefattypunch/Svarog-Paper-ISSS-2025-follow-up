@@ -1,0 +1,36 @@
+{
+  "days": 14.0,
+  "dt_s": 30.0,
+  "rows": [
+    {
+      "case": "reproduced gain case, 800 km",
+      "altitude_km": 800.0,
+      "pitch_deg": 34.0,
+      "days": 14.0,
+      "dt_s": 30.0,
+      "paper_da_final_km": 4.337273428951448,
+      "paper_da_max_km": 4.337273428951448,
+      "orekit_paper_sun_da_final_km": 4.498318165597084,
+      "orekit_paper_sun_da_max_km": 4.498318165597084,
+      "orekit_de440_da_final_km": 5.021775597964734,
+      "orekit_de440_da_max_km": 5.021775597964734,
+      "max_abs_diff_propagators_km": 0.17736660908758495,
+      "max_abs_diff_ephemeris_km": 0.5233372909732594
+    },
+    {
+      "case": "reduced-model anchor, 700 km",
+      "altitude_km": 700.0,
+      "pitch_deg": 24.8,
+      "days": 14.0,
+      "dt_s": 30.0,
+      "paper_da_final_km": -25.74031257097704,
+      "paper_da_max_km": 0.0,
+      "orekit_paper_sun_da_final_km": -25.432760376769693,
+      "orekit_paper_sun_da_max_km": 0.0,
+      "orekit_de440_da_final_km": -25.025347668706672,
+      "orekit_de440_da_max_km": 0.0,
+      "max_abs_diff_propagators_km": 0.30851486235767567,
+      "max_abs_diff_ephemeris_km": 0.4170920204545787
+    }
+  ]
+}
