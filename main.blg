@@ -1,10 +1,13 @@
-This is BibTeX, Version 0.99e (TeX Live 2026/Arch Linux)
+This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 The style file: elsarticle-num-names.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 2 items.
 Database file #1: cas-refs.bib
 Database file #2: D.bib
-Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty pages in sawadaMissionReportSolar2011
 Warning--empty pages in wilkieOverviewNASAAdvanced2021
 Warning--empty pages in stohlmanDevelopmentDeorbitsailFlight2014
