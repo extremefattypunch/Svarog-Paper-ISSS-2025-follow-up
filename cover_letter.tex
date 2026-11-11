@@ -1,66 +1,55 @@
-%% Cover letter for submission to Acta Astronautica
-%% Compiles as a standalone PDF (independent of main.tex)
-%% Build with:  pdflatex cover_letter.tex
+%% Cover letter for the revised submission to Acta Astronautica (AA-D-26-02719, revision 1)
+%% Compiles as a standalone PDF:  pdflatex cover_letter.tex
 
 \documentclass[11pt,a4paper]{article}
 
-\usepackage[a4paper,top=0.7in,bottom=0.7in,left=0.95in,right=0.95in]{geometry}
+\usepackage[a4paper,top=0.55in,bottom=0.55in,left=0.9in,right=0.9in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{microtype}
 \usepackage{parskip}
 \usepackage{hyperref}
-\hypersetup{
-  colorlinks=true,
-  linkcolor=black,
-  urlcolor=blue,
-  citecolor=black,
-  pdfborder={0 0 0}
-}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black,pdfborder={0 0 0}}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.42em}
+\setlength{\parskip}{0.32em}
 
 \begin{document}
-
 \pagestyle{empty}
-\thispagestyle{empty}
 
 \begin{flushright}\today\end{flushright}
 
 \noindent
-The Editor-in-Chief\\
-\textit{Acta Astronautica}\\
-International Academy of Astronautics
+The Editor\\
+\textit{Acta Astronautica}
 
-\vspace{0.6em}
+\vspace{0.3em}
 
-\noindent\textbf{Subject:} Submission of original research article ---
-\textit{``Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilised Solar Sails''}
+\noindent\textbf{Subject:} Revised manuscript AA-D-26-02719 ---
+\textit{``Eclipse-gated transient energy gain for passive solar sails in near-polar low Earth orbit''}
 
 Dear Editor,
 
-We are pleased to submit our manuscript, \textit{``Eclipse-Modulated Transient Energy Pumping in Near-Polar Low Earth Orbit for Spin-Stabilised Solar Sails''}, for consideration as an original research article in \textit{Acta Astronautica}. The work falls within the journal's scope of astrodynamics and space-borne system design, and addresses a question of direct relevance to passively oriented small solar-sail spacecraft in low Earth orbit (LEO).
+Thank you for the opportunity to revise this manuscript, and please convey my thanks to both reviewers for reports that were exacting and, in the end, very useful. I enclose the revised manuscript, a marked-up copy, and a point-by-point response to all fourteen reviewer comments.
 
-\textbf{Aim and main findings.} The paper investigates whether a passively oriented, spin-stabilised solar sail in near-polar LEO can exhibit a bounded interval of net orbital-energy gain through eclipse-modulated solar-radiation-pressure (SRP) forcing. Combining a reduced analytical model with three-dimensional numerical propagations, we show that the regime exists, but only within a narrow LTDN--pitch envelope: at \(700\,\mathrm{km}\), only \(89\) of \(900\) sampled cases (\(\sim 10\%\)) show positive semi-major-axis excursion within a 14-day window, with peak gain \(\Delta a \approx +20.07\,\mathrm{km}\). Eclipse is causally decisive --- the eclipse-on case rises by \(+10.31\,\mathrm{km}\) over 14 days while the eclipse-off counterpart falls by \(-47.75\,\mathrm{km}\) --- and the effect is transient and self-limiting through coupled apogee growth, eccentricity build-up, and perigee erosion.
+\textbf{What changed, and why.} Reviewer~2's central objection --- that the open-source propagator released with the paper does not reproduce the headline 700~km result --- was correct. In tracing it I audited the separate ``reduced-model'' implementation that had produced the original Sections~6--8 and found three implementation errors in it (an inverted incidence-angle convention in its panel aerodynamics, an SRP coefficient of \(1+C_r\) in place of \(C_r\), and a Sun direction frozen at right ascension~\(0^\circ\)). I have therefore withdrawn every quantitative result of the original Sections~6--8 and regenerated them with the open-source propagator described in Section~9, which is cross-validated against Orekit to \(10^{-10}\)~km and against an analytic drag integral. The same audit found and corrected a smaller defect in the open-source propagator itself --- an atmosphere table whose scale heights were shifted by one layer, which had inflated its 14-day drag decay at 700~km from 70 to 84~km. The manuscript states this openly.
 
-\textbf{Independent validation and open toolchain.} The paper also pursues a methodological goal. We re-implement the model in an independent open-source propagator, which reproduces the gain lobe, the eclipse-driven sign reversal, and the transient--breakdown signature, confirming that the mechanism is not an artefact of a single implementation. Cross-validating that propagator component by component against Ansys STK with the Astrogator module, two-body and \(J_2\) dynamics agree to better than \(0.05\,\mathrm{km}\) over 14 days, whereas the drag-induced decay differs by close to an order of magnitude despite matching instantaneous force --- identifying atmospheric-drag modelling, rather than the SRP mechanism, as the dominant uncertainty governing where the regime is realisable. The full toolchain and data are released openly.
+The physics survives the correction. Eclipse timing still flips the sign of the orbit-averaged SRP work, and the gain regime is still narrow, transient and self-limiting, exactly as the paper argued --- but it is realised at 800~km rather than 700~km, with a 14-day gain of \(5.95\)~km rather than 20~km, and 700~km is drag-dominated throughout. The abstract, highlights, figures and tables have been rebuilt around these numbers.
 
-\textbf{Fit, novelty, and implications.} \textit{Acta Astronautica} publishes work in astrodynamics, space transportation, and spacecraft system design --- the natural home for this contribution. To our knowledge, the eclipse-modulated transient energy-pumping regime has not previously been isolated and characterised in this form for spin-stabilised sails in LEO. Prior literature emphasises long-term or equilibrium-like SRP--drag balance; we instead show that eclipse timing alone, without active control, can flip the sign of the orbit-averaged SRP work integral over a bounded horizon, while also exposing the coupled mechanisms that close the regime. The result clarifies a real but narrow opportunity for passive orbit shaping and provides a cautionary example of how the same dynamics that enable early gain drive its eventual breakdown.
+\textbf{The STK validation is now complete rather than partial.} Reviewer~1 asked why STK had applied no SRP force and why its drag decay was an order of magnitude below the open-source value. By reading STK's effective inputs back during propagation I found both causes: a default 50~kg fuel load in the Astrogator initial-state segment that had silently increased the propagated mass from 10 to 60~kg, and a scalar-first quaternion passed to an interface that expects the scalar last, which had mis-oriented the sail plate. With the two corrected, STK reproduces the open-source SRP response and the eclipse-gated gain, and the residual drag difference of \(5\)--\(15\%\) is traced to STK's co-rotating-atmosphere and geodetic-altitude conventions, quantified independently in Orekit. Section~9 now states the exact STK version and configuration, and the response letter documents the diagnosis.
 
-\textbf{Submission status.} The manuscript is original, has not been published elsewhere, and is not under consideration by any other journal. All listed authors have read and approved the submitted version. We have no prior or concurrent submissions related to this work.
+\textbf{Other substantive additions} in response to the reviewers: a quantified treatment of atmosphere co-rotation and geodetic altitude; an atmosphere-model and solar-activity study (Harris--Priester and NRLMSISE-00 at low, moderate and high activity) that gives the regime boundary as a function of the solar cycle; a step-size convergence study motivated by the discontinuous eclipse-gated force; consistent metric definitions and new parameter tables; the corrected SRP force equation; the LTAN convention adopted throughout; and the reference and affiliation points raised by Reviewer~1.
 
-We thank you for considering our manuscript and look forward to the review process.
+I recognise that this is a larger revision than usual. I believe it is the only honest response to the reviews, and that the corrected paper is stronger for it: every number in it is now produced by one inspectable toolchain, reproduced at its key points by two independent references, and anchored by an analytic check.
+
+The manuscript remains original, is not published or under consideration elsewhere, and I am its sole author.
 
 \vspace{0.25em}
-
 \noindent Yours sincerely,
 
-\vspace{1.1em}
-
+\vspace{0.7em}
 \noindent
 Ian Poon\\
-\textit{Corresponding author, on behalf of all co-authors}\\
 Department of Bioengineering, Imperial College London\\
 \href{mailto:ip323@ic.ac.uk}{ip323@ic.ac.uk}
 

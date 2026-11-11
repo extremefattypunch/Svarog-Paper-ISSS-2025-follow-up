@@ -62,10 +62,14 @@ CASES = [
 ]
 
 
-def run_paper(cfg):
+def run_paper(cfg, sun_distance="analytic"):
+    """sun_distance="fixed_1au" reproduces the submitted model's constant flux
+    (matches Orekit's "paper" Sun model); "analytic" is the revised production
+    setting, which scales the flux by (1 AU / d_sun)^2."""
     c = SailCase(altitude_km=cfg["altitude_km"], inc_deg=cfg["inc_deg"],
                  raan_deg=cfg["raan_deg"], pitch_deg=cfg["pitch_deg"],
-                 ecc=1e-4, use_srp=True, drag_mode="nplate", dt=DT)
+                 ecc=1e-4, use_srp=True, drag_mode="nplate", dt=DT,
+                 sun_distance=sun_distance)
     return propagate_paper(c, DAYS)
 
 
@@ -88,28 +92,36 @@ def series_diff(ref, other):
 def main():
     rows = []
     for cfg in CASES:
-        a = run_paper(cfg)
+        a0 = run_paper(cfg, "fixed_1au")   # same Sun model as B: isolates the propagators
+        a = run_paper(cfg, "analytic")     # production setting: flux scaled by (1 AU/d)^2
         b = run_orekit(cfg, "paper")
         c = run_orekit(cfg, "de440")
 
         row = dict(
             case=cfg["name"], altitude_km=cfg["altitude_km"],
             pitch_deg=cfg["pitch_deg"], days=DAYS, dt_s=DT,
+            paper_fixed1au_da_final_km=float(a0["da_final"]),
+            paper_fixed1au_da_max_km=float(a0["da_max"]),
             paper_da_final_km=float(a["da_final"]),
             paper_da_max_km=float(a["da_max"]),
             orekit_paper_sun_da_final_km=float(b["da_final"]),
             orekit_paper_sun_da_max_km=float(b["da_max"]),
             orekit_de440_da_final_km=float(c["da_final"]),
             orekit_de440_da_max_km=float(c["da_max"]),
-            max_abs_diff_propagators_km=series_diff(a, b),
+            max_abs_diff_propagators_km=series_diff(a0, b),
             max_abs_diff_ephemeris_km=series_diff(b, c),
+            max_abs_diff_production_vs_de440_km=series_diff(a, c),
         )
         rows.append(row)
 
         print(f"\n[{cfg['name']}]  full model, SRP on, {DAYS:.0f} days, dt = {DT:.0f} s")
-        print(f"  A  open-source propagator            "
+        print(f"  A0 open-source, fixed 1 AU flux      "
+              f"Delta a_max = {a0['da_max']:+8.4f} km   "
+              f"Delta a(14 d) = {a0['da_final']:+8.4f} km")
+        print(f"  A  open-source, (1 AU/d)^2 flux      "
               f"Delta a_max = {a['da_max']:+8.4f} km   "
-              f"Delta a(14 d) = {a['da_final']:+8.4f} km")
+              f"Delta a(14 d) = {a['da_final']:+8.4f} km"
+              f"   (vs C: max |diff| {row['max_abs_diff_production_vs_de440_km']:.4f} km)")
         print(f"  B  Orekit, paper's analytic Sun      "
               f"Delta a_max = {b['da_max']:+8.4f} km   "
               f"Delta a(14 d) = {b['da_final']:+8.4f} km")

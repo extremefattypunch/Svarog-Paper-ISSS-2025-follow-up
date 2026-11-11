@@ -83,9 +83,11 @@ def layer_continuity():
 
     rows = []
     for i in range(len(table) - 1):
-        h0, rho0, H = table[i]
-        h1, rho1, _ = table[i + 1]
-        extrap = rho0 * math.exp(-(h1 - h0) / H)
+        h0, rho0 = table[i][0], table[i][1]
+        h1, rho1 = table[i + 1][0], table[i + 1][1]
+        # the revised table is interpolated log-linearly between nodes, so the
+        # value approached from below is the node value itself: jump ratio 1.
+        extrap = density_us1976_kg_m3(h1 * 1e3 - 1e-6)
         rows.append(dict(floor_km=h0, next_floor_km=h1,
                          anchor_density=rho1, extrapolated_density=extrap,
                          jump_ratio=extrap / rho1))

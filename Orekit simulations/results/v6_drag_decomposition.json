@@ -7,108 +7,119 @@
     {
       "altitude_km": 700.0,
       "config": "baseline (US-1976, geocentric, no co-rotation)",
-      "da_node_km": -84.04030981217056,
-      "da_orbitavg_km": -84.66937249743842,
+      "da_node_km": -69.87171711717201,
+      "da_orbitavg_km": -70.00872155828802,
       "reentered": false,
       "span_days": 14.0
     },
     {
       "altitude_km": 700.0,
       "config": "co-rotating atmosphere",
-      "da_node_km": -86.97204038954715,
-      "da_orbitavg_km": -87.56553300442374,
+      "da_node_km": -72.27954651287564,
+      "da_orbitavg_km": -72.49629404328061,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 1.034884814012811
+      "baseline_used": "baseline (US-1976, geocentric, no co-rotation)",
+      "ratio_to_baseline": 1.0344607159384076
     },
     {
       "altitude_km": 700.0,
       "config": "geodetic altitude",
-      "da_node_km": -68.09194857360035,
-      "da_orbitavg_km": -68.18148555727839,
+      "da_node_km": -57.036718438420394,
+      "da_orbitavg_km": -57.23195376666445,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 0.8102296234483823
+      "baseline_used": "baseline (US-1976, geocentric, no co-rotation)",
+      "ratio_to_baseline": 0.8163062365101483
     },
     {
       "altitude_km": 700.0,
       "config": "co-rotating + geodetic",
-      "da_node_km": -70.2864245830051,
-      "da_orbitavg_km": -70.44104956198771,
+      "da_node_km": -58.81504003824648,
+      "da_orbitavg_km": -58.97781447013949,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 0.836341807164856
+      "baseline_used": "baseline (US-1976, geocentric, no co-rotation)",
+      "ratio_to_baseline": 0.8417574730504485
     },
     {
       "altitude_km": 700.0,
       "config": "Harris-Priester (Orekit built-in)",
-      "da_node_km": -494.7448308498233,
-      "da_orbitavg_km": -462.8601750412745,
+      "da_node_km": -494.7448308871317,
+      "da_orbitavg_km": -462.86017517965956,
       "reentered": true,
       "span_days": 10.454513888888888,
-      "ratio_to_baseline": 5.886994371576856
+      "baseline_used": "geodetic altitude",
+      "baseline_da_same_window_km": -38.17681963080192,
+      "ratio_to_baseline": 12.959299273005977
     },
     {
       "altitude_km": 700.0,
       "config": "NRLMSISE-00 (Orekit built-in)",
-      "da_node_km": -180.66240567399018,
-      "da_orbitavg_km": -180.88877086728735,
+      "da_node_km": -179.85878534336825,
+      "da_orbitavg_km": -180.0754467061779,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 2.1497113239797576
+      "baseline_used": "geodetic altitude",
+      "ratio_to_baseline": 3.153385928707531
     },
     {
       "altitude_km": 800.0,
       "config": "baseline (US-1976, geocentric, no co-rotation)",
-      "da_node_km": -21.89797622012884,
-      "da_orbitavg_km": -21.946969013245507,
+      "da_node_km": -18.382081431547704,
+      "da_orbitavg_km": -18.454016138412044,
       "reentered": false,
       "span_days": 14.0
     },
     {
       "altitude_km": 800.0,
       "config": "co-rotating atmosphere",
-      "da_node_km": -22.420080552589752,
-      "da_orbitavg_km": -22.466056278502947,
+      "da_node_km": -18.817401600799712,
+      "da_orbitavg_km": -18.889855503924082,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 1.023842583771782
+      "baseline_used": "baseline (US-1976, geocentric, no co-rotation)",
+      "ratio_to_baseline": 1.0236817669899396
     },
     {
       "altitude_km": 800.0,
       "config": "geodetic altitude",
-      "da_node_km": -18.825087740223353,
-      "da_orbitavg_km": -18.900131799238807,
+      "da_node_km": -16.567986167002346,
+      "da_orbitavg_km": -16.65302701711971,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 0.8596724898677688
+      "baseline_used": "baseline (US-1976, geocentric, no co-rotation)",
+      "ratio_to_baseline": 0.9013117599712092
     },
     {
       "altitude_km": 800.0,
       "config": "co-rotating + geodetic",
-      "da_node_km": -19.311683112287028,
-      "da_orbitavg_km": -19.366797296434925,
+      "da_node_km": -16.953128482414286,
+      "da_orbitavg_km": -17.041512218634125,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 0.8818935100740285
+      "baseline_used": "baseline (US-1976, geocentric, no co-rotation)",
+      "ratio_to_baseline": 0.9222638113940123
     },
     {
       "altitude_km": 800.0,
       "config": "Harris-Priester (Orekit built-in)",
-      "da_node_km": -57.843285027155616,
-      "da_orbitavg_km": -57.863506360277825,
+      "da_node_km": -57.84328502752942,
+      "da_orbitavg_km": -57.86350636064526,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 2.641489991846164
+      "baseline_used": "geodetic altitude",
+      "ratio_to_baseline": 3.4912683077158215
     },
     {
       "altitude_km": 800.0,
       "config": "NRLMSISE-00 (Orekit built-in)",
-      "da_node_km": -29.2157276516391,
-      "da_orbitavg_km": -29.409487802335207,
+      "da_node_km": -29.173833094215297,
+      "da_orbitavg_km": -29.37001893679917,
       "reentered": false,
       "span_days": 14.0,
-      "ratio_to_baseline": 1.3341747820871095
+      "baseline_used": "geodetic altitude",
+      "ratio_to_baseline": 1.7608557129483489
     }
   ]
 }

@@ -1,0 +1,457 @@
+{
+ "days": 14.0,
+ "steps_s": [
+  120.0,
+  60.0,
+  30.0,
+  15.0,
+  10.0,
+  7.5,
+  5.0,
+  2.5
+ ],
+ "rows": [
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 120.0,
+   "da_max_km": 0.08003665634987556,
+   "da_final_km": -1.989794306674412,
+   "da_at_14d_km": -1.989794306674412,
+   "wall_s": 0.8807957172393799
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 60.0,
+   "da_max_km": 5.650838777019999,
+   "da_final_km": 5.650838777019999,
+   "da_at_14d_km": 5.650838777019999,
+   "wall_s": 1.7903461456298828
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 30.0,
+   "da_max_km": 5.93286385002375,
+   "da_final_km": 5.93286385002375,
+   "da_at_14d_km": 5.93286385002375,
+   "wall_s": 3.347444534301758
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 15.0,
+   "da_max_km": 5.9521109792658535,
+   "da_final_km": 5.9521109792658535,
+   "da_at_14d_km": 5.9521109792658535,
+   "wall_s": 7.248487710952759
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 10.0,
+   "da_max_km": 5.950800808029271,
+   "da_final_km": 5.950800808029271,
+   "da_at_14d_km": 5.950800808029271,
+   "wall_s": 11.596621036529541
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 7.5,
+   "da_max_km": 5.95458265043726,
+   "da_final_km": 5.95458265043726,
+   "da_at_14d_km": 5.95458265043726,
+   "wall_s": 16.41697096824646
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 5.0,
+   "da_max_km": 5.953777833905406,
+   "da_final_km": 5.953777833905406,
+   "da_at_14d_km": 5.953777833905406,
+   "wall_s": 26.46610951423645
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 2.5,
+   "da_max_km": 5.955614059369509,
+   "da_final_km": 5.955614059369509,
+   "da_at_14d_km": 5.955614059369509,
+   "wall_s": 49.89448165893555
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 120.0,
+   "da_max_km": 0.0,
+   "da_final_km": -18.812040988764238,
+   "da_at_14d_km": -18.812040988764238,
+   "wall_s": 0.796654224395752
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 60.0,
+   "da_max_km": 0.0,
+   "da_final_km": -10.861201372483265,
+   "da_at_14d_km": -10.861201372483265,
+   "wall_s": 1.5949020385742188
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 30.0,
+   "da_max_km": 0.0,
+   "da_final_km": -10.593412926406018,
+   "da_at_14d_km": -10.593412926406018,
+   "wall_s": 3.251002073287964
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 15.0,
+   "da_max_km": 0.0,
+   "da_final_km": -10.585541493225719,
+   "da_at_14d_km": -10.585541493225719,
+   "wall_s": 6.845467567443848
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 10.0,
+   "da_max_km": 0.0,
+   "da_final_km": -10.587290511486572,
+   "da_at_14d_km": -10.587290511486572,
+   "wall_s": 11.044671297073364
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 7.5,
+   "da_max_km": 0.0,
+   "da_final_km": -10.587133931678181,
+   "da_at_14d_km": -10.587133931678181,
+   "wall_s": 14.968074798583984
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 5.0,
+   "da_max_km": 0.0,
+   "da_final_km": -10.587255913414083,
+   "da_at_14d_km": -10.587255913414083,
+   "wall_s": 24.312896490097046
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 2.5,
+   "da_max_km": 0.0,
+   "da_final_km": -10.587241720299062,
+   "da_at_14d_km": -10.587241720299062,
+   "wall_s": 47.1626091003418
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 120.0,
+   "da_max_km": 0.0027757886964536738,
+   "da_final_km": -17.953003861672187,
+   "da_at_14d_km": -17.953003861672187,
+   "wall_s": 0.6840741634368896
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 60.0,
+   "da_max_km": 0.0,
+   "da_final_km": -10.19902867226483,
+   "da_at_14d_km": -10.19902867226483,
+   "wall_s": 1.2772934436798096
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 30.0,
+   "da_max_km": 0.0,
+   "da_final_km": -9.909075705173564,
+   "da_at_14d_km": -9.909075705173564,
+   "wall_s": 2.760998487472534
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 15.0,
+   "da_max_km": 0.0,
+   "da_final_km": -9.892125410491644,
+   "da_at_14d_km": -9.892125410491644,
+   "wall_s": 5.75828742980957
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 10.0,
+   "da_max_km": 0.0,
+   "da_final_km": -9.893847329911296,
+   "da_at_14d_km": -9.893847329911296,
+   "wall_s": 9.390811920166016
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 7.5,
+   "da_max_km": 0.0,
+   "da_final_km": -9.8943236794712,
+   "da_at_14d_km": -9.8943236794712,
+   "wall_s": 12.633806467056274
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 5.0,
+   "da_max_km": 0.0,
+   "da_final_km": -9.893815103649104,
+   "da_at_14d_km": -9.893815103649104,
+   "wall_s": 21.105053663253784
+  },
+  {
+   "altitude_km": 800.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 2.5,
+   "da_max_km": 0.0,
+   "da_final_km": -9.89381399441936,
+   "da_at_14d_km": -9.89381399441936,
+   "wall_s": 39.77807855606079
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 120.0,
+   "da_max_km": 0.0,
+   "da_final_km": -32.7411462288901,
+   "da_at_14d_km": -32.7411462288901,
+   "wall_s": 1.0327215194702148
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 60.0,
+   "da_max_km": 0.0,
+   "da_final_km": -21.412897141317444,
+   "da_at_14d_km": -21.412897141317444,
+   "wall_s": 2.0907089710235596
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 30.0,
+   "da_max_km": 0.0,
+   "da_final_km": -21.094101671293174,
+   "da_at_14d_km": -21.094101671293174,
+   "wall_s": 4.290319442749023
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 15.0,
+   "da_max_km": 0.0,
+   "da_final_km": -21.062363026497223,
+   "da_at_14d_km": -21.062363026497223,
+   "wall_s": 10.094957828521729
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 10.0,
+   "da_max_km": 0.0,
+   "da_final_km": -21.073507281970706,
+   "da_at_14d_km": -21.073507281970706,
+   "wall_s": 14.38618779182434
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 7.5,
+   "da_max_km": 0.0,
+   "da_final_km": -21.063571459477316,
+   "da_at_14d_km": -21.063571459477316,
+   "wall_s": 19.431894540786743
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 5.0,
+   "da_max_km": 0.0,
+   "da_final_km": -21.064437829716553,
+   "da_at_14d_km": -21.064437829716553,
+   "wall_s": 27.788896799087524
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "full model (eclipse-gated SRP + drag)",
+   "dt_s": 2.5,
+   "da_max_km": 0.0,
+   "da_final_km": -21.064040982181723,
+   "da_at_14d_km": -21.064040982181723,
+   "wall_s": 45.23836541175842
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 120.0,
+   "da_max_km": 0.0,
+   "da_final_km": -58.610229531217556,
+   "da_at_14d_km": -58.610229531217556,
+   "wall_s": 1.2121036052703857
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 60.0,
+   "da_max_km": 0.0,
+   "da_final_km": -45.784911400506644,
+   "da_at_14d_km": -45.784911400506644,
+   "wall_s": 3.027953863143921
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 30.0,
+   "da_max_km": 0.0,
+   "da_final_km": -45.37661805779044,
+   "da_at_14d_km": -45.37661805779044,
+   "wall_s": 5.0859785079956055
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 15.0,
+   "da_max_km": 0.0,
+   "da_final_km": -45.36663662548199,
+   "da_at_14d_km": -45.36663662548199,
+   "wall_s": 9.515002012252808
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 10.0,
+   "da_max_km": 0.0,
+   "da_final_km": -45.36138485030369,
+   "da_at_14d_km": -45.36138485030369,
+   "wall_s": 14.013461351394653
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 7.5,
+   "da_max_km": 0.0,
+   "da_final_km": -45.362666270966656,
+   "da_at_14d_km": -45.362666270966656,
+   "wall_s": 17.46055817604065
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 5.0,
+   "da_max_km": 0.0,
+   "da_final_km": -45.36209781395792,
+   "da_at_14d_km": -45.36209781395792,
+   "wall_s": 24.00057864189148
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "SRP with umbra disabled + drag",
+   "dt_s": 2.5,
+   "da_max_km": 0.0,
+   "da_final_km": -45.36184730304649,
+   "da_at_14d_km": -45.36184730304649,
+   "wall_s": 36.42260432243347
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 120.0,
+   "da_max_km": 0.0,
+   "da_final_km": -47.73524189561613,
+   "da_at_14d_km": -47.73524189561613,
+   "wall_s": 1.0517001152038574
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 60.0,
+   "da_max_km": 0.0,
+   "da_final_km": -36.08448208288792,
+   "da_at_14d_km": -36.08448208288792,
+   "wall_s": 1.9237730503082275
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 30.0,
+   "da_max_km": 0.0,
+   "da_final_km": -35.70201236679077,
+   "da_at_14d_km": -35.70201236679077,
+   "wall_s": 3.9122865200042725
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 15.0,
+   "da_max_km": 0.0,
+   "da_final_km": -35.68217866444775,
+   "da_at_14d_km": -35.68217866444775,
+   "wall_s": 7.626768589019775
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 10.0,
+   "da_max_km": 0.0,
+   "da_final_km": -35.67838872757602,
+   "da_at_14d_km": -35.67838872757602,
+   "wall_s": 10.770744323730469
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 7.5,
+   "da_max_km": 0.0,
+   "da_final_km": -35.678946552413436,
+   "da_at_14d_km": -35.678946552413436,
+   "wall_s": 13.39034914970398
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 5.0,
+   "da_max_km": 0.0,
+   "da_final_km": -35.678529189644905,
+   "da_at_14d_km": -35.678529189644905,
+   "wall_s": 17.88216233253479
+  },
+  {
+   "altitude_km": 700.0,
+   "config": "drag only (no SRP)",
+   "dt_s": 2.5,
+   "da_max_km": 0.0,
+   "da_final_km": -35.678773916180035,
+   "da_at_14d_km": -35.678773916180035,
+   "wall_s": 28.924999952316284
+  }
+ ],
+ "orekit_reference": {
+  "full model (eclipse-gated SRP + drag)": 5.940131460813063,
+  "SRP with umbra disabled + drag": -10.586427174228447,
+  "drag only (no SRP)": -9.89894360973176
+ },
+ "orekit_reference_geometry": {
+  "ltan_h": 14.0,
+  "pitch_deg": 35.0
+ },
+ "note": "Orekit DP853 + eclipse-event reference (800 km): full model (eclipse-gated SRP + drag): +5.9401 km, SRP with umbra disabled + drag: -10.5864 km, drag only (no SRP): -9.8989 km"
+}

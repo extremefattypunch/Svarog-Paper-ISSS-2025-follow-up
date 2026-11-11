@@ -53,15 +53,15 @@ where $\theta$ is the orbital phase measured from the sunward direction. For a p
 where $\beta$ is the constant pitch angle measured from the Sun line.
 
 \vspace{0.5em}
-\par\noindent For an ideal reflecting sail under constant illumination, the SRP acceleration has fixed inertial direction and may be written in the form \citep{mcinnes1999}
+\par\noindent For an ideal reflecting sail under constant illumination, with $\mathbf{n}$ the normal of the illuminated (sunward) face, the SRP acceleration is directed away from the Sun along $-\mathbf{n}$, has fixed inertial direction, and may be written in the form \citep{mcinnes1999}
 \begin{equation}
-\mathbf{a}_{\text{SRP}} = a_0 \cos^2\beta \,\mathbf{n},
+\mathbf{a}_{\text{SRP}} = -a_0 \cos^2\beta \,\mathbf{n},
 \label{eq:srp_vector}
 \end{equation}
-where $a_0$ is the characteristic SRP acceleration scale. The instantaneous specific power is then
+where $a_0$ is the characteristic SRP acceleration scale. Equation~\eqref{eq:srp_vector} is the ideal-reflector limit of the flat-plate force used in the simulations (Eq.~\eqref{eq:srp_force} in Section~\ref{sec:model}): a real plate with specular reflectivity $\rho_s<1$ also carries an absorbed component directed along the Sun line, but that component performs no net work over an orbit in this geometry, so only the normal-directed term enters the energy argument that follows. The instantaneous specific power is then
 \begin{equation}
 \dot{\varepsilon} = \mathbf{a}_{\text{SRP}}\cdot\mathbf{v}
-= a_0\cos^2\beta\,\mathbf{n}\cdot\mathbf{v}.
+= -a_0\cos^2\beta\,\mathbf{n}\cdot\mathbf{v}.
 \end{equation}
 Substituting for $\mathbf{n}$ and $\mathbf{v}$ gives
 \begin{equation}
@@ -71,7 +71,7 @@ Substituting for $\mathbf{n}$ and $\mathbf{v}$ gives
 \end{equation}
 so that
 \begin{equation}
-\dot{\varepsilon} = a_0 v \cos^2\beta \,\sin(\beta-\theta).
+\dot{\varepsilon} = -a_0 v \cos^2\beta \,\sin(\beta-\theta).
 \label{eq:power_phase}
 \end{equation}
 
@@ -80,7 +80,7 @@ so that
 \begin{equation}
 \Delta\varepsilon_{\text{full}}
 = \int_0^{2\pi}\dot{\varepsilon}\,dt
-= a_0 r \cos^2\beta \int_0^{2\pi}\sin(\beta-\theta)\,d\theta.
+= -a_0 r \cos^2\beta \int_0^{2\pi}\sin(\beta-\theta)\,d\theta.
 \end{equation}
 Since
 \begin{equation}
@@ -114,7 +114,7 @@ where $R_E$ is the Earth radius and $r$ is the orbital radius. The illuminated a
 \par\noindent The net specific energy change over the illuminated portion of the orbit becomes
 \begin{equation}
 \Delta\varepsilon_{\text{lit}}
-= a_0 r \cos^2\beta
+= -a_0 r \cos^2\beta
 \left[
 \int_0^{\pi-\delta}\sin(\beta-\theta)\,d\theta
 +
@@ -126,13 +126,14 @@ Using the full-orbit cancellation result, this may be written more compactly as 
 \begin{equation}
 \Delta\varepsilon_{\text{lit}}
 =
-- a_0 r \cos^2\beta
+a_0 r \cos^2\beta
 \int_{\pi-\delta}^{\pi+\delta}\sin(\beta-\theta)\,d\theta.
 \end{equation}
 Evaluating the integral gives
 \begin{equation}
 \int_{\pi-\delta}^{\pi+\delta}\sin(\beta-\theta)\,d\theta
-= 2\sin\beta\,\sin\delta,
+= \Bigl[\cos(\beta-\theta)\Bigr]_{\pi-\delta}^{\pi+\delta}
+= -2\sin\beta\,\sin\delta,
 \end{equation}
 and hence
 \begin{equation}
@@ -160,14 +161,14 @@ with the positive-gain branch
 \begin{equation}
 \beta^\star = -\arcsin\left(\frac{1}{\sqrt{3}}\right)\approx -35.3^\circ.
 \end{equation}
-This result is used here only to show that the eclipse-modulated work imbalance is not marginal or accidental in the reduced geometry. It is not claimed to be a design optimum for the full propagated 3D system, whose geometry, illumination history, drag losses, and coupled element evolution are substantially richer.
+In the signed-pitch convention of Section~\ref{sec:model} (\(p = -\beta\)) this branch is \(p^\star \approx +35^\circ\), which is where the propagated \(800\,\mathrm{km}\) map of Section~\ref{sec:existence} peaks. This result is used here only to show that the eclipse-modulated work imbalance is not marginal or accidental in the reduced geometry. It is not claimed to be a design optimum for the full propagated 3D system, whose geometry, illumination history, drag losses, and coupled element evolution are substantially richer.
 
 
 
 \vspace{0.5em}
 \subsection{\textbf{Dependence on orbital geometry}}
 
-\noindent The reduced mechanism is intrinsically phase-selective and therefore strongly dependent on orbital geometry. In the full problem, the local time of descending node (LTDN), the Sun-relative orientation of the orbital plane, and the fixed sail attitude together determine which parts of the orbit are illuminated, which are shadowed, and how the SRP work distribution is sampled. The sign and magnitude of the orbit-integrated SRP contribution therefore depend on whether eclipse preferentially removes unfavourable or favourable work phases.
+\noindent The reduced mechanism is intrinsically phase-selective and therefore strongly dependent on orbital geometry. In the full problem, the local time of ascending node (LTAN), the Sun-relative orientation of the orbital plane, and the fixed sail attitude together determine which parts of the orbit are illuminated, which are shadowed, and how the SRP work distribution is sampled. The sign and magnitude of the orbit-integrated SRP contribution therefore depend on whether eclipse preferentially removes unfavourable or favourable work phases.
 
 \vspace{0.5em}
 \par\noindent The midnight case is analytically useful because the eclipse is centred on the anti-solar point and the resulting shadow interval is symmetric in orbital phase, allowing the effect of selective gating to be shown in closed form. Away from this limiting geometry, the illuminated and shadowed arcs shift relative to the SRP work distribution, and the balance between positive and negative transverse work changes accordingly. Net semi-major-axis growth is therefore expected only over restricted regions of the full parameter space.

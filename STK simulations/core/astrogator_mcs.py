@@ -152,10 +152,10 @@ def build_propagator(root, prop_name, case: RunCase, srp_file, drag_file,
             srp.ShadowModel = shadow
         except Exception:
             pass
-        # match the paper's TSI ~1361 W/m^2 (P/c ~ 4.54e-6 N/m^2)
+        # same irradiance as the open-source plate: P_1AU = 4.5605e-6 N/m^2 x c = 1367.2 W/m^2
         for attr in ("MeanFlux",):
             try:
-                setattr(srp, attr, 1361.0)
+                setattr(srp, attr, 4.5605e-6 * 299792458.0)
             except Exception:
                 pass
 
@@ -163,7 +163,8 @@ def build_propagator(root, prop_name, case: RunCase, srp_file, drag_file,
 
 
 def build_satellite(root, case: RunCase, sat_name="Sat",
-                    use_drag=True, use_srp=True, nplate_dir=None, drag_model="nplate"):
+                    use_drag=True, use_srp=True, nplate_dir=None, drag_model="nplate",
+                    zero_fuel=True):
     """
     Full Astrogator build for one case. Returns (sat, driver).
     Writes per-case .nplate files (SRP one-sided; drag opposed +/-Z with cd_scale).
@@ -229,6 +230,18 @@ def build_satellite(root, case: RunCase, sat_name="Sat",
         except Exception:
             pass
 
+    # The Initial State segment's fuel tank defaults to 50 kg of fuel, which
+    # Astrogator adds to DryMass when it evaluates drag and SRP. The original
+    # (submitted) build left it in place, so the propagated mass was 60 kg and the
+    # ballistic coefficient 6x too small (found by read-back, validation/rev_stk_probe.py).
+    if zero_fuel:
+        try:
+            tank = init.FuelTank
+            tank.FuelMass = 0.0
+            tank.MaximumFuelMass = 0.0
+        except Exception:
+            pass
+
     # attitude: inertially fixed body +Z -> sail normal
     sat.SetAttitudeType(o.AgEVeAttitude.eAttitudeStandard)
     basic = sat.Attitude.Basic
@@ -240,8 +253,11 @@ def build_satellite(root, case: RunCase, sat_name="Sat",
             break
         except Exception:
             continue
+    # IAgOrientationQuaternion.AssignQuaternion takes (qx, qy, qz, qs): scalar LAST.
+    # The submitted build passed the scalar first, which mis-oriented the plate
+    # (effective SRP area 16 m^2 instead of A cos(alpha) = 83 m^2; rev_stk_probe.py).
     qw, qx, qy, qz = normal_to_quaternion_eci(case.sail_normal_eci, body_axis=(0, 0, 1))
-    prof.Orientation.AssignQuaternion(qw, qx, qy, qz)
+    prof.Orientation.AssignQuaternion(qx, qy, qz, qw)
 
     # stopping condition: Duration
     stop = propseg.StoppingConditions.Item("Duration").Properties

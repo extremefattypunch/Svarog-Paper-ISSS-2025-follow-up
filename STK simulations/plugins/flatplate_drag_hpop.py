@@ -31,50 +31,54 @@ from dataclasses import dataclass
 
 R_EARTH_M = 6378136.3
 
-# US Standard Atmosphere 1976, exponential model.
-# Each row: (alt_floor_km, rho_at_floor_kg_m3, scale_height_km).
-# Reused from C:\Users\Ian Poon\Documents\STK_ODTK 13\LEOsolarsailSIMS\Plugins\FlatPlateDrag.py
+# US Standard Atmosphere 1976 (NOAA/NASA/USAF 1976), tabulated total density.
+# Each row: (altitude_km, rho_kg_m3).  Between rows the density is interpolated
+# exponentially (log-linear), i.e. each layer's scale height follows from the
+# tabulated end-point densities, H_i = (h_{i+1}-h_i)/ln(rho_i/rho_{i+1}), so the
+# profile is continuous.  (The original plugin paired these base densities with
+# scale heights shifted by one layer, which made the profile discontinuous by
+# x1.20 at 700 and 800 km and up to 21% too dense just below each boundary --
+# found during the Acta Astronautica revision, see docs/REVISION_NOTES.md.)
 _ATM_TABLE = [
-    (0,    1.225,     8.44),
-    (25,   3.899e-2,  6.49),
-    (50,   1.027e-3,  7.26),
-    (75,   3.992e-5,  8.31),
-    (100,  5.604e-7,  5.88),
-    (150,  2.076e-9,  26.4),
-    (200,  2.541e-10, 37.1),
-    (250,  6.073e-11, 45.5),
-    (300,  1.916e-11, 53.6),
-    (400,  2.803e-12, 63.8),
-    (500,  5.215e-13, 71.8),
-    (600,  1.137e-13, 88.6),
-    (700,  3.070e-14, 124.0),
-    (800,  1.136e-14, 181.0),
-    (900,  5.759e-15, 268.0),
-    (1000, 3.561e-15, 408.0),
+    (0,    1.225),
+    (25,   3.899e-2),
+    (50,   1.027e-3),
+    (75,   3.992e-5),
+    (100,  5.604e-7),
+    (150,  2.076e-9),
+    (200,  2.541e-10),
+    (250,  6.073e-11),
+    (300,  1.916e-11),
+    (400,  2.803e-12),
+    (500,  5.215e-13),
+    (600,  1.137e-13),
+    (700,  3.070e-14),
+    (800,  1.136e-14),
+    (900,  5.759e-15),
+    (1000, 3.561e-15),
 ]
+_LOG_RHO = [math.log(r) for _, r in _ATM_TABLE]
 
 
 def density_us1976_kg_m3(altitude_m, scaling=1.0):
     """
-    Piecewise-exponential US-1976 density [kg/m³] at given altitude [m],
-    optionally multiplied by a constant `scaling`.
-
-    Above the highest tabulated layer (1000 km), extrapolate using the
-    last segment's scale height — never zero out, so the work integrals
-    remain deterministic.
+    US-1976 density [kg/m^3] at geocentric altitude [m], exponentially
+    interpolated between the tabulated values, optionally multiplied by a
+    constant `scaling`.  Above 1000 km the 900-1000 km scale height is used
+    for extrapolation -- never zero, so the work integrals stay deterministic.
     """
     h_km = altitude_m / 1000.0
     if h_km <= 0:
         return _ATM_TABLE[0][1] * scaling
-
-    for i in range(len(_ATM_TABLE) - 1):
-        h0, rho0, H = _ATM_TABLE[i]
-        h1 = _ATM_TABLE[i + 1][0]
+    n = len(_ATM_TABLE)
+    for i in range(n - 1):
+        h0 = _ATM_TABLE[i][0]; h1 = _ATM_TABLE[i + 1][0]
         if h_km < h1:
-            return rho0 * math.exp(-(h_km - h0) / H) * scaling
-
-    h0, rho0, H = _ATM_TABLE[-1]
-    return rho0 * math.exp(-(h_km - h0) / H) * scaling
+            f = (h_km - h0) / (h1 - h0)
+            return math.exp(_LOG_RHO[i] + f * (_LOG_RHO[i + 1] - _LOG_RHO[i])) * scaling
+    h0 = _ATM_TABLE[-1][0]
+    H = (h0 - _ATM_TABLE[-2][0]) / (_LOG_RHO[-2] - _LOG_RHO[-1])
+    return math.exp(_LOG_RHO[-1] - (h_km - h0) / H) * scaling
 
 
 def cos_theta_velocity(sail_normal_eci, v_eci):

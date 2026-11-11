@@ -5,17 +5,20 @@
     {
       "case": "reproduced gain case, 800 km",
       "altitude_km": 800.0,
-      "pitch_deg": 34.0,
+      "pitch_deg": 35.0,
       "days": 14.0,
       "dt_s": 30.0,
-      "paper_da_final_km": 4.337273428951448,
-      "paper_da_max_km": 4.337273428951448,
-      "orekit_paper_sun_da_final_km": 4.498318165597084,
-      "orekit_paper_sun_da_max_km": 4.498318165597084,
-      "orekit_de440_da_final_km": 5.021775597964734,
-      "orekit_de440_da_max_km": 5.021775597964734,
-      "max_abs_diff_propagators_km": 0.17736660908758495,
-      "max_abs_diff_ephemeris_km": 0.5233372909732594
+      "paper_fixed1au_da_final_km": 5.438332487621665,
+      "paper_fixed1au_da_max_km": 5.438332487621665,
+      "paper_da_final_km": 5.93286385002375,
+      "paper_da_max_km": 5.93286385002375,
+      "orekit_paper_sun_da_final_km": 5.605027667646027,
+      "orekit_paper_sun_da_max_km": 5.605027667646027,
+      "orekit_de440_da_final_km": 6.126916806394547,
+      "orekit_de440_da_max_km": 6.126916806394547,
+      "max_abs_diff_propagators_km": 0.18137676250808,
+      "max_abs_diff_ephemeris_km": 0.521625664075569,
+      "max_abs_diff_production_vs_de440_km": 0.1940529563707969
     },
     {
       "case": "reduced-model anchor, 700 km",
@@ -23,14 +26,17 @@
       "pitch_deg": 24.8,
       "days": 14.0,
       "dt_s": 30.0,
-      "paper_da_final_km": -25.74031257097704,
+      "paper_fixed1au_da_final_km": -21.47828217508777,
+      "paper_fixed1au_da_max_km": 0.0,
+      "paper_da_final_km": -21.158150743343867,
       "paper_da_max_km": 0.0,
-      "orekit_paper_sun_da_final_km": -25.432760376769693,
+      "orekit_paper_sun_da_final_km": -21.18033762478626,
       "orekit_paper_sun_da_max_km": 0.0,
-      "orekit_de440_da_final_km": -25.025347668706672,
+      "orekit_de440_da_final_km": -20.841553617482532,
       "orekit_de440_da_max_km": 0.0,
-      "max_abs_diff_propagators_km": 0.30851486235767567,
-      "max_abs_diff_ephemeris_km": 0.4170920204545787
+      "max_abs_diff_propagators_km": 0.29870552658926286,
+      "max_abs_diff_ephemeris_km": 0.3546534194850537,
+      "max_abs_diff_production_vs_de440_km": 0.31765853041987313
     }
   ]
 }

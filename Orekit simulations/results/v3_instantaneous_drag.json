@@ -7,37 +7,147 @@
       "altitude_km": 700.0,
       "geocentric_altitude_km": 699.2921863700002,
       "speed_m_s": 7505.037327700614,
-      "density_orekit": 3.707282036293308e-14,
-      "density_paper": 3.707282036293308e-14,
-      "density_at_reference_altitude": 3.07e-14,
-      "density_layer_discontinuity_ratio": 1.197988453245539,
-      "cos_theta": 0.7848062876334886,
-      "accel_orekit_spherical": 2.296963135829883e-05,
-      "accel_paper_spherical": 2.2969631358298832e-05,
-      "rel_diff_spherical": 1.4750483959304307e-16,
-      "accel_orekit_nplate": 1.8026711114616268e-05,
-      "accel_paper_nplate": 1.802671111461627e-05,
-      "rel_diff_nplate": 1.8795063433784456e-16,
+      "density_orekit": 3.0985831875318567e-14,
+      "density_paper": 3.0985831875318567e-14,
+      "density_at_reference_altitude": 3.069999999999999e-14,
+      "density_layer_discontinuity_ratio": 1.0000130930931743,
+      "cos_theta": 0.7848062876334887,
+      "accel_orekit_spherical": 1.9198246276884633e-05,
+      "accel_paper_spherical": 1.9198246276884633e-05,
+      "rel_diff_spherical": 0.0,
+      "accel_orekit_nplate": 1.5066904389635277e-05,
+      "accel_paper_nplate": 1.5066904389635275e-05,
+      "rel_diff_nplate": 1.1243622782089008e-16,
       "density_stk_reported": 3.2e-14,
       "accel_stk_reported": 1.9e-05,
-      "density_rel_diff_vs_stk": 0.15852563634165875,
-      "density_ref_rel_diff_vs_stk": 0.04062500000000014
+      "density_rel_diff_vs_stk": 0.03169275389629487,
+      "density_ref_rel_diff_vs_stk": 0.040625000000000334
     },
     {
       "altitude_km": 800.0,
       "geocentric_altitude_km": 799.2821863700002,
       "speed_m_s": 7452.576917263968,
-      "density_orekit": 1.378525939217924e-14,
-      "density_paper": 1.378525939217924e-14,
-      "density_at_reference_altitude": 1.136e-14,
-      "density_layer_discontinuity_ratio": 1.2064964852656348,
+      "density_orekit": 1.1441357708489268e-14,
+      "density_paper": 1.1441357708489268e-14,
+      "density_at_reference_altitude": 1.1359999999999983e-14,
+      "density_layer_discontinuity_ratio": 1.0000099416918289,
       "cos_theta": 0.7840514234795293,
-      "accel_orekit_spherical": 8.4221032577212e-06,
-      "accel_paper_spherical": 8.422103257721199e-06,
-      "rel_diff_spherical": 2.0114522972103415e-16,
-      "accel_orekit_nplate": 6.603362047907887e-06,
-      "accel_paper_nplate": 6.603362047907886e-06,
-      "rel_diff_nplate": 1.282729829303638e-16
+      "accel_orekit_spherical": 6.990096688647651e-06,
+      "accel_paper_spherical": 6.99009668864765e-06,
+      "rel_diff_spherical": 1.2117614175923122e-16,
+      "accel_orekit_nplate": 5.480595258993735e-06,
+      "accel_paper_nplate": 5.480595258993733e-06,
+      "rel_diff_nplate": 3.091025362123968e-16
     }
-  ]
+  ],
+  "layer_continuity": [
+    {
+      "floor_km": 0,
+      "next_floor_km": 25,
+      "anchor_density": 0.03899,
+      "extrapolated_density": 0.038990000005376536,
+      "jump_ratio": 1.0000000001378953
+    },
+    {
+      "floor_km": 25,
+      "next_floor_km": 50,
+      "anchor_density": 0.001027,
+      "extrapolated_density": 0.0010270000001493943,
+      "jump_ratio": 1.0000000001454667
+    },
+    {
+      "floor_km": 50,
+      "next_floor_km": 75,
+      "anchor_density": 3.992e-05,
+      "extrapolated_density": 3.9920000005185574e-05,
+      "jump_ratio": 1.0000000001298992
+    },
+    {
+      "floor_km": 75,
+      "next_floor_km": 100,
+      "anchor_density": 5.604e-07,
+      "extrapolated_density": 5.604000000956246e-07,
+      "jump_ratio": 1.0000000001706364
+    },
+    {
+      "floor_km": 100,
+      "next_floor_km": 150,
+      "anchor_density": 2.076e-09,
+      "extrapolated_density": 2.0760000002324442e-09,
+      "jump_ratio": 1.0000000001119673
+    },
+    {
+      "floor_km": 150,
+      "next_floor_km": 200,
+      "anchor_density": 2.541e-10,
+      "extrapolated_density": 2.5410000001067485e-10,
+      "jump_ratio": 1.0000000000420104
+    },
+    {
+      "floor_km": 200,
+      "next_floor_km": 250,
+      "anchor_density": 6.073e-11,
+      "extrapolated_density": 6.073000000173857e-11,
+      "jump_ratio": 1.0000000000286278
+    },
+    {
+      "floor_km": 250,
+      "next_floor_km": 300,
+      "anchor_density": 1.916e-11,
+      "extrapolated_density": 1.916000000044202e-11,
+      "jump_ratio": 1.0000000000230698
+    },
+    {
+      "floor_km": 300,
+      "next_floor_km": 400,
+      "anchor_density": 2.803e-12,
+      "extrapolated_density": 2.8030000000538722e-12,
+      "jump_ratio": 1.0000000000192195
+    },
+    {
+      "floor_km": 400,
+      "next_floor_km": 500,
+      "anchor_density": 5.215e-13,
+      "extrapolated_density": 5.215000000087711e-13,
+      "jump_ratio": 1.0000000000168188
+    },
+    {
+      "floor_km": 500,
+      "next_floor_km": 600,
+      "anchor_density": 1.137e-13,
+      "extrapolated_density": 1.1370000000173154e-13,
+      "jump_ratio": 1.000000000015229
+    },
+    {
+      "floor_km": 600,
+      "next_floor_km": 700,
+      "anchor_density": 3.07e-14,
+      "extrapolated_density": 3.0700000000401907e-14,
+      "jump_ratio": 1.0000000000130915
+    },
+    {
+      "floor_km": 700,
+      "next_floor_km": 800,
+      "anchor_density": 1.136e-14,
+      "extrapolated_density": 1.1360000000112907e-14,
+      "jump_ratio": 1.000000000009939
+    },
+    {
+      "floor_km": 800,
+      "next_floor_km": 900,
+      "anchor_density": 5.759e-15,
+      "extrapolated_density": 5.759000000039126e-15,
+      "jump_ratio": 1.000000000006794
+    },
+    {
+      "floor_km": 900,
+      "next_floor_km": 1000,
+      "anchor_density": 3.561e-15,
+      "extrapolated_density": 3.56100000001713e-15,
+      "jump_ratio": 1.0000000000048104
+    }
+  ],
+  "n_discontinuous_boundaries": 0,
+  "n_boundaries": 15,
+  "worst_jump_above_200km": 2.8627766823774436e-11
 }
