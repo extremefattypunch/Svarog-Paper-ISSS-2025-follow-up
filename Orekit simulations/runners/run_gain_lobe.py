@@ -41,8 +41,8 @@ NP = int(sys.argv[3]) if len(sys.argv) > 3 else 25
 DAYS = float(sys.argv[4]) if len(sys.argv) > 4 else 14.0
 WORKERS = int(sys.argv[5]) if len(sys.argv) > 5 else max(1, (os.cpu_count() or 4) - 2)
 
-LTDNS = np.linspace(0.0, 24.0, NL)
-PITCHES = np.linspace(0.0, 90.0, NP)
+LTDNS = np.linspace(0.0, 24.0, NL, endpoint=False)   # 24 h == 0 h: not repeated
+PITCHES = np.linspace(-90.0, 90.0, NP)
 
 FIGS = os.path.join(ROOT, "reproduced_figures")
 RESULTS = os.path.join(ROOT, "results")
@@ -84,7 +84,7 @@ def main():
     fig, ax = plt.subplots(figsize=(7, 5))
     im = ax.pcolormesh(LTDNS, PITCHES, Z, shading="auto", cmap="RdBu_r",
                        vmin=-lim, vmax=lim)
-    ax.set_xlabel("LTDN [h]")
+    ax.set_xlabel("LTAN [h]")
     ax.set_ylabel("sail pitch [deg]")
     ax.set_title(rf"Orekit: 14-day $\Delta a_{{\max}}$ [km] at {int(ALT)} km", fontsize=10)
     ax.plot(ANCHOR_LTDN_H, ANCHOR_PITCH_DEG, "k*", ms=13,

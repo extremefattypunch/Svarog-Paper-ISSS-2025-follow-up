@@ -19,3 +19,12 @@ Sections/*.aux
 # Python
 __pycache__/
 *.pyc
+
+# revision build directory (latexdiff baseline, scratch)
+build/
+main_aa_diff.tex
+
+# not published in the public repository (reviewer reports; other paper's co-authored drafts; response letter quotes the reports)
+AA-D-26-02719-reviews/
+JBIS_submission/
+response_to_reviewers.*

@@ -237,7 +237,7 @@ def build_satellite(scenario_root, case: RunCase, sat_name: str = "Sat"):
     prof.ReferenceAxes = "CentralBody/Earth ICRF"
     from .attitude import normal_to_quaternion_eci
     qw, qx, qy, qz = normal_to_quaternion_eci(case.sail_normal_eci, body_axis=(0, 0, 1))
-    prof.Orientation.AssignQuaternion(qw, qx, qy, qz)
+    prof.Orientation.AssignQuaternion(qx, qy, qz, qw)  # STK order: scalar last
 
     return sat
 

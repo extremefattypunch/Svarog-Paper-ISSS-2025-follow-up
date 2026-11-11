@@ -3,17 +3,17 @@
   "sun_direction_max_angle_deg": 0.369136023163752,
   "sun_distance_max_rel_diff": 0.016697782339803825,
   "sail_normal": [
-    0.18484607632139083,
+    0.18484607632139086,
     -0.648736196650637,
     -0.7382230524874258
   ],
-  "max_rel_diff_gravity": 2.792321387912584e-17,
-  "max_rel_diff_drag": 3.223001911217664e-14,
-  "max_rel_diff_srp": 1.0378980195333818e-15,
+  "max_rel_diff_gravity": 0.0,
+  "max_rel_diff_drag": 7.376951247185104e-15,
+  "max_rel_diff_srp": 1.1164171643770257e-15,
   "eclipse_flag_mismatches": 0,
   "eclipse_boundary_samples": 0,
-  "attitude_axis_error": 0.0,
-  "srp_cos2_law_max_rel_err": 1.370119655863294e-15,
+  "attitude_axis_error": 2.7755575615628914e-17,
+  "srp_cos2_law_max_rel_err": 1.4944310190081466e-15,
   "lit_samples": 128,
   "gate": 1e-09,
   "pass": true

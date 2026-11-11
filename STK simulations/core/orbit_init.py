@@ -85,18 +85,33 @@ def sun_right_ascension_deg(jd: float) -> float:
     return ra % 360.0
 
 
-def raan_from_ltdn(ltdn_hours: float, jd_epoch: float) -> float:
+def raan_from_ltan(ltan_hours: float, jd_epoch: float) -> float:
     """
-    RAAN [deg] for a Sun-synchronous orbit with given LTDN at the epoch.
+    RAAN [deg] for a Sun-synchronous orbit with the given local time of the
+    ASCENDING node (LTAN) at the epoch.
 
-    Convention (cf. run_ltan_sso_solar_sail_pystk.py:120-127 in the prior
-    attempt): for the descending node at local time `ltdn_hours`, the
-    ascending node leads the Sun's RA by the offset corresponding to
-    (ltdn - 12) h. Each hour of local time = 15° longitude.
+    The right ascension of the ascending node is the node's RA, and the local
+    solar time of a meridian at RA `theta` is 12 h + (theta - RA_sun)/15 deg/h,
+    so RAAN = RA_sun + 15 deg * (LTAN - 12 h).  The descending node is 12 h
+    away: LTDN = LTAN +/- 12 h.
     """
     sun_ra = sun_right_ascension_deg(jd_epoch)
-    raan = (sun_ra + 15.0 * (ltdn_hours - 12.0)) % 360.0
+    raan = (sun_ra + 15.0 * (ltan_hours - 12.0)) % 360.0
     return raan
+
+
+# Backward-compatible alias.  Earlier versions of this code (and of the
+# manuscript) labelled this quantity "LTDN"; the formula was always the
+# ascending-node one, so the numerical values are unchanged.
+def raan_from_ltdn(hours: float, jd_epoch: float) -> float:
+    return raan_from_ltan(hours, jd_epoch)
+
+
+def sun_distance_au(jd: float) -> float:
+    """Earth-Sun distance [AU], low-precision analytic series (Meeus)."""
+    n = jd - 2451545.0
+    g = math.radians((357.528 + 0.9856003 * n) % 360.0)
+    return 1.00014 - 0.01671 * math.cos(g) - 0.00014 * math.cos(2 * g)
 
 
 def sun_direction_eci(jd: float):

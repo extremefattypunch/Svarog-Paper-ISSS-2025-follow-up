@@ -52,7 +52,21 @@ DAYS = 14.0
 AOVERM = SAIL_AREA / SAIL_MASS          # 10 m^2/kg
 STK_DA_700 = -7.0                       # km, reported
 STK_DENSITY_700 = 3.2e-14               # kg/m^3, reported at the same state
-PROPAGATED = {700.0: -84.040310, 800.0: -21.897976}   # from results/v2
+def _propagated_from_v2():
+    """14-day J2+spherical-drag decay of the open-source propagator, read from
+    results/v2_crossvalidation.json (node-sampled mean a) so this script
+    always compares against the current table."""
+    p = os.path.join(ROOT, "results", "v2_crossvalidation.json")
+    try:
+        with open(p) as f:
+            rows = json.load(f)["rows"]
+        return {float(r["altitude_km"]): float(r["paper_da14_node_km"])
+                for r in rows if r["config"].startswith("J2+drag")}
+    except Exception:
+        return {700.0: -69.872, 800.0: -18.382}
+
+
+PROPAGATED = _propagated_from_v2()
 
 
 def decay(alt0_km, days=DAYS, density_scale=1.0, steps_per_day=96):

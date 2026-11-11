@@ -1,0 +1,227 @@
+{
+ "days": 14.0,
+ "anchor": {
+  "ltan_h": 14.0,
+  "pitch_deg": 35.0
+ },
+ "levels": {
+  "low (F10.7=70, Ap=4)": [
+   70.0,
+   70.0,
+   4.0
+  ],
+  "moderate (F10.7=140, Ap=15)": [
+   140.0,
+   140.0,
+   15.0
+  ],
+  "high (F10.7=200, Ap=40)": [
+   200.0,
+   200.0,
+   40.0
+  ]
+ },
+ "rows": [
+  {
+   "label": "US-1976 (manuscript baseline)",
+   "altitude_km": 800.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 5.94,
+   "da_final_km": 5.94,
+   "t_at_max_d": 13.94
+  },
+  {
+   "label": "US-1976 (manuscript baseline)",
+   "altitude_km": 800.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -9.899,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 low (F10.7=70, Ap=4)",
+   "altitude_km": 800.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 13.178,
+   "da_final_km": 13.178,
+   "t_at_max_d": 13.94
+  },
+  {
+   "label": "NRLMSISE-00 low (F10.7=70, Ap=4)",
+   "altitude_km": 800.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -2.327,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 moderate (F10.7=140, Ap=15)",
+   "altitude_km": 800.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 2.215,
+   "da_final_km": 2.213,
+   "t_at_max_d": 13.94
+  },
+  {
+   "label": "NRLMSISE-00 moderate (F10.7=140, Ap=15)",
+   "altitude_km": 800.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -12.724,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 high (F10.7=200, Ap=40)",
+   "altitude_km": 800.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -45.455,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 high (F10.7=200, Ap=40)",
+   "altitude_km": 800.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -59.583,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 CSSI file (epoch Jan 2026)",
+   "altitude_km": 800.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.5,
+   "da_final_km": 0.499,
+   "t_at_max_d": 13.94
+  },
+  {
+   "label": "NRLMSISE-00 CSSI file (epoch Jan 2026)",
+   "altitude_km": 800.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -14.426,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "US-1976 (manuscript baseline)",
+   "altitude_km": 700.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -13.766,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "US-1976 (manuscript baseline)",
+   "altitude_km": 700.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -31.152,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 low (F10.7=70, Ap=4)",
+   "altitude_km": 700.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 10.685,
+   "da_final_km": 10.685,
+   "t_at_max_d": 13.94
+  },
+  {
+   "label": "NRLMSISE-00 low (F10.7=70, Ap=4)",
+   "altitude_km": 700.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -4.685,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 moderate (F10.7=140, Ap=15)",
+   "altitude_km": 700.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -30.872,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 moderate (F10.7=140, Ap=15)",
+   "altitude_km": 700.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -45.154,
+   "t_at_max_d": 0.07
+  },
+  {
+   "label": "NRLMSISE-00 high (F10.7=200, Ap=40)",
+   "altitude_km": 700.0,
+   "use_srp": true,
+   "reentered": true,
+   "span_days": null,
+   "da_max_km": 0.0,
+   "da_final_km": null,
+   "t_at_max_d": null
+  },
+  {
+   "label": "NRLMSISE-00 high (F10.7=200, Ap=40)",
+   "altitude_km": 700.0,
+   "use_srp": false,
+   "reentered": true,
+   "span_days": 9.19375,
+   "da_max_km": 0.0,
+   "da_final_km": -2553.6467299480682,
+   "t_at_max_d": 0.06875
+  },
+  {
+   "label": "NRLMSISE-00 CSSI file (epoch Jan 2026)",
+   "altitude_km": 700.0,
+   "use_srp": true,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -38.51725436386914,
+   "t_at_max_d": 0.06875
+  },
+  {
+   "label": "NRLMSISE-00 CSSI file (epoch Jan 2026)",
+   "altitude_km": 700.0,
+   "use_srp": false,
+   "reentered": false,
+   "span_days": 14.0,
+   "da_max_km": 0.0,
+   "da_final_km": -52.777356987170606,
+   "t_at_max_d": 0.06875
+  }
+ ],
+ "note": "14-day full-model (SRP on) and drag-only (SRP off) runs at the gain-anchor geometry; DP853 with eclipse events; NRLMSISE-00 evaluated with Orekit's own conventions (geodetic altitude, co-rotation)"
+}

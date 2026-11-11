@@ -1,0 +1,27 @@
+{
+ "same_grid": false,
+ "grid": {
+  "n_ltan": 24,
+  "n_pitch": 19,
+  "note": "Orekit grid is a subset of the 48x37 Python grid; compared on the common cells"
+ },
+ "n_cells": 456,
+ "n_positive_opensource": 82,
+ "n_positive_orekit": 82,
+ "sign_agreement_frac": 1.0,
+ "peak_opensource_km": 5.775522169164105,
+ "peak_orekit_km": 5.753052346952245,
+ "peak_cell_opensource": {
+  "ltan_h": 14.0,
+  "pitch_deg": 30.0
+ },
+ "peak_cell_orekit": {
+  "ltan_h": 14.0,
+  "pitch_deg": 30.0
+ },
+ "diff_mean_km": 0.0028257968110027144,
+ "diff_rms_km": 0.028964258670413752,
+ "diff_max_abs_km": 0.23632290748537343,
+ "diff_rms_positive_cells_km": 0.06830270642683979,
+ "n_failed_orekit": 0
+}

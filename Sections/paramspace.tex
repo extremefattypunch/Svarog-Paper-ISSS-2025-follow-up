@@ -2,21 +2,46 @@
 \noindent Having defined the governing assumptions and force models, we now specify the parameter space and, critically, the fixed-window metric used to identify the transient gain regime. Because the central question of this paper is whether eclipse-modulated SRP can produce a \emph{temporary} semi-major-axis increase over a bounded horizon, the primary map-based quantity is not the final change in \(a\) at the end of the run, and not the long-horizon change over \(75\) days, but the largest positive excursion above the initial semi-major axis attained at any time within a prescribed analysis window. The aim is therefore to determine whether such transient gain occupies a coherent region of design space, and how narrow or robust that region is.
 
 \vspace{5pt}
-\par\noindent The primary parameters varied in this study are the local time of the descending node (LTDN), the initial sail orientation, and the initial orbital altitude. LTDN determines the Sun-relative geometry of the orbit and hence the phasing between illuminated arcs, eclipsed arcs, and the SRP work pattern; the initial sail orientation controls the decomposition of SRP into radial, transverse, and normal components; and altitude alters both the drag environment and the baseline Sun-synchronous inclination required through \ref{eq:RAANrate}. Together, these parameters define the geometry within which the transient gain regime may or may not appear.
+\par\noindent The primary parameters varied in this study are the local time of the ascending node (LTAN), the initial sail orientation, and the initial orbital altitude. LTAN determines the Sun-relative geometry of the orbit and hence the phasing between illuminated arcs, eclipsed arcs, and the SRP work pattern; the initial sail orientation controls the decomposition of SRP into radial, transverse, and normal components; and altitude alters both the drag environment and the baseline Sun-synchronous inclination required through Eq.~(\ref{eq:RAANrate}). Together, these parameters define the geometry within which the transient gain regime may or may not appear.
 
 \vspace{5pt}
-\par\noindent In the baseline sweeps, the initial orbit is taken to be near-circular and Sun-synchronous, with inclination selected consistently with the chosen altitude using Table~\ref{tab:sso_inclinations}. For each case, the sail orientation is prescribed as inertially fixed from the initial epoch onward. Additional sensitivity studies may then be introduced around representative gain and non-gain cases by perturbing the nominal sail orientation, varying atmospheric density through a scalar multiplier, or applying small static orientation offsets to test the fragility of the identified regime.
+\par\noindent In the baseline sweeps, the initial orbit is taken to be near-circular and near-Sun-synchronous, with the inclination of Table~\ref{tab:baseline_params} for the chosen altitude (Section~\ref{sec:model}). For each case, the sail orientation is prescribed as inertially fixed from the initial epoch onward. Additional sensitivity studies may then be introduced around representative gain and non-gain cases by perturbing the nominal sail orientation, varying atmospheric density through a scalar multiplier, or applying small static orientation offsets to test the fragility of the identified regime.
 
 \vspace{5pt}
-\par\noindent The parameter-space exploration is intentionally staged. The first sweep is performed over LTDN and initial sail angle at fixed altitude and fixed sail loading, in order to determine whether a connected region of \emph{transient} gain exists at all under the fixed-window metric defined below. Only after this primary map is established are additional altitude cases and uncertainty sweeps introduced.
+\par\noindent The parameter-space exploration is intentionally staged. The first sweep is performed over LTAN and initial sail angle at fixed altitude and fixed sail loading, in order to determine whether a connected region of \emph{transient} gain exists at all under the fixed-window metric defined below. Only after this primary map is established are additional altitude cases and uncertainty sweeps introduced.
 
 \vspace{5pt}
-\par\noindent % [PLACEHOLDER: Table listing the parameter ranges used in the main sweeps. This should include LTDN range and step size, sail-angle range and step size, altitude values, fixed area-to-mass ratio, fixed horizon length, and any density-scaling values used in follow-on sensitivity studies.]
-A fixed analysis horizon is used for consistent comparison between cases. The primary map-based metric is
+\par\noindent Table~\ref{tab:sweep_params} lists the parameter ranges used. The LTAN grid stops at \(23.5\,\mathrm{h}\) because \(24\,\mathrm{h}\) is the same orbital plane as \(0\,\mathrm{h}\); the map is periodic in LTAN and is read accordingly. Pitch is signed: positive pitch tilts the sail normal from the Sun line towards the in-plane direction \(\hat{\mathbf{s}}_{\odot}\times\hat{\mathbf{h}}\) (Section~\ref{sec:model}); negative pitch tilts it the other way. Beyond \(\pm90^\circ\) the one-sided sail is not illuminated, so that range is not sampled.
+
+\begin{table*}[htbp]
+\centering
+\caption{Parameter ranges of the production sweeps and sensitivity studies. All runs use the baseline spacecraft of Table~\ref{tab:baseline_params} unless a row states otherwise.}
+\label{tab:sweep_params}
+\vspace{0.5em}
+\small
+\begin{tabular}{p{3.3cm} p{3.4cm} p{5.6cm}}
+\hline
+\textbf{Study} & \textbf{Parameter} & \textbf{Range / values} \\
+\hline
+LTAN--pitch map & altitude & \(800\,\mathrm{km}\) (production), \(700\,\mathrm{km}\) (contrast) \\
+ & LTAN & \(0\) to \(23.5\,\mathrm{h}\), step \(0.5\,\mathrm{h}\) (48 values) \\
+ & pitch & \(-90^\circ\) to \(+90^\circ\), step \(5^\circ\) (37 values) \\
+ & horizon; metric & \(14\,\mathrm{d}\); \(\Delta a_{\max,14\mathrm{d}}\) (and \(\Delta a(14\,\mathrm{d})\)) \\
+ & cells per altitude & \(1776\) \\
+Representative cases & horizon & \(14\,\mathrm{d}\) (eclipse on/off), \(75\,\mathrm{d}\) (breakdown) \\
+Roll sensitivity & roll about the Sun line & \(-45^\circ\) to \(+45^\circ\), 19 values \\
+Density sensitivity & multiplier on \(\rho(h)\) & \(0.25, 0.5, 1, 2, 4\) \\
+Area-to-mass sensitivity & \(A/m\) at fixed \(m = 10\,\mathrm{kg}\) & \(2.5\) to \(22.5\,\mathrm{m^2\,kg^{-1}}\), 9 values \\
+Step-size convergence & RK4 step & \(120, 60, 30, 15, 10, 7.5, 5, 2.5\,\mathrm{s}\) \\
+\hline
+\end{tabular}
+\end{table*}
+
+\par\noindent A fixed analysis horizon is used for consistent comparison between cases. The primary map-based metric is
 \begin{equation}
 \Delta a_{\max}(T) = \max_{t \in [0,T]} \left(a(t)-a_0\right),
 \end{equation}
-with \(T=14\,\mathrm{d}\) in the principal parameter-space sweep. Thus, \(\Delta a_{\max,14\mathrm{d}}\) measures the largest positive semi-major-axis excursion above the initial orbit attained \emph{anywhere} within the first \(14\) days. It is \emph{not} the final value of \(a(14\,\mathrm{d})-a_0\), and it is \emph{not} the net change after the longer \(75\)-day propagation used later to study breakdown. This choice is deliberate: for a transient-gain problem, the physically relevant first question is whether a trajectory ever enters a favourable interval of positive semi-major-axis excursion within a common bounded window, not whether that excursion survives indefinitely.
+with \(T=14\,\mathrm{d}\) in the principal parameter-space sweep. Here \(a(t)\) is the mean (secular) semi-major axis, obtained by sampling the osculating value at successive ascending-node crossings so that the \(\pm 9\,\mathrm{km}\) \(J_2\) short-period oscillation is removed; \(a_0\) is the value at the first such crossing, one nodal period after epoch, so every \(\Delta a\) quoted in this paper excludes the secular change of the first orbit (below \(0.1\,\mathrm{km}\) in all cases). Thus, \(\Delta a_{\max,14\mathrm{d}}\) measures the largest positive semi-major-axis excursion above the initial orbit attained \emph{anywhere} within the first \(14\) days; it is zero when the mean semi-major axis never rises above \(a_0\). It is \emph{not} the final value of \(a(14\,\mathrm{d})-a_0\), and it is \emph{not} the net change after the longer \(75\)-day propagation used later to study breakdown. This choice is deliberate: for a transient-gain problem, the physically relevant first question is whether a trajectory ever enters a favourable interval of positive semi-major-axis excursion within a common bounded window, not whether that excursion survives indefinitely.
 
 
 \vspace{5pt}
@@ -50,13 +75,11 @@ These labels are descriptive rather than ontological. In particular, ``gain'' he
 
 
 \vspace{5pt}
-\par\noindent % [PLACEHOLDER: Regime-classification figure or schematic. This could be a small conceptual diagram showing gain, neutral, and decay regions in metric space, or it can be omitted if the later LTDN--angle heatmap makes the classification sufficiently clear.]
-For representative cases drawn from each class, we additionally identify a transient gain window from the cumulative SRP and drag work curves. This secondary diagnostic is used later to distinguish early favourable behaviour from the subsequent drag-dominated breakdown phase. It is therefore interpretive rather than classificatory: the parameter-space map itself is defined only by \(\Delta a_{\max,14\mathrm{d}}\).
+\par\noindent For representative cases drawn from each class, we additionally identify a transient gain window from the cumulative SRP and drag work curves. This secondary diagnostic is used later to distinguish early favourable behaviour from the subsequent drag-dominated breakdown phase. It is therefore interpretive rather than classificatory: the parameter-space map itself is defined only by \(\Delta a_{\max,14\mathrm{d}}\).
 
 \vspace{5pt}
 \par\noindent The minimum set of diagnostics recorded for each run is therefore as follows: instantaneous SRP and drag accelerations, their transverse components, eclipse state, classical orbital elements, cumulative SRP and drag work, orbit-by-orbit eclipse fraction, and the evolution of \(a\), \(r_a\), and \(r_p\). This choice is deliberate. The present paper is a mechanism and regime-mapping study, so the recorded metrics must do more than rank cases numerically: they must also explain why a given case gains, remains neutral, or decays.
 
 \vspace{5pt}
-\par\noindent % [PLACEHOLDER: Summary table of logged diagnostics. This should list continuous outputs (e.g. SRP acceleration, drag acceleration, eclipse flag, orbital elements, Sun-relative angles) and orbit-aggregated outputs (e.g. per-orbit \(\Delta a\), cumulative SRP work, cumulative drag work, eclipse fraction, apogee, perigee).]
 \par\noindent The results that follow therefore proceed in three steps. First, the fixed-window metric \(\Delta a_{\max,14\mathrm{d}}\) is used to identify where transient gain does and does not occur in parameter space. Second, orbit-resolved work budgets are used to test whether eclipse causally biases the SRP work balance in those cases. Third, apogee, perigee, eccentricity, and cumulative drag/SRP comparisons are used to explain why a case that exhibits transient gain over \(14\) days need not remain favourable over longer horizons.
 \FloatBarrier

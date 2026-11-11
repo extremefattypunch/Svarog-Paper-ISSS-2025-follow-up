@@ -49,8 +49,20 @@ ANCHOR_PITCH_DEG = 24.8
 ANCHOR_RAAN_DEG = 285.5
 
 # Reproduced gain case found by the open-source propagator at 800 km
-REPRO_LTDN_H = 14.0
-REPRO_PITCH_DEG = 34.0
+def _revision_anchor():
+    """Gain anchor of the revised manuscript (STK simulations/results/revision/cases.json)
+    when available; otherwise the preliminary 800 km gain geometry."""
+    import json as _json, os as _os
+    p = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))),
+                      "STK simulations", "results", "revision", "cases.json")
+    try:
+        g = _json.load(open(p))["cases"]["gain"]
+        return float(g["ltan_h"]), float(g["pitch_deg"])
+    except Exception:
+        return 14.0, 34.0
+
+
+REPRO_LTDN_H, REPRO_PITCH_DEG = _revision_anchor()   # LTAN of the gain anchor (name kept for compatibility)
 
 
 def inclination_for(altitude_km: float) -> float:

@@ -5,7 +5,7 @@
 Ian Poon
 
 - Passive solar sails can gain semi-major axis transiently in near-polar LEO.
-- Gain exists only in a narrow LTDN-pitch band; eclipse timing enables it.
-- Apogee pumping, eccentricity growth and perigee erosion make it self-limiting.
-- Orekit matches the open-source propagator to 1e-10 km and reproduces the lobe.
-- Atmosphere model choice, not drag conventions, dominates the gain threshold.
+- At 800 km, 1 in 5 of 1776 LTAN-pitch cases gain within 14 days; none at 700 km.
+- Eclipse timing sets the sign of orbit-averaged SRP work; no eclipse, no gain.
+- Gain peaks at +10.9 km after 5 weeks, then attitude drift and drag unwind it.
+- STK and Orekit reproduce the eclipse-gated gain; density model sets the threshold.

@@ -1,0 +1,138 @@
+{
+ "log": [
+  "open-source spherical drag, 3 d: -4.2155 km",
+  "[drag] baseline (as built)                da(3d)=-0.5954 km  ratio 0.141  tank={'FuelDensity': 1000.0, 'FuelMass': 50.0, 'MaximumFuelMass': 150.0, 'TankPressure': 5000.0, 'TankTemperature': 293.15, 'TankVolume': 0.15}",
+  "[drag] DryMass 10 -> 1 kg                 da(3d)=-0.6970 km  ratio 0.165  DryMass=1.0",
+  "[drag] DragArea 100 -> 1000 m^2           da(3d)=-5.8882 km  ratio 1.397  DragArea=1000.0",
+  "[drag] Cd 2.2 -> 22                       da(3d)=-5.8882 km  ratio 1.397  Cd=22.0",
+  "[drag] fuel tank zeroed                   da(3d)=-3.5081 km  ratio 0.832  fuel->{'FuelMass': 0.0, 'MaximumFuelMass': 0.0}",
+  "[drag] K1 -> 10                           da(3d)=-0.5954 km  ratio 0.141  K1=10.0",
+  "open-source J2+SRP (no drag), 3 d: +3.2779 km",
+  "intended normal [0.0756, -0.5417, -0.8372]  cos(alpha)=0.8290  expected SRPArea=82.90 m^2  quaternion (qs,qx,qy,qz)=[0.28534, 0.94922, 0.13253, -0.0]",
+  "[srp] as built: AssignQuaternion(qs,qx,qy,qz)  axes=CentralBody/Earth ICRF  da(3d)=+0.2072 km (open-source +3.2779)  SRPArea={'first': 16.429452156268, 'min': -3.52876933779409, 'max': 19.7997553348295, 'mean': 11.241882255064699}  unchanged",
+  "[srp] Object-Model order (qx,qy,qz,qs)         axes=CentralBody/Earth ICRF  da(3d)=+3.2934 km (open-source +3.2779)  SRPArea={'first': 82.9565193261714, 'min': -59.36823892882702, 'max': 144.90706404653207, 'mean': 55.97185189889599}  AssignQuaternion(qx,qy,qz,qs)",
+  "[srp] (qx,qy,qz,qs) + explicit ICRF axes       axes=CentralBody/Earth ICRF  da(3d)=+3.2934 km (open-source +3.2779)  SRPArea={'first': 82.9565193261714, 'min': -59.36823892882702, 'max': 144.90706404653207, 'mean': 55.97185189889599}  axes set + (qx,qy,qz,qs)",
+  "[srp] conjugate (-qx,-qy,-qz,qs) + ICRF axes   axes=CentralBody/Earth ICRF  da(3d)=-0.0208 km (open-source +3.2779)  SRPArea={'first': 0.0, 'min': 0.0, 'max': 0.0, 'mean': 0.0}  axes set + conjugate (-qx,-qy,-qz,qs)",
+  "Attitude Quaternions provider: {'Time': ['1 Jan 2026 12:00:00.000000000'], 'q1': [-0.9492182608129974], 'q2': [-0.1325272210828895], 'q3': [0.0], 'q4': [0.28534405375124866], 'wx': [0.0], 'wy': [0.0], 'wz': [0.0], 'w mag': [0.0], 'RightAscension of w': [0.0], 'Declination of w': [0.0]}"
+ ],
+ "drag": [
+  {
+   "label": "baseline (as built)",
+   "note": "tank={'FuelDensity': 1000.0, 'FuelMass': 50.0, 'MaximumFuelMass': 150.0, 'TankPressure': 5000.0, 'TankTemperature': 293.15, 'TankVolume': 0.15}",
+   "da_km": -0.5953747409621428,
+   "ratio_to_opensource": 0.141235136157762
+  },
+  {
+   "label": "DryMass 10 -> 1 kg",
+   "note": "DryMass=1.0",
+   "da_km": -0.697040551957798,
+   "ratio_to_opensource": 0.16535235791855835
+  },
+  {
+   "label": "DragArea 100 -> 1000 m^2",
+   "note": "DragArea=1000.0",
+   "da_km": -5.888178085155232,
+   "ratio_to_opensource": 1.3967969689713935
+  },
+  {
+   "label": "Cd 2.2 -> 22",
+   "note": "Cd=22.0",
+   "da_km": -5.888178085155232,
+   "ratio_to_opensource": 1.3967969689713935
+  },
+  {
+   "label": "fuel tank zeroed",
+   "note": "fuel->{'FuelMass': 0.0, 'MaximumFuelMass': 0.0}",
+   "da_km": -3.508131745209539,
+   "ratio_to_opensource": 0.832201016612395
+  },
+  {
+   "label": "K1 -> 10",
+   "note": "K1=10.0",
+   "da_km": -0.5953747409621428,
+   "ratio_to_opensource": 0.141235136157762
+  }
+ ],
+ "srp": [
+  {
+   "label": "as built: AssignQuaternion(qs,qx,qy,qz)",
+   "note": "unchanged",
+   "reference_axes": "CentralBody/Earth ICRF",
+   "da_km": 0.20721178762596537,
+   "srp_area": {
+    "first": 16.429452156268,
+    "min": -3.52876933779409,
+    "max": 19.7997553348295,
+    "mean": 11.241882255064699
+   }
+  },
+  {
+   "label": "Object-Model order (qx,qy,qz,qs)",
+   "note": "AssignQuaternion(qx,qy,qz,qs)",
+   "reference_axes": "CentralBody/Earth ICRF",
+   "da_km": 3.2934190851128733,
+   "srp_area": {
+    "first": 82.9565193261714,
+    "min": -59.36823892882702,
+    "max": 144.90706404653207,
+    "mean": 55.97185189889599
+   }
+  },
+  {
+   "label": "(qx,qy,qz,qs) + explicit ICRF axes",
+   "note": "axes set + (qx,qy,qz,qs)",
+   "reference_axes": "CentralBody/Earth ICRF",
+   "da_km": 3.2934190851128733,
+   "srp_area": {
+    "first": 82.9565193261714,
+    "min": -59.36823892882702,
+    "max": 144.90706404653207,
+    "mean": 55.97185189889599
+   }
+  },
+  {
+   "label": "conjugate (-qx,-qy,-qz,qs) + ICRF axes",
+   "note": "axes set + conjugate (-qx,-qy,-qz,qs)",
+   "reference_axes": "CentralBody/Earth ICRF",
+   "da_km": -0.020803885258828814,
+   "srp_area": {
+    "first": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "mean": 0.0
+   }
+  }
+ ],
+ "attitude_quaternions": {
+  "q1": [
+   -0.9492182608129974
+  ],
+  "q2": [
+   -0.1325272210828895
+  ],
+  "q3": [
+   0.0
+  ],
+  "q4": [
+   0.28534405375124866
+  ],
+  "wx": [
+   0.0
+  ],
+  "wy": [
+   0.0
+  ],
+  "wz": [
+   0.0
+  ],
+  "w mag": [
+   0.0
+  ],
+  "RightAscension of w": [
+   0.0
+  ],
+  "Declination of w": [
+   0.0
+  ]
+ }
+}

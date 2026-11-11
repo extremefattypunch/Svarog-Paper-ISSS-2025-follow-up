@@ -42,9 +42,10 @@ near-polar low Earth orbit}
 Solar sails in low Earth orbit are normally expected to lose energy to
 atmospheric drag. This paper asks whether a passive, spin-stabilised sail can
 instead gain orbital energy, and shows that it can --- but only briefly, and
-only within a narrow range of orbit geometries. Of \(900\) cases sampled at
-\(700\,\mathrm{km}\), about one in ten gained altitude over two weeks, the
-best by roughly \(20\,\mathrm{km}\).
+only within a bounded range of orbit geometries. Of \(1776\) orbit-attitude
+combinations sampled at \(800\,\mathrm{km}\), one in five gained mean
+semi-major axis over two weeks, the best by \(5.95\,\mathrm{km}\); at
+\(700\,\mathrm{km}\), with the same sail, none did.
 
 Eclipse is the reason. Over each orbit, sunlight pushes the sail in ways that
 both add and remove energy. When the Earth's shadow covers the part of the
@@ -52,14 +53,16 @@ orbit where the push is unfavourable, the balance over a full orbit turns
 positive; remove eclipse from the same case and the orbit decays instead.
 
 The gain does not last. As the orbit stretches, its low point drops deeper
-into the atmosphere, drag grows, and within about two and a half months the
-orbit falls below where it began.
+into the atmosphere, and the fixed sail slowly turns away from the Sun as the
+seasons advance. The best case peaks \(10.9\,\mathrm{km}\) above its starting
+orbit after five weeks and is back where it began after ten.
 
 To show that the effect is physical rather than an artefact of one
 implementation, the propagator used here is released openly and cross-checked
-against Ansys STK/Astrogator and Orekit, both of which reproduce it. The
-choice of atmospheric density model, not the sail physics, dominates the
-remaining uncertainty.
+against Ansys STK/Astrogator and Orekit; both reproduce the eclipse-gated gain
+and the drag decay once two configuration errors in the original STK set-up
+were corrected. The thermospheric density model, not the sail physics,
+dominates the remaining uncertainty.
 \end{abstract}
 
 %% Acta Astronautica allows a maximum of 6 keywords.
@@ -73,7 +76,7 @@ Solar sail \sep Low Earth orbit \sep Solar radiation pressure \sep Eclipse
 \section{Introduction}
 \input{Sections/introduction}
 
-\begin{figure*}[t]
+\begin{figure*}[htbp]
     \centering
     \includegraphics[width=1\linewidth]{Figures/earth.png}
     \caption{Conceptual schematic of the eclipse-modulated SRP work asymmetry in the reduced mechanism picture. For an inertially fixed sail, solar radiation pressure contributes positive work over part of the illuminated orbit and negative work over another part. If eclipse removes a larger fraction of the unfavourable arc than of the favourable arc, the one-orbit SRP work integral becomes positive. The figure is intended to illustrate the phase-selective gating mechanism, not to represent the full propagated 3D geometry directly.}
@@ -125,26 +128,20 @@ original draft, Writing -- review \& editing, Visualization.
 interests or personal relationships that could have appeared to influence
 the work reported in this paper.
 
-%% -------------------------------------------------------------------------
-%% Elsevier requires a declaration ONLY if generative AI tools were used in
-%% preparing the manuscript text. It does NOT apply to basic grammar, spelling
-%% or reference checking. If AI tools were used in drafting or editing,
-%% uncomment the block below and complete the bracketed fields; otherwise
-%% delete it.
-%
-% \section*{Declaration of generative AI and AI-assisted technologies in the
-% manuscript preparation process}
-% \par\noindent During the preparation of this work the author used [NAME OF
-% TOOL / SERVICE] in order to [REASON]. After using this tool/service, the
-% author reviewed and edited the content as needed and takes full
-% responsibility for the content of the published article.
-%% -------------------------------------------------------------------------
-
 \section*{Funding}
-\par\noindent Funding: This work was supported by Imperial College London.
+\par\noindent This work was supported by Imperial College London.
 
 \section*{Data availability}
-\par\noindent The open-source propagator, the STK Astrogator build and sweep scripts, the plate-definition files, the cross-validation utilities and all reproduced figures are openly available in the project repository \citep{svarogPropagatorCode2026}, as described in Section~\ref{sec:data}.
+\par\noindent The open-source propagator, the Orekit cross-validation study, the STK Astrogator build and probe scripts, the plate-definition files and the scripts that generate every figure and table are openly available in the project repository \citep{svarogPropagatorCode2026}, as described in Section~\ref{sec:data}.
+
+\section*{Acknowledgements}
+\par\noindent The author thanks Dr Aaron Knoll and Professor Matthew Santer for their guidance and support. This work was carried out as an independent astrodynamics study while the author was a student in the Department of Bioengineering, Imperial College London.
+
+%% AUTHOR: confirm or delete at the final check. Elsevier requires this
+%% statement when AI tools made substantive changes to text structure or
+%% organisation (basic grammar/spell checking is exempt).
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+\par\noindent During the preparation of this work the author used Claude (Anthropic) in order to edit and restructure the manuscript text, to review the simulation code, and to draft the response to the reviewers. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the published article.
 
 %% Acta Astronautica: numbered references in square brackets, numbered in
 %% order of first appearance in the text.

@@ -5,22 +5,22 @@
   "rows": [
     {
       "altitude_km": 700.0,
-      "analytic_da14_km": -77.99454355433397,
-      "propagated_da14_km": -84.04031,
-      "rel_diff": 0.07193888796538271
+      "analytic_da14_km": -63.937648860108105,
+      "propagated_da14_km": -69.87171711682913,
+      "rel_diff": 0.08492804387215727
     },
     {
       "altitude_km": 800.0,
-      "analytic_da14_km": -21.20955119729042,
-      "propagated_da14_km": -21.897976,
-      "rel_diff": 0.031437827985087756
+      "analytic_da14_km": -17.617145899306053,
+      "propagated_da14_km": -18.382081431280312,
+      "rel_diff": 0.041613107570755765
     }
   ],
   "stk_da14_km": -7.0,
   "stk_reported_density": 3.2e-14,
-  "density_scale_to_match_stk": 0.12950629318475018,
-  "density_implied_by_stk_decay": 3.97584320077183e-15,
-  "tabulated_density_700km": 3.07e-14,
-  "ratio_tabulated_to_implied": 7.721632481391674,
-  "ratio_stk_reported_to_implied": 8.048607146727479
+  "density_scale_to_match_stk": 0.15417815664585252,
+  "density_implied_by_stk_decay": 4.733269409027671e-15,
+  "tabulated_density_700km": 3.069999999999999e-14,
+  "ratio_tabulated_to_implied": 6.486003087305043,
+  "ratio_stk_reported_to_implied": 6.760654683835877
 }

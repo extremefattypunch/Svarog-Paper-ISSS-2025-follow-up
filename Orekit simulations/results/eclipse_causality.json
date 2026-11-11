@@ -3,19 +3,19 @@
   "rows": [
     {
       "altitude_km": 800.0,
-      "pitch_deg": 34.0,
+      "pitch_deg": 35.0,
       "eclipse_off": false,
-      "da_max_km": 8.213155939391072,
-      "da_final_km": 8.213155939391072,
-      "t_at_max_d": 29.990277777777777,
+      "da_max_km": 10.326822015745165,
+      "da_final_km": 10.326822015745165,
+      "t_at_max_d": 29.997569444444444,
       "days": 30.0
     },
     {
       "altitude_km": 800.0,
-      "pitch_deg": 34.0,
+      "pitch_deg": 35.0,
       "eclipse_off": true,
       "da_max_km": 0.0,
-      "da_final_km": -31.948145707636286,
+      "da_final_km": -28.53021250920392,
       "t_at_max_d": 0.07013888888888889,
       "days": 30.0
     },
@@ -24,7 +24,7 @@
       "pitch_deg": 24.8,
       "eclipse_off": false,
       "da_max_km": 0.0,
-      "da_final_km": -114.81170928843403,
+      "da_final_km": -90.66464714308495,
       "t_at_max_d": 0.06875,
       "days": 30.0
     },
@@ -33,7 +33,7 @@
       "pitch_deg": 24.8,
       "eclipse_off": true,
       "da_max_km": 0.0,
-      "da_final_km": -416.2600750720412,
+      "da_final_km": -458.9915215794208,
       "t_at_max_d": 0.06875,
       "days": 30.0
     }

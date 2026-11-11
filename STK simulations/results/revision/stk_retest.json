@@ -1,0 +1,447 @@
+{
+ "versions": {
+  "stk_engine": "STK Engine v13.0.1",
+  "python": "3.12.10",
+  "agi_stk13_package": "n/a"
+ },
+ "A_drag": [
+  {
+   "altitude_km": 700.0,
+   "da14_stk_km": -7.442533771391936,
+   "da14_opensource_km": -84.02115616817719,
+   "ratio_stk_over_opensource": 0.08857928301408899,
+   "spacecraft_params_as_built": {
+    "DryMass": 10.0,
+    "Cd": 2.2,
+    "Cr": 1.7,
+    "DragArea": 100.0,
+    "SolarRadiationPressureArea": 100.0,
+    "RadiationPressureArea": 100.0,
+    "K1": 1.0,
+    "K2": 1.0
+   },
+   "effective_props": {
+    "DragArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "Cd": {
+     "first": 2.2,
+     "min": 2.2,
+     "max": 2.2,
+     "mean": 2.1999999999999993
+    },
+    "Cr": {
+     "first": 1.7,
+     "min": 1.7,
+     "max": 1.7,
+     "mean": 1.699999999999999
+    },
+    "SRPArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "mean": 1.0
+    }
+   },
+   "environment": {
+    "AtmosDensity": {
+     "first": 3.1984127715575316e-05,
+     "min": 2.684240759490053e-05,
+     "max": 3.673115127208761e-05,
+     "mean": 3.110422539737773e-05
+    }
+   },
+   "tabulated_density": 3.07e-14,
+   "wall_s": 6.970852613449097,
+   "implied_CdA_over_m_if_table_density": 1.9487442263099577
+  },
+  {
+   "altitude_km": 700.0,
+   "variant": "explicit spacecraft parameters",
+   "set": {
+    "DryMass": 10.0,
+    "Cd": 2.2,
+    "DragArea": 100.0,
+    "Cr": 1.7
+   },
+   "da14_stk_km": -7.442533771391936,
+   "da14_opensource_km": -84.02115616817719,
+   "effective_props": {
+    "DragArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "Cd": {
+     "first": 2.2,
+     "min": 2.2,
+     "max": 2.2,
+     "mean": 2.1999999999999993
+    }
+   }
+  },
+  {
+   "altitude_km": 800.0,
+   "da14_stk_km": -2.7572635111055206,
+   "da14_opensource_km": -21.89239240106872,
+   "ratio_stk_over_opensource": 0.12594619448584887,
+   "spacecraft_params_as_built": {
+    "DryMass": 10.0,
+    "Cd": 2.2,
+    "Cr": 1.7,
+    "DragArea": 100.0,
+    "SolarRadiationPressureArea": 100.0,
+    "RadiationPressureArea": 100.0,
+    "K1": 1.0,
+    "K2": 1.0
+   },
+   "effective_props": {
+    "DragArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "Cd": {
+     "first": 2.2,
+     "min": 2.2,
+     "max": 2.2,
+     "mean": 2.1999999999999993
+    },
+    "Cr": {
+     "first": 1.7,
+     "min": 1.7,
+     "max": 1.7,
+     "mean": 1.699999999999999
+    },
+    "SRPArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "mean": 1.0
+    }
+   },
+   "environment": {
+    "AtmosDensity": {
+     "first": 1.1901408422463e-05,
+     "min": 1.052124810360731e-05,
+     "max": 1.2623178813061501e-05,
+     "mean": 1.144236773930828e-05
+    }
+   },
+   "tabulated_density": 1.136e-14,
+   "wall_s": 4.174494981765747,
+   "implied_CdA_over_m_if_table_density": 2.770816278688675
+  },
+  {
+   "altitude_km": 800.0,
+   "variant": "explicit spacecraft parameters",
+   "set": {
+    "DryMass": 10.0,
+    "Cd": 2.2,
+    "DragArea": 100.0,
+    "Cr": 1.7
+   },
+   "da14_stk_km": -2.7572635111055206,
+   "da14_opensource_km": -21.89239240106872,
+   "effective_props": {
+    "DragArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "Cd": {
+     "first": 2.2,
+     "min": 2.2,
+     "max": 2.2,
+     "mean": 2.1999999999999993
+    }
+   }
+  }
+ ],
+ "B_srp": [
+  {
+   "label": "baseline: eProfileFixedInAxes (ICRF) + body plate",
+   "note": "as submitted",
+   "da2d_mean_km": 0.01760150218524359,
+   "effective_props": {
+    "SRPArea": {
+     "first": 16.429452156268,
+     "min": -1.5114095441295416,
+     "max": 18.17026910203374,
+     "mean": 11.160570389639007
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 99.99999999999996,
+     "max": 100.00000000000003,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 0.9999999999999996,
+     "max": 1.0000000000000004,
+     "mean": 1.0
+    },
+    "Cr": {
+     "first": 0.3377897657417139,
+     "min": -0.030966585666133098,
+     "max": 0.371354676385801,
+     "mean": 0.22862250181935
+    }
+   },
+   "wall_s": 0.7615721225738525
+  },
+  {
+   "label": "profile eProfileCentralBodyFixed",
+   "note": "no quaternion ('AgVeProfileInertial' object has no attribute 'Orientation')",
+   "da2d_mean_km": -0.007269963487487985,
+   "effective_props": {
+    "SRPArea": {
+     "first": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "mean": 0.0
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 99.99999999999996,
+     "max": 100.00000000000004,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 0.9999999999999997,
+     "max": 1.0000000000000004,
+     "mean": 1.0
+    },
+    "Cr": {
+     "first": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "mean": 0.0
+    }
+   },
+   "wall_s": 0.7766115665435791
+  },
+  {
+   "label": "profile eProfileInertiallyFixed",
+   "note": "no quaternion ('AgVeProfileInertial' object has no attribute 'Orientation')",
+   "da2d_mean_km": -0.007269963487487985,
+   "effective_props": {
+    "SRPArea": {
+     "first": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "mean": 0.0
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 99.99999999999996,
+     "max": 100.00000000000004,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 0.9999999999999997,
+     "max": 1.0000000000000004,
+     "mean": 1.0
+    },
+    "Cr": {
+     "first": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "mean": 0.0
+    }
+   },
+   "wall_s": 0.7070169448852539
+  },
+  {
+   "label": "profile eProfileXPOPInertialAttitude",
+   "note": "no quaternion ('AgVeProfileAlignmentOffset' object has no attribute 'Orient)",
+   "da2d_mean_km": -0.007269963487487985,
+   "effective_props": {
+    "SRPArea": {
+     "first": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "mean": 0.0
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 99.99999999999996,
+     "max": 100.00000000000004,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 0.9999999999999997,
+     "max": 1.0000000000000004,
+     "mean": 1.0
+    },
+    "Cr": {
+     "first": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "mean": 0.0
+    }
+   },
+   "wall_s": 0.9491128921508789
+  },
+  {
+   "label": "plate type code 'S' (grammar probe)",
+   "note": "plate type code 'S' accepted",
+   "da2d_mean_km": -0.007844915903660876,
+   "effective_props": {
+    "SRPArea": {
+     "first": 100.0,
+     "min": -42.062860644117045,
+     "max": 148.3559729906409,
+     "mean": 67.52267641419174
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 99.99999999999996,
+     "max": 100.00000000000004,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 0.9999999999999997,
+     "max": 1.0000000000000004,
+     "mean": 1.0
+    },
+    "Cr": {
+     "first": 1.6999999999999997,
+     "min": -0.7150686309499895,
+     "max": 2.5220515408408946,
+     "mean": 1.1478854990412592
+    }
+   },
+   "wall_s": 0.7894067764282227
+  },
+  {
+   "label": "plate type code 'Sun' (grammar probe)",
+   "note": "plate type code 'Sun' accepted",
+   "da2d_mean_km": -0.007269963487487985,
+   "effective_props": {
+    "SRPArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "mean": 1.0
+    },
+    "Cr": {
+     "first": 1.7,
+     "min": 1.7,
+     "max": 1.7,
+     "mean": 1.6999999999999995
+    }
+   },
+   "wall_s": 0.6478033065795898
+  },
+  {
+   "label": "plate type code 'I' (grammar probe)",
+   "note": "plate type code 'I' accepted",
+   "da2d_mean_km": -0.007269963487487985,
+   "effective_props": {
+    "SRPArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureArea": {
+     "first": 100.0,
+     "min": 100.0,
+     "max": 100.0,
+     "mean": 100.0
+    },
+    "RadPressureCoefficient": {
+     "first": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "mean": 1.0
+    },
+    "Cr": {
+     "first": 1.7,
+     "min": 1.7,
+     "max": 1.7,
+     "mean": 1.6999999999999995
+    }
+   },
+   "wall_s": 0.6606054306030273
+  }
+ ],
+ "log": [
+  "versions: {'stk_engine': 'STK Engine v13.0.1', 'python': '3.12.10', 'agi_stk13_package': 'n/a'}",
+  "[A 700] SpacecraftParameters members: ['Cd', 'Ck', 'Cr', 'DragArea', 'DryMass', 'K1', 'K2', 'ProvideRuntimeTypeInfo', 'RadiationPressureArea', 'SolarRadiationPressureArea']",
+  "[A 700] values as built: {'DryMass': 10.0, 'Cd': 2.2, 'Cr': 1.7, 'DragArea': 100.0, 'SolarRadiationPressureArea': 100.0, 'RadiationPressureArea': 100.0, 'K1': 1.0, 'K2': 1.0}",
+  "[A 700] STK da14=-7.443 km | open-source -84.021 km | ratio 0.089",
+  "[A 700] effective props: {'DragArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'Cd': {'first': 2.2, 'min': 2.2, 'max': 2.2, 'mean': 2.1999999999999993}, 'Cr': {'first': 1.7, 'min': 1.7, 'max': 1.7, 'mean': 1.699999999999999}, 'SRPArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 1.0, 'max': 1.0, 'mean': 1.0}}",
+  "[A 700] environment: {'AtmosDensity': {'first': 3.1984127715575316e-05, 'min': 2.684240759490053e-05, 'max': 3.673115127208761e-05, 'mean': 3.110422539737773e-05}}  (table rho=3.070e-14)",
+  "[A2 700] explicit set -> {'DryMass': 10.0, 'Cd': 2.2, 'DragArea': 100.0, 'Cr': 1.7}",
+  "[A2 700] after explicit set: STK da14=-7.443 km (open-source -84.021); props {'DragArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'Cd': {'first': 2.2, 'min': 2.2, 'max': 2.2, 'mean': 2.1999999999999993}}",
+  "[A 800] SpacecraftParameters members: ['Cd', 'Ck', 'Cr', 'DragArea', 'DryMass', 'K1', 'K2', 'ProvideRuntimeTypeInfo', 'RadiationPressureArea', 'SolarRadiationPressureArea']",
+  "[A 800] values as built: {'DryMass': 10.0, 'Cd': 2.2, 'Cr': 1.7, 'DragArea': 100.0, 'SolarRadiationPressureArea': 100.0, 'RadiationPressureArea': 100.0, 'K1': 1.0, 'K2': 1.0}",
+  "[A 800] STK da14=-2.757 km | open-source -21.892 km | ratio 0.126",
+  "[A 800] effective props: {'DragArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'Cd': {'first': 2.2, 'min': 2.2, 'max': 2.2, 'mean': 2.1999999999999993}, 'Cr': {'first': 1.7, 'min': 1.7, 'max': 1.7, 'mean': 1.699999999999999}, 'SRPArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 1.0, 'max': 1.0, 'mean': 1.0}}",
+  "[A 800] environment: {'AtmosDensity': {'first': 1.1901408422463e-05, 'min': 1.052124810360731e-05, 'max': 1.2623178813061501e-05, 'mean': 1.144236773930828e-05}}  (table rho=1.136e-14)",
+  "[A2 800] explicit set -> {'DryMass': 10.0, 'Cd': 2.2, 'DragArea': 100.0, 'Cr': 1.7}",
+  "[A2 800] after explicit set: STK da14=-2.757 km (open-source -21.892); props {'DragArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'Cd': {'first': 2.2, 'min': 2.2, 'max': 2.2, 'mean': 2.1999999999999993}}",
+  "[B] attitude profile enum members: ['eProfileAlignedAndConstrained', 'eProfileAviator', 'eProfileCentralBodyFixed', 'eProfileECFVelocityAlignmentWithNadirConstraint', 'eProfileECFVelocityAlignmentWithRadialConstraint', 'eProfileECIVelocityAlignmentWithNadirConstraint', 'eProfileECIVelocityAlignmentWithSunConstraint', 'eProfileFixedInAxes', 'eProfileGPS', 'eProfileInertiallyFixed', 'eProfileNadirAlignmentWithECFVelocityConstraint', 'eProfileNadirAlignmentWithECIVelocityConstraint', 'eProfileNadirAlignmentWithOrbitNormalConstraint', 'eProfileNadirAlignmentWithSunConstraint', 'eProfilePrecessingSpin', 'eProfileSpinAboutNadir', 'eProfileSpinAboutSunVector', 'eProfileSpinAligned', 'eProfileSpinning', 'eProfileSunAlignmentOccultationNormalConstraint', 'eProfileSunAlignmentWithECIZAxisConstraint', 'eProfileSunAlignmentWithEclipticNormalConstraint', 'eProfileSunAlignmentWithNadirConstraint', 'eProfileSunAlignmentWithZInOrbitPlane', 'eProfileUnknown', 'eProfileXPOPInertialAttitude', 'eProfileYawToNadir']",
+  "[B] intended normal (0.0756, -0.5417, -0.8372), cos(alpha)=0.8290 (expect cos 34 deg = 0.829)",
+  "[B] baseline: eProfileFixedInAxes (ICRF) + body plate da(2d)=+0.0176 km  props={'SRPArea': {'first': 16.429452156268, 'min': -1.5114095441295416, 'max': 18.17026910203374, 'mean': 11.160570389639007}, 'RadPressureArea': {'first': 100.0, 'min': 99.99999999999996, 'max': 100.00000000000003, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 0.9999999999999996, 'max': 1.0000000000000004, 'mean': 1.0}, 'Cr': {'first': 0.3377897657417139, 'min': -0.030966585666133098, 'max': 0.371354676385801, 'mean': 0.22862250181935}}  as submitted",
+  "[B] J2-only reference da(2d)=-0.0073 km",
+  "[B] open-source J2+SRP (no drag) da(2d)=+2.1591 km",
+  "[B] profile eProfileCentralBodyFixed                 da(2d)=-0.0073 km  props={'SRPArea': {'first': 0.0, 'min': 0.0, 'max': 0.0, 'mean': 0.0}, 'RadPressureArea': {'first': 100.0, 'min': 99.99999999999996, 'max': 100.00000000000004, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 0.9999999999999997, 'max': 1.0000000000000004, 'mean': 1.0}, 'Cr': {'first': 0.0, 'min': 0.0, 'max': 0.0, 'mean': 0.0}}  no quaternion ('AgVeProfileInertial' object has no attribute 'Orientation')",
+  "[B] profile eProfileInertiallyFixed                  da(2d)=-0.0073 km  props={'SRPArea': {'first': 0.0, 'min': 0.0, 'max': 0.0, 'mean': 0.0}, 'RadPressureArea': {'first': 100.0, 'min': 99.99999999999996, 'max': 100.00000000000004, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 0.9999999999999997, 'max': 1.0000000000000004, 'mean': 1.0}, 'Cr': {'first': 0.0, 'min': 0.0, 'max': 0.0, 'mean': 0.0}}  no quaternion ('AgVeProfileInertial' object has no attribute 'Orientation')",
+  "[B] profile eProfileXPOPInertialAttitude             da(2d)=-0.0073 km  props={'SRPArea': {'first': 0.0, 'min': 0.0, 'max': 0.0, 'mean': 0.0}, 'RadPressureArea': {'first': 100.0, 'min': 99.99999999999996, 'max': 100.00000000000004, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 0.9999999999999997, 'max': 1.0000000000000004, 'mean': 1.0}, 'Cr': {'first': 0.0, 'min': 0.0, 'max': 0.0, 'mean': 0.0}}  no quaternion ('AgVeProfileAlignmentOffset' object has no attribute 'Orient)",
+  "[B] plate type code 'S' (grammar probe)              da(2d)=-0.0078 km  props={'SRPArea': {'first': 100.0, 'min': -42.062860644117045, 'max': 148.3559729906409, 'mean': 67.52267641419174}, 'RadPressureArea': {'first': 100.0, 'min': 99.99999999999996, 'max': 100.00000000000004, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 0.9999999999999997, 'max': 1.0000000000000004, 'mean': 1.0}, 'Cr': {'first': 1.6999999999999997, 'min': -0.7150686309499895, 'max': 2.5220515408408946, 'mean': 1.1478854990412592}}  plate type code 'S' accepted",
+  "[B] plate type code 'Sun' (grammar probe)            da(2d)=-0.0073 km  props={'SRPArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 1.0, 'max': 1.0, 'mean': 1.0}, 'Cr': {'first': 1.7, 'min': 1.7, 'max': 1.7, 'mean': 1.6999999999999995}}  plate type code 'Sun' accepted",
+  "[B] plate type code 'I' (grammar probe)              da(2d)=-0.0073 km  props={'SRPArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureArea': {'first': 100.0, 'min': 100.0, 'max': 100.0, 'mean': 100.0}, 'RadPressureCoefficient': {'first': 1.0, 'min': 1.0, 'max': 1.0, 'mean': 1.0}, 'Cr': {'first': 1.7, 'min': 1.7, 'max': 1.7, 'mean': 1.6999999999999995}}  plate type code 'I' accepted"
+ ],
+ "B_j2only_da2d_km": -0.007269963487487985,
+ "B_opensource_srp_only_da2d_km": 2.1590604043612984
+}

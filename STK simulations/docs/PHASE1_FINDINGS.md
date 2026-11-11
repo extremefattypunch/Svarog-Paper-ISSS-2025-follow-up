@@ -1,3 +1,14 @@
+> **Superseded (October 2026 revision).** Read-back of the Astrogator build
+> (`validation/rev_stk_retest.py`, `validation/rev_stk_probe.py`) found the actual
+> root causes of both discrepancies described below: (1) the Initial State fuel
+> tank carried its default 50 kg of fuel, so STK propagated a 60 kg vehicle
+> (A/m = 1.67 instead of 10 m^2/kg) -- this is the "8x lower drag"; (2)
+> `AssignQuaternion` takes (qx, qy, qz, qs) and was called scalar-first, which
+> mis-oriented the sail plate -- this is the "SRPArea = 0 / N-plate ignores
+> attitude" finding. With both corrected, STK reproduces the open-source J2+drag
+> and J2+SRP responses (`results/revision/stk_validation.json`). The text below is
+> kept as the record of the original investigation.
+
 # Phase 1 findings — STK Astrogator N-Plate pipeline + the gain-regime discrepancy
 
 ## What now works (verified)
